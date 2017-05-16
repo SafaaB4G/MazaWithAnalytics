@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-MazaganShowCase.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SJFluidSegmentedControl.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>YALSideMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2893B9AC9CF70B22EEB37A1C03B0B7D2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2DB01CA6A21A661DC07A505785BCE5D8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>385E626D24407C3E4E705F1B4406F892</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3FDB25C518E6407FF634C20F42939222</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D6D62C5DD1F006ED73E5191AD10D4B95</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

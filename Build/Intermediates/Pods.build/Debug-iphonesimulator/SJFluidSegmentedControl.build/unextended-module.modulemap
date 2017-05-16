@@ -1,0 +1,10 @@
+framework module SJFluidSegmentedControl {
+  umbrella header "SJFluidSegmentedControl-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SJFluidSegmentedControl.__Swift {
+    exclude header "SJFluidSegmentedControl-Swift.h"
+}

@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "0ee79bc3fd51c59bc6991289eb7d794e"
+build_time: [547205549, 116716000]
+inputs:
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/DJKFlipper/DJKFlipper/DJKAnimationLayer.swift": !dirty [547142480, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/DJKFlipper/DJKFlipper/DJKArrayHelper.swift": !dirty [547142480, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/DJKFlipper/DJKFlipper/DJKFlipperConstants.swift": !dirty [547142480, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/DJKFlipper/DJKFlipper/DJKFlipperView.swift": !dirty [547142480, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/DJKFlipper/DJKFlipper/DJKScreenShotExtension.swift": !dirty [547142480, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/DJKFlipper/DJKFlipper/DJKStaticView.swift": !dirty [547142480, 0]

@@ -1,0 +1,10 @@
+framework module ActionButton {
+  umbrella header "ActionButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ActionButton.Swift {
+    header "ActionButton-Swift.h"
+}

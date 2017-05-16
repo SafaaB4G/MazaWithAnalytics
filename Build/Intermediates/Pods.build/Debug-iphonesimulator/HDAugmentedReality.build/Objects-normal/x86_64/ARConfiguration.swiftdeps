@@ -1,0 +1,164 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LAT_LON_FACTOR"
+- "MAX_VISIBLE_ANNOTATIONS"
+- "radiansToDegrees"
+- "degreesToRadians"
+- "normalizeDegree"
+- "deltaAngle"
+- "ARDataSource"
+- "ARStatus"
+- "Platform"
+provides-nominal:
+- "P18HDAugmentedReality12ARDataSource"
+- "V18HDAugmentedReality8ARStatus"
+- "V18HDAugmentedReality8Platform"
+provides-member:
+- ["P18HDAugmentedReality12ARDataSource", ""]
+- ["V18HDAugmentedReality8ARStatus", ""]
+- ["V18HDAugmentedReality8Platform", ""]
+provides-dynamic-lookup:
+- "ar"
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "-="
+- !private "/"
+- !private "<"
+- !private ">"
+- "ARAnnotation"
+- "ARAnnotationView"
+- "ARDataSource"
+- "ARStatus"
+- "ARViewController"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CGFloat"
+- "CLLocation"
+- !private "CLLocationCoordinate2DIsValid"
+- "Double"
+- "Int"
+- "LAT_LON_FACTOR"
+- "MAX_VISIBLE_ANNOTATIONS"
+- !private "M_PI"
+- "NSObjectProtocol"
+- "Platform"
+- "degreesToRadians"
+- "deltaAngle"
+- !private "fmod"
+- "normalizeDegree"
+- "radiansToDegrees"
+depends-member:
+- ["P18HDAugmentedReality12ARDataSource", "ARAnnotation"]
+- ["P18HDAugmentedReality12ARDataSource", "ARAnnotationView"]
+- ["P18HDAugmentedReality12ARDataSource", "ARViewController"]
+- ["P18HDAugmentedReality12ARDataSource", "CLLocation"]
+- ["P18HDAugmentedReality12ARDataSource", "ar"]
+- ["V18HDAugmentedReality8ARStatus", "Bool"]
+- ["V18HDAugmentedReality8ARStatus", "CLLocation"]
+- !private ["V18HDAugmentedReality8ARStatus", "CLLocationCoordinate2DIsValid"]
+- ["V18HDAugmentedReality8ARStatus", "Double"]
+- ["V18HDAugmentedReality8ARStatus", "hFov"]
+- ["V18HDAugmentedReality8ARStatus", "hPixelsPerDegree"]
+- ["V18HDAugmentedReality8ARStatus", "heading"]
+- ["V18HDAugmentedReality8ARStatus", "init"]
+- ["V18HDAugmentedReality8ARStatus", "pitch"]
+- ["V18HDAugmentedReality8ARStatus", "ready"]
+- ["V18HDAugmentedReality8ARStatus", "userLocation"]
+- ["V18HDAugmentedReality8ARStatus", "vFov"]
+- ["V18HDAugmentedReality8ARStatus", "vPixelsPerDegree"]
+- !private ["Ps9AnyObject", "coordinate"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["CSo10CLLocation", "coordinate"]
+- !private ["Ps7CVarArg", "coordinate"]
+- !private ["Ps28CustomDebugStringConvertible", "coordinate"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "coordinate"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "coordinate"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "coordinate"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSo8NSCoding", "coordinate"]
+- !private ["PSo9NSCopying", "coordinate"]
+- !private ["CSo8NSObject", "coordinate"]
+- ["PSo16NSObjectProtocol", "ARAnnotation"]
+- ["PSo16NSObjectProtocol", "ARAnnotationView"]
+- ["PSo16NSObjectProtocol", "ARViewController"]
+- ["PSo16NSObjectProtocol", "CLLocation"]
+- ["PSo16NSObjectProtocol", "ar"]
+- !private ["PSo16NSObjectProtocol", "coordinate"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "coordinate"]
+- ["V18HDAugmentedReality8Platform", "Bool"]
+- ["V18HDAugmentedReality8Platform", "init"]
+- ["V18HDAugmentedReality8Platform", "isSimulator"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "coordinate"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "P18HDAugmentedReality12ARDataSource"
+- "V18HDAugmentedReality8ARStatus"
+- !private "Ps9AnyObject"
+- !private "Sb"
+- !private "CSo10CLLocation"
+- !private "Ps7CVarArg"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- "V18HDAugmentedReality8Platform"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Target Support Files/HDAugmentedReality/HDAugmentedReality-umbrella.h"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Intermediates/Pods.build/Debug-iphonesimulator/HDAugmentedReality.build/unextended-module.modulemap"
+interface-hash: "e6f6145ed94ccef913c7e692edfc09b0"

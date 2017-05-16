@@ -1,0 +1,523 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SKPhotoProtocol"
+- "SKPhoto"
+provides-nominal:
+- "P14SKPhotoBrowser15SKPhotoProtocol"
+- "C14SKPhotoBrowser7SKPhoto"
+provides-member:
+- ["P14SKPhotoBrowser15SKPhotoProtocol", ""]
+- ["C14SKPhotoBrowser7SKPhoto", ""]
+- ["C14SKPhotoBrowser7SKPhoto", "photoWithImage"]
+- ["C14SKPhotoBrowser7SKPhoto", "photoWithImageURL"]
+- ["C14SKPhotoBrowser7SKPhoto", "photoWithImageURL"]
+provides-dynamic-lookup:
+- "caption"
+- "checkCache"
+- "contentMode"
+- "index"
+- "loadUnderlyingImageAndNotify"
+- "loadUnderlyingImageComplete"
+- "photoURL"
+- "photoWithImage"
+- "photoWithImageURL"
+- "shouldCachePhotoURLImage"
+- "underlyingImage"
+depends-top-level:
+- !private "!="
+- !private "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "DispatchQueue"
+- "Int"
+- "NSObject"
+- "NSObjectProtocol"
+- !private "Notification"
+- !private "NotificationCenter"
+- !private "SKCache"
+- !private "SKPHOTO_LOADING_DID_END_NOTIFICATION"
+- "SKPhoto"
+- "SKPhotoProtocol"
+- !private "SKRequestResponseCacheable"
+- "String"
+- "UIImage"
+- "UIViewContentMode"
+- !private "URL"
+- !private "URLRequest"
+- !private "URLSession"
+- !private "URLSessionConfiguration"
+- !private "URLSessionTask"
+depends-member:
+- !private ["Ps9AnyObject", "DispatchQueue"]
+- !private ["Ps9AnyObject", "Notification"]
+- !private ["Ps9AnyObject", "NotificationCenter"]
+- !private ["Ps9AnyObject", "SKCache"]
+- !private ["Ps9AnyObject", "SKPHOTO_LOADING_DID_END_NOTIFICATION"]
+- !private ["Ps9AnyObject", "SKPhoto"]
+- !private ["Ps9AnyObject", "UIImage"]
+- !private ["Ps9AnyObject", "URL"]
+- !private ["Ps9AnyObject", "URLRequest"]
+- !private ["Ps9AnyObject", "URLSession"]
+- !private ["Ps9AnyObject", "URLSessionConfiguration"]
+- !private ["Ps9AnyObject", "async"]
+- ["Ps9AnyObject", "caption"]
+- ["Ps9AnyObject", "checkCache"]
+- ["Ps9AnyObject", "contentMode"]
+- !private ["Ps9AnyObject", "dataTask"]
+- !private ["Ps9AnyObject", "default"]
+- !private ["Ps9AnyObject", "finishTasksAndInvalidate"]
+- !private ["Ps9AnyObject", "imageCache"]
+- !private ["Ps9AnyObject", "imageForKey"]
+- !private ["Ps9AnyObject", "imageForRequest"]
+- ["Ps9AnyObject", "index"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "loadUnderlyingImageAndNotify"]
+- !private ["Ps9AnyObject", "loadUnderlyingImageComplete"]
+- !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "originalRequest"]
+- !private ["Ps9AnyObject", "photoURL"]
+- !private ["Ps9AnyObject", "post"]
+- !private ["Ps9AnyObject", "resume"]
+- !private ["Ps9AnyObject", "setImage"]
+- !private ["Ps9AnyObject", "setImageData"]
+- !private ["Ps9AnyObject", "sharedCache"]
+- !private ["Ps9AnyObject", "shouldCachePhotoURLImage"]
+- ["Ps9AnyObject", "underlyingImage"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "DispatchQueue"]
+- !private ["Ps7CVarArg", "Notification"]
+- !private ["Ps7CVarArg", "NotificationCenter"]
+- !private ["Ps7CVarArg", "SKCache"]
+- !private ["Ps7CVarArg", "SKPHOTO_LOADING_DID_END_NOTIFICATION"]
+- !private ["Ps7CVarArg", "SKPhoto"]
+- !private ["Ps7CVarArg", "UIImage"]
+- !private ["Ps7CVarArg", "URL"]
+- !private ["Ps7CVarArg", "URLRequest"]
+- !private ["Ps7CVarArg", "URLSession"]
+- !private ["Ps7CVarArg", "URLSessionConfiguration"]
+- !private ["Ps7CVarArg", "async"]
+- ["Ps7CVarArg", "caption"]
+- ["Ps7CVarArg", "checkCache"]
+- ["Ps7CVarArg", "contentMode"]
+- !private ["Ps7CVarArg", "dataTask"]
+- !private ["Ps7CVarArg", "default"]
+- !private ["Ps7CVarArg", "finishTasksAndInvalidate"]
+- ["Ps7CVarArg", "index"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "loadUnderlyingImageAndNotify"]
+- !private ["Ps7CVarArg", "loadUnderlyingImageComplete"]
+- !private ["Ps7CVarArg", "main"]
+- !private ["Ps7CVarArg", "originalRequest"]
+- !private ["Ps7CVarArg", "photoURL"]
+- !private ["Ps7CVarArg", "post"]
+- !private ["Ps7CVarArg", "resume"]
+- !private ["Ps7CVarArg", "shouldCachePhotoURLImage"]
+- ["Ps7CVarArg", "underlyingImage"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "DispatchQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "Name"]
+- !private ["Ps28CustomDebugStringConvertible", "Notification"]
+- !private ["Ps28CustomDebugStringConvertible", "NotificationCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "SKCache"]
+- !private ["Ps28CustomDebugStringConvertible", "SKPHOTO_LOADING_DID_END_NOTIFICATION"]
+- !private ["Ps28CustomDebugStringConvertible", "SKPhoto"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImage"]
+- !private ["Ps28CustomDebugStringConvertible", "URL"]
+- !private ["Ps28CustomDebugStringConvertible", "URLRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "URLSession"]
+- !private ["Ps28CustomDebugStringConvertible", "URLSessionConfiguration"]
+- !private ["Ps28CustomDebugStringConvertible", "async"]
+- ["Ps28CustomDebugStringConvertible", "caption"]
+- ["Ps28CustomDebugStringConvertible", "checkCache"]
+- ["Ps28CustomDebugStringConvertible", "contentMode"]
+- !private ["Ps28CustomDebugStringConvertible", "dataTask"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- !private ["Ps28CustomDebugStringConvertible", "finishTasksAndInvalidate"]
+- ["Ps28CustomDebugStringConvertible", "index"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "loadUnderlyingImageAndNotify"]
+- !private ["Ps28CustomDebugStringConvertible", "loadUnderlyingImageComplete"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "originalRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "photoURL"]
+- !private ["Ps28CustomDebugStringConvertible", "post"]
+- !private ["Ps28CustomDebugStringConvertible", "resume"]
+- !private ["Ps28CustomDebugStringConvertible", "shouldCachePhotoURLImage"]
+- ["Ps28CustomDebugStringConvertible", "underlyingImage"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Name"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "DispatchQueue"]
+- !private ["Ps23CustomStringConvertible", "Name"]
+- !private ["Ps23CustomStringConvertible", "Notification"]
+- !private ["Ps23CustomStringConvertible", "NotificationCenter"]
+- !private ["Ps23CustomStringConvertible", "SKCache"]
+- !private ["Ps23CustomStringConvertible", "SKPHOTO_LOADING_DID_END_NOTIFICATION"]
+- !private ["Ps23CustomStringConvertible", "SKPhoto"]
+- !private ["Ps23CustomStringConvertible", "UIImage"]
+- !private ["Ps23CustomStringConvertible", "URL"]
+- !private ["Ps23CustomStringConvertible", "URLRequest"]
+- !private ["Ps23CustomStringConvertible", "URLSession"]
+- !private ["Ps23CustomStringConvertible", "URLSessionConfiguration"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "async"]
+- ["Ps23CustomStringConvertible", "caption"]
+- ["Ps23CustomStringConvertible", "checkCache"]
+- ["Ps23CustomStringConvertible", "contentMode"]
+- !private ["Ps23CustomStringConvertible", "dataTask"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- !private ["Ps23CustomStringConvertible", "finishTasksAndInvalidate"]
+- ["Ps23CustomStringConvertible", "index"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "loadUnderlyingImageAndNotify"]
+- !private ["Ps23CustomStringConvertible", "loadUnderlyingImageComplete"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- !private ["Ps23CustomStringConvertible", "originalRequest"]
+- !private ["Ps23CustomStringConvertible", "photoURL"]
+- !private ["Ps23CustomStringConvertible", "post"]
+- !private ["Ps23CustomStringConvertible", "resume"]
+- !private ["Ps23CustomStringConvertible", "shouldCachePhotoURLImage"]
+- ["Ps23CustomStringConvertible", "underlyingImage"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["CSo14DispatchObject", "async"]
+- !private ["CSo14DispatchObject", "main"]
+- !private ["CSo13DispatchQueue", "async"]
+- !private ["CSo13DispatchQueue", "main"]
+- !private ["Ps9Equatable", "DispatchQueue"]
+- !private ["Ps9Equatable", "Name"]
+- !private ["Ps9Equatable", "Notification"]
+- !private ["Ps9Equatable", "NotificationCenter"]
+- !private ["Ps9Equatable", "SKCache"]
+- !private ["Ps9Equatable", "SKPHOTO_LOADING_DID_END_NOTIFICATION"]
+- !private ["Ps9Equatable", "SKPhoto"]
+- !private ["Ps9Equatable", "UIImage"]
+- !private ["Ps9Equatable", "URL"]
+- !private ["Ps9Equatable", "URLRequest"]
+- !private ["Ps9Equatable", "URLSession"]
+- !private ["Ps9Equatable", "URLSessionConfiguration"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "async"]
+- ["Ps9Equatable", "caption"]
+- ["Ps9Equatable", "checkCache"]
+- ["Ps9Equatable", "contentMode"]
+- !private ["Ps9Equatable", "dataTask"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "finishTasksAndInvalidate"]
+- ["Ps9Equatable", "index"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "loadUnderlyingImageAndNotify"]
+- !private ["Ps9Equatable", "loadUnderlyingImageComplete"]
+- !private ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "originalRequest"]
+- !private ["Ps9Equatable", "photoURL"]
+- !private ["Ps9Equatable", "post"]
+- !private ["Ps9Equatable", "resume"]
+- ["Ps9Equatable", "scaleAspectFill"]
+- !private ["Ps9Equatable", "shouldCachePhotoURLImage"]
+- ["Ps9Equatable", "underlyingImage"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "DispatchQueue"]
+- !private ["Ps8Hashable", "Name"]
+- !private ["Ps8Hashable", "Notification"]
+- !private ["Ps8Hashable", "NotificationCenter"]
+- !private ["Ps8Hashable", "SKCache"]
+- !private ["Ps8Hashable", "SKPHOTO_LOADING_DID_END_NOTIFICATION"]
+- !private ["Ps8Hashable", "SKPhoto"]
+- !private ["Ps8Hashable", "UIImage"]
+- !private ["Ps8Hashable", "URL"]
+- !private ["Ps8Hashable", "URLRequest"]
+- !private ["Ps8Hashable", "URLSession"]
+- !private ["Ps8Hashable", "URLSessionConfiguration"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "async"]
+- ["Ps8Hashable", "caption"]
+- ["Ps8Hashable", "checkCache"]
+- ["Ps8Hashable", "contentMode"]
+- !private ["Ps8Hashable", "dataTask"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "finishTasksAndInvalidate"]
+- ["Ps8Hashable", "index"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "loadUnderlyingImageAndNotify"]
+- !private ["Ps8Hashable", "loadUnderlyingImageComplete"]
+- !private ["Ps8Hashable", "main"]
+- !private ["Ps8Hashable", "originalRequest"]
+- !private ["Ps8Hashable", "photoURL"]
+- !private ["Ps8Hashable", "post"]
+- !private ["Ps8Hashable", "resume"]
+- ["Ps8Hashable", "scaleAspectFill"]
+- !private ["Ps8Hashable", "shouldCachePhotoURLImage"]
+- ["Ps8Hashable", "underlyingImage"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "default"]
+- !private ["PSo9NSCopying", "originalRequest"]
+- !private ["PSo9NSCopying", "resume"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "DispatchQueue"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "Notification"]
+- !private ["CSo8NSObject", "NotificationCenter"]
+- !private ["CSo8NSObject", "SKCache"]
+- !private ["CSo8NSObject", "SKPHOTO_LOADING_DID_END_NOTIFICATION"]
+- ["CSo8NSObject", "SKPhoto"]
+- !private ["CSo8NSObject", "SKRequestResponseCacheable"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "UIViewContentMode"]
+- !private ["CSo8NSObject", "URL"]
+- !private ["CSo8NSObject", "URLRequest"]
+- !private ["CSo8NSObject", "URLSession"]
+- !private ["CSo8NSObject", "URLSessionConfiguration"]
+- !private ["CSo8NSObject", "URLSessionTask"]
+- !private ["CSo8NSObject", "async"]
+- ["CSo8NSObject", "caption"]
+- ["CSo8NSObject", "checkCache"]
+- ["CSo8NSObject", "contentMode"]
+- !private ["CSo8NSObject", "dataTask"]
+- !private ["CSo8NSObject", "default"]
+- !private ["CSo8NSObject", "finishTasksAndInvalidate"]
+- ["CSo8NSObject", "index"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "loadUnderlyingImageAndNotify"]
+- ["CSo8NSObject", "loadUnderlyingImageComplete"]
+- !private ["CSo8NSObject", "main"]
+- !private ["CSo8NSObject", "originalRequest"]
+- ["CSo8NSObject", "photoURL"]
+- ["CSo8NSObject", "photoWithImage"]
+- ["CSo8NSObject", "photoWithImageURL"]
+- !private ["CSo8NSObject", "post"]
+- !private ["CSo8NSObject", "resume"]
+- ["CSo8NSObject", "shouldCachePhotoURLImage"]
+- ["CSo8NSObject", "underlyingImage"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "DispatchQueue"]
+- ["PSo16NSObjectProtocol", "Int"]
+- !private ["PSo16NSObjectProtocol", "Notification"]
+- !private ["PSo16NSObjectProtocol", "NotificationCenter"]
+- !private ["PSo16NSObjectProtocol", "SKCache"]
+- !private ["PSo16NSObjectProtocol", "SKPHOTO_LOADING_DID_END_NOTIFICATION"]
+- !private ["PSo16NSObjectProtocol", "SKPhoto"]
+- ["PSo16NSObjectProtocol", "String"]
+- ["PSo16NSObjectProtocol", "UIImage"]
+- ["PSo16NSObjectProtocol", "UIViewContentMode"]
+- !private ["PSo16NSObjectProtocol", "URL"]
+- !private ["PSo16NSObjectProtocol", "URLRequest"]
+- !private ["PSo16NSObjectProtocol", "URLSession"]
+- !private ["PSo16NSObjectProtocol", "URLSessionConfiguration"]
+- !private ["PSo16NSObjectProtocol", "async"]
+- ["PSo16NSObjectProtocol", "caption"]
+- ["PSo16NSObjectProtocol", "checkCache"]
+- ["PSo16NSObjectProtocol", "contentMode"]
+- !private ["PSo16NSObjectProtocol", "dataTask"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- !private ["PSo16NSObjectProtocol", "finishTasksAndInvalidate"]
+- ["PSo16NSObjectProtocol", "index"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "loadUnderlyingImageAndNotify"]
+- !private ["PSo16NSObjectProtocol", "loadUnderlyingImageComplete"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- !private ["PSo16NSObjectProtocol", "originalRequest"]
+- !private ["PSo16NSObjectProtocol", "photoURL"]
+- !private ["PSo16NSObjectProtocol", "post"]
+- !private ["PSo16NSObjectProtocol", "resume"]
+- !private ["PSo16NSObjectProtocol", "shouldCachePhotoURLImage"]
+- ["PSo16NSObjectProtocol", "underlyingImage"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["VCSo14NSNotification4Name", "init"]
+- !private ["V10Foundation12Notification", "Name"]
+- !private ["CSo18NotificationCenter", "default"]
+- !private ["CSo18NotificationCenter", "post"]
+- !private ["CSo9OS_object", "async"]
+- !private ["CSo9OS_object", "main"]
+- !private ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "scaleAspectFill"]
+- !private ["P10Foundation20ReferenceConvertible", "Name"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["C14SKPhotoBrowser7SKCache", "imageCache"]
+- !private ["C14SKPhotoBrowser7SKCache", "imageForKey"]
+- !private ["C14SKPhotoBrowser7SKCache", "imageForRequest"]
+- !private ["C14SKPhotoBrowser7SKCache", "setImage"]
+- !private ["C14SKPhotoBrowser7SKCache", "setImageData"]
+- !private ["C14SKPhotoBrowser7SKCache", "sharedCache"]
+- ["C14SKPhotoBrowser7SKPhoto", "Bool"]
+- !private ["C14SKPhotoBrowser7SKPhoto", "DispatchQueue"]
+- ["C14SKPhotoBrowser7SKPhoto", "Int"]
+- !private ["C14SKPhotoBrowser7SKPhoto", "Notification"]
+- !private ["C14SKPhotoBrowser7SKPhoto", "NotificationCenter"]
+- !private ["C14SKPhotoBrowser7SKPhoto", "SKCache"]
+- !private ["C14SKPhotoBrowser7SKPhoto", "SKPHOTO_LOADING_DID_END_NOTIFICATION"]
+- ["C14SKPhotoBrowser7SKPhoto", "SKPhoto"]
+- !private ["C14SKPhotoBrowser7SKPhoto", "SKRequestResponseCacheable"]
+- ["C14SKPhotoBrowser7SKPhoto", "String"]
+- ["C14SKPhotoBrowser7SKPhoto", "UIImage"]
+- ["C14SKPhotoBrowser7SKPhoto", "UIViewContentMode"]
+- !private ["C14SKPhotoBrowser7SKPhoto", "URL"]
+- !private ["C14SKPhotoBrowser7SKPhoto", "URLRequest"]
+- !private ["C14SKPhotoBrowser7SKPhoto", "URLSession"]
+- !private ["C14SKPhotoBrowser7SKPhoto", "URLSessionConfiguration"]
+- !private ["C14SKPhotoBrowser7SKPhoto", "URLSessionTask"]
+- ["C14SKPhotoBrowser7SKPhoto", "caption"]
+- ["C14SKPhotoBrowser7SKPhoto", "checkCache"]
+- ["C14SKPhotoBrowser7SKPhoto", "contentMode"]
+- ["C14SKPhotoBrowser7SKPhoto", "deinit"]
+- ["C14SKPhotoBrowser7SKPhoto", "index"]
+- ["C14SKPhotoBrowser7SKPhoto", "init"]
+- ["C14SKPhotoBrowser7SKPhoto", "loadUnderlyingImageAndNotify"]
+- ["C14SKPhotoBrowser7SKPhoto", "loadUnderlyingImageComplete"]
+- ["C14SKPhotoBrowser7SKPhoto", "photoURL"]
+- ["C14SKPhotoBrowser7SKPhoto", "photoWithImage"]
+- ["C14SKPhotoBrowser7SKPhoto", "photoWithImageURL"]
+- ["C14SKPhotoBrowser7SKPhoto", "shouldCachePhotoURLImage"]
+- ["C14SKPhotoBrowser7SKPhoto", "underlyingImage"]
+- !private ["P14SKPhotoBrowser15SKPhotoProtocol", "DispatchQueue"]
+- ["P14SKPhotoBrowser15SKPhotoProtocol", "Int"]
+- !private ["P14SKPhotoBrowser15SKPhotoProtocol", "Notification"]
+- !private ["P14SKPhotoBrowser15SKPhotoProtocol", "NotificationCenter"]
+- !private ["P14SKPhotoBrowser15SKPhotoProtocol", "SKCache"]
+- !private ["P14SKPhotoBrowser15SKPhotoProtocol", "SKPHOTO_LOADING_DID_END_NOTIFICATION"]
+- !private ["P14SKPhotoBrowser15SKPhotoProtocol", "SKPhoto"]
+- ["P14SKPhotoBrowser15SKPhotoProtocol", "String"]
+- ["P14SKPhotoBrowser15SKPhotoProtocol", "UIImage"]
+- ["P14SKPhotoBrowser15SKPhotoProtocol", "UIViewContentMode"]
+- !private ["P14SKPhotoBrowser15SKPhotoProtocol", "URL"]
+- !private ["P14SKPhotoBrowser15SKPhotoProtocol", "URLRequest"]
+- !private ["P14SKPhotoBrowser15SKPhotoProtocol", "URLSession"]
+- !private ["P14SKPhotoBrowser15SKPhotoProtocol", "URLSessionConfiguration"]
+- ["P14SKPhotoBrowser15SKPhotoProtocol", "caption"]
+- ["P14SKPhotoBrowser15SKPhotoProtocol", "checkCache"]
+- ["P14SKPhotoBrowser15SKPhotoProtocol", "contentMode"]
+- ["P14SKPhotoBrowser15SKPhotoProtocol", "index"]
+- !private ["P14SKPhotoBrowser15SKPhotoProtocol", "init"]
+- ["P14SKPhotoBrowser15SKPhotoProtocol", "loadUnderlyingImageAndNotify"]
+- !private ["P14SKPhotoBrowser15SKPhotoProtocol", "loadUnderlyingImageComplete"]
+- !private ["P14SKPhotoBrowser15SKPhotoProtocol", "photoURL"]
+- !private ["P14SKPhotoBrowser15SKPhotoProtocol", "shouldCachePhotoURLImage"]
+- ["P14SKPhotoBrowser15SKPhotoProtocol", "underlyingImage"]
+- ["P14SKPhotoBrowser15SKPhotoProtocol", ""]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["CSo7UIImage", "init"]
+- ["OSC17UIViewContentMode", "scaleAspectFill"]
+- !private ["V10Foundation3URL", "init"]
+- !private ["V10Foundation10URLRequest", "init"]
+- !private ["CSo10URLSession", "dataTask"]
+- !private ["CSo10URLSession", "finishTasksAndInvalidate"]
+- !private ["CSo10URLSession", "init"]
+- !private ["CSo23URLSessionConfiguration", "default"]
+- !private ["CSo14URLSessionTask", "originalRequest"]
+- !private ["CSo14URLSessionTask", "resume"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps34_ExpressibleByFileReferenceLiteral", "init"]
+- !private ["Ps26_ExpressibleByImageLiteral", "init"]
+- !private ["Ps9_Hashable", "DispatchQueue"]
+- !private ["Ps9_Hashable", "Name"]
+- !private ["Ps9_Hashable", "Notification"]
+- !private ["Ps9_Hashable", "NotificationCenter"]
+- !private ["Ps9_Hashable", "SKCache"]
+- !private ["Ps9_Hashable", "SKPHOTO_LOADING_DID_END_NOTIFICATION"]
+- !private ["Ps9_Hashable", "SKPhoto"]
+- !private ["Ps9_Hashable", "UIImage"]
+- !private ["Ps9_Hashable", "URL"]
+- !private ["Ps9_Hashable", "URLRequest"]
+- !private ["Ps9_Hashable", "URLSession"]
+- !private ["Ps9_Hashable", "URLSessionConfiguration"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "async"]
+- ["Ps9_Hashable", "caption"]
+- ["Ps9_Hashable", "checkCache"]
+- ["Ps9_Hashable", "contentMode"]
+- !private ["Ps9_Hashable", "dataTask"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "finishTasksAndInvalidate"]
+- ["Ps9_Hashable", "index"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "loadUnderlyingImageAndNotify"]
+- !private ["Ps9_Hashable", "loadUnderlyingImageComplete"]
+- !private ["Ps9_Hashable", "main"]
+- !private ["Ps9_Hashable", "originalRequest"]
+- !private ["Ps9_Hashable", "photoURL"]
+- !private ["Ps9_Hashable", "post"]
+- !private ["Ps9_Hashable", "resume"]
+- ["Ps9_Hashable", "scaleAspectFill"]
+- !private ["Ps9_Hashable", "shouldCachePhotoURLImage"]
+- ["Ps9_Hashable", "underlyingImage"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "Name"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps20_SwiftNewtypeWrapper", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "CSo14DispatchObject"
+- !private "CSo13DispatchQueue"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "VCSo14NSNotification4Name"
+- !private "V10Foundation12Notification"
+- !private "CSo18NotificationCenter"
+- !private "CSo9OS_object"
+- "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "C14SKPhotoBrowser7SKCache"
+- "C14SKPhotoBrowser7SKPhoto"
+- "P14SKPhotoBrowser15SKPhotoProtocol"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "CSo7UIImage"
+- "OSC17UIViewContentMode"
+- !private "V10Foundation3URL"
+- !private "V10Foundation10URLRequest"
+- !private "CSo10URLSession"
+- !private "CSo23URLSessionConfiguration"
+- !private "CSo14URLSessionTask"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps34_ExpressibleByFileReferenceLiteral"
+- !private "Ps26_ExpressibleByImageLiteral"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps20_SwiftNewtypeWrapper"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Target Support Files/SKPhotoBrowser/SKPhotoBrowser-umbrella.h"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/SKPhotoBrowser/SKPhotoBrowser/SKPhotoBrowser.h"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Intermediates/Pods.build/Debug-iphonesimulator/SKPhotoBrowser.build/unextended-module.modulemap"
+interface-hash: "ea9936ae743875834e2ff27a25f40c54"

@@ -1,0 +1,156 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SKPhotoBrowserOptions"
+- "SKCaptionOptions"
+- "SKToolbarOptions"
+provides-nominal:
+- "V14SKPhotoBrowser21SKPhotoBrowserOptions"
+- "V14SKPhotoBrowser16SKCaptionOptions"
+- "V14SKPhotoBrowser16SKToolbarOptions"
+provides-member:
+- ["V14SKPhotoBrowser21SKPhotoBrowserOptions", ""]
+- ["V14SKPhotoBrowser16SKCaptionOptions", ""]
+- ["V14SKPhotoBrowser16SKToolbarOptions", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- "BooleanLiteralType"
+- "Int"
+- "NSLineBreakMode"
+- "NSTextAlignment"
+- "SKCaptionOptions"
+- "SKPhotoBrowserOptions"
+- "SKToolbarOptions"
+- "String"
+- "UIColor"
+- "UIFont"
+depends-member:
+- ["Ps9AnyObject", "black"]
+- ["Ps9AnyObject", "systemFont"]
+- ["Ps9AnyObject", "white"]
+- ["Ps7CVarArg", "black"]
+- ["Ps7CVarArg", "systemFont"]
+- ["Ps7CVarArg", "white"]
+- ["Ps28CustomDebugStringConvertible", "black"]
+- ["Ps28CustomDebugStringConvertible", "systemFont"]
+- ["Ps28CustomDebugStringConvertible", "white"]
+- ["Ps23CustomStringConvertible", "black"]
+- ["Ps23CustomStringConvertible", "systemFont"]
+- ["Ps23CustomStringConvertible", "white"]
+- ["Ps9Equatable", "black"]
+- ["Ps9Equatable", "byTruncatingTail"]
+- ["Ps9Equatable", "center"]
+- ["Ps9Equatable", "systemFont"]
+- ["Ps9Equatable", "white"]
+- ["Ps8Hashable", "black"]
+- ["Ps8Hashable", "byTruncatingTail"]
+- ["Ps8Hashable", "center"]
+- ["Ps8Hashable", "systemFont"]
+- ["Ps8Hashable", "white"]
+- ["PSo8NSCoding", "black"]
+- ["PSo8NSCoding", "white"]
+- ["PSo9NSCopying", "black"]
+- ["PSo9NSCopying", "systemFont"]
+- ["PSo9NSCopying", "white"]
+- ["OSC15NSLineBreakMode", "byTruncatingTail"]
+- ["CSo8NSObject", "black"]
+- ["CSo8NSObject", "systemFont"]
+- ["CSo8NSObject", "white"]
+- ["PSo16NSObjectProtocol", "black"]
+- ["PSo16NSObjectProtocol", "systemFont"]
+- ["PSo16NSObjectProtocol", "white"]
+- ["PSo14NSSecureCoding", "black"]
+- ["PSo14NSSecureCoding", "white"]
+- ["OSC15NSTextAlignment", "center"]
+- ["Ps16RawRepresentable", "byTruncatingTail"]
+- ["Ps16RawRepresentable", "center"]
+- ["V14SKPhotoBrowser16SKCaptionOptions", "Int"]
+- ["V14SKPhotoBrowser16SKCaptionOptions", "NSLineBreakMode"]
+- ["V14SKPhotoBrowser16SKCaptionOptions", "NSTextAlignment"]
+- ["V14SKPhotoBrowser16SKCaptionOptions", "UIColor"]
+- ["V14SKPhotoBrowser16SKCaptionOptions", "UIFont"]
+- ["V14SKPhotoBrowser16SKCaptionOptions", "font"]
+- ["V14SKPhotoBrowser16SKCaptionOptions", "init"]
+- ["V14SKPhotoBrowser16SKCaptionOptions", "lineBreakMode"]
+- ["V14SKPhotoBrowser16SKCaptionOptions", "numberOfLine"]
+- ["V14SKPhotoBrowser16SKCaptionOptions", "textAlignment"]
+- ["V14SKPhotoBrowser16SKCaptionOptions", "textColor"]
+- ["V14SKPhotoBrowser21SKPhotoBrowserOptions", "Bool"]
+- ["V14SKPhotoBrowser21SKPhotoBrowserOptions", "String"]
+- ["V14SKPhotoBrowser21SKPhotoBrowserOptions", "UIColor"]
+- ["V14SKPhotoBrowser21SKPhotoBrowserOptions", "actionButtonTitles"]
+- ["V14SKPhotoBrowser21SKPhotoBrowserOptions", "backgroundColor"]
+- ["V14SKPhotoBrowser21SKPhotoBrowserOptions", "bounceAnimation"]
+- ["V14SKPhotoBrowser21SKPhotoBrowserOptions", "disableVerticalSwipe"]
+- ["V14SKPhotoBrowser21SKPhotoBrowserOptions", "displayAction"]
+- ["V14SKPhotoBrowser21SKPhotoBrowserOptions", "displayBackAndForwardButton"]
+- ["V14SKPhotoBrowser21SKPhotoBrowserOptions", "displayCloseButton"]
+- ["V14SKPhotoBrowser21SKPhotoBrowserOptions", "displayCounterLabel"]
+- ["V14SKPhotoBrowser21SKPhotoBrowserOptions", "displayDeleteButton"]
+- ["V14SKPhotoBrowser21SKPhotoBrowserOptions", "displayHorizontalScrollIndicator"]
+- ["V14SKPhotoBrowser21SKPhotoBrowserOptions", "displayStatusbar"]
+- ["V14SKPhotoBrowser21SKPhotoBrowserOptions", "displayToolbar"]
+- ["V14SKPhotoBrowser21SKPhotoBrowserOptions", "displayVerticalScrollIndicator"]
+- ["V14SKPhotoBrowser21SKPhotoBrowserOptions", "enableSingleTapDismiss"]
+- ["V14SKPhotoBrowser21SKPhotoBrowserOptions", "enableZoomBlackArea"]
+- ["V14SKPhotoBrowser21SKPhotoBrowserOptions", "init"]
+- ["V14SKPhotoBrowser21SKPhotoBrowserOptions", "shareExtraCaption"]
+- ["V14SKPhotoBrowser16SKToolbarOptions", "UIColor"]
+- ["V14SKPhotoBrowser16SKToolbarOptions", "UIFont"]
+- ["V14SKPhotoBrowser16SKToolbarOptions", "font"]
+- ["V14SKPhotoBrowser16SKToolbarOptions", "init"]
+- ["V14SKPhotoBrowser16SKToolbarOptions", "textColor"]
+- ["CSo7UIColor", "black"]
+- ["CSo7UIColor", "white"]
+- ["CSo6UIFont", "systemFont"]
+- ["Ps26_ExpressibleByColorLiteral", "black"]
+- ["Ps26_ExpressibleByColorLiteral", "white"]
+- ["Ps9_Hashable", "black"]
+- ["Ps9_Hashable", "byTruncatingTail"]
+- ["Ps9_Hashable", "center"]
+- ["Ps9_Hashable", "systemFont"]
+- ["Ps9_Hashable", "white"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "OSC15NSLineBreakMode"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "OSC15NSTextAlignment"
+- "Ps16RawRepresentable"
+- "V14SKPhotoBrowser16SKCaptionOptions"
+- "V14SKPhotoBrowser21SKPhotoBrowserOptions"
+- "V14SKPhotoBrowser16SKToolbarOptions"
+- "CSo7UIColor"
+- "CSo6UIFont"
+- "Ps26_ExpressibleByColorLiteral"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Target Support Files/SKPhotoBrowser/SKPhotoBrowser-umbrella.h"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/SKPhotoBrowser/SKPhotoBrowser/SKPhotoBrowser.h"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Intermediates/Pods.build/Debug-iphonesimulator/SKPhotoBrowser.build/unextended-module.modulemap"
+interface-hash: "abd1996f90b952a3cc6c842ec572f44b"

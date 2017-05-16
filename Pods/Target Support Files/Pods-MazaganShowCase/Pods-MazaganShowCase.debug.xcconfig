@@ -1,0 +1,11 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/ActionButton" "$PODS_CONFIGURATION_BUILD_DIR/HDAugmentedReality" "$PODS_CONFIGURATION_BUILD_DIR/ITRFlipper" "$PODS_CONFIGURATION_BUILD_DIR/Presentr" "$PODS_CONFIGURATION_BUILD_DIR/SJFluidSegmentedControl" "$PODS_CONFIGURATION_BUILD_DIR/SKPhotoBrowser" "$PODS_CONFIGURATION_BUILD_DIR/Toast-Swift" "$PODS_CONFIGURATION_BUILD_DIR/YALSideMenu"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/ActionButton/ActionButton.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/HDAugmentedReality/HDAugmentedReality.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/ITRFlipper/ITRFlipper.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Presentr/Presentr.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/SKPhotoBrowser/SKPhotoBrowser.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Toast-Swift/Toast_Swift.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/YALSideMenu/SideMenu.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "ActionButton" -framework "HDAugmentedReality" -framework "ITRFlipper" -framework "Presentr" -framework "SJFluidSegmentedControl" -framework "SKPhotoBrowser" -framework "SideMenu" -framework "Toast_Swift"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

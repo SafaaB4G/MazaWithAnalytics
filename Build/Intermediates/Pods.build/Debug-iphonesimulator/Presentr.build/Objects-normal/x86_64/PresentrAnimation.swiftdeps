@@ -1,0 +1,491 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PresentrTransitionContext"
+- "AnimationOptions"
+- "PresentrAnimation"
+provides-nominal:
+- "V8Presentr25PresentrTransitionContext"
+- "O8Presentr16AnimationOptions"
+- "C8Presentr17PresentrAnimation"
+provides-member:
+- ["V8Presentr25PresentrTransitionContext", ""]
+- ["O8Presentr16AnimationOptions", ""]
+- ["C8Presentr17PresentrAnimation", ""]
+provides-dynamic-lookup:
+- "animateTransition"
+- "transform"
+- "transitionDuration"
+depends-top-level:
+- !private "!"
+- !private "+"
+- !private "=="
+- "AnimationOptions"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "CGFloat"
+- "CGRect"
+- "NSObject"
+- "PresentrAnimation"
+- "PresentrTransitionContext"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "TimeInterval"
+- !private "UITransitionContextViewControllerKey"
+- !private "UITransitionContextViewKey"
+- "UIView"
+- "UIViewController"
+- "UIViewControllerAnimatedTransitioning"
+- "UIViewControllerContextTransitioning"
+depends-member:
+- ["O8Presentr16AnimationOptions", "CGFloat"]
+- ["O8Presentr16AnimationOptions", "TimeInterval"]
+- ["O8Presentr16AnimationOptions", "normal"]
+- ["O8Presentr16AnimationOptions", "spring"]
+- !private ["Ps9AnyObject", "PresentrTransitionContext"]
+- !private ["Ps9AnyObject", "UITransitionContextViewControllerKey"]
+- !private ["Ps9AnyObject", "UITransitionContextViewKey"]
+- !private ["Ps9AnyObject", "UIView"]
+- !private ["Ps9AnyObject", "addSubview"]
+- !private ["Ps9AnyObject", "afterAnimation"]
+- !private ["Ps9AnyObject", "animate"]
+- ["Ps9AnyObject", "animateTransition"]
+- !private ["Ps9AnyObject", "animateWithSpring"]
+- ["Ps9AnyObject", "animationEnded"]
+- !private ["Ps9AnyObject", "beforeAnimation"]
+- !private ["Ps9AnyObject", "frame"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "interruptibleAnimator"]
+- ["Ps9AnyObject", "interruptibleAnimatorForTransition"]
+- !private ["Ps9AnyObject", "options"]
+- !private ["Ps9AnyObject", "performAnimation"]
+- !private ["Ps9AnyObject", "presentingViewController"]
+- !private ["Ps9AnyObject", "transform"]
+- ["Ps9AnyObject", "transitionDuration"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "addSubview"]
+- !private ["PSo15CALayerDelegate", "animate"]
+- !private ["PSo15CALayerDelegate", "frame"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["VSC6CGRect", "height"]
+- !private ["VSC6CGRect", "origin"]
+- !private ["Ps7CVarArg", "PresentrTransitionContext"]
+- !private ["Ps7CVarArg", "UITransitionContextViewControllerKey"]
+- !private ["Ps7CVarArg", "UITransitionContextViewKey"]
+- !private ["Ps7CVarArg", "UIView"]
+- !private ["Ps7CVarArg", "addSubview"]
+- !private ["Ps7CVarArg", "afterAnimation"]
+- !private ["Ps7CVarArg", "animate"]
+- ["Ps7CVarArg", "animateTransition"]
+- !private ["Ps7CVarArg", "animateWithSpring"]
+- ["Ps7CVarArg", "animationEnded"]
+- !private ["Ps7CVarArg", "beforeAnimation"]
+- !private ["Ps7CVarArg", "frame"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "interruptibleAnimator"]
+- ["Ps7CVarArg", "interruptibleAnimatorForTransition"]
+- !private ["Ps7CVarArg", "options"]
+- !private ["Ps7CVarArg", "performAnimation"]
+- !private ["Ps7CVarArg", "presentingViewController"]
+- !private ["Ps7CVarArg", "transform"]
+- ["Ps7CVarArg", "transitionDuration"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "from"]
+- !private ["Ps10Comparable", "to"]
+- !private ["Ps28CustomDebugStringConvertible", "PresentrTransitionContext"]
+- !private ["Ps28CustomDebugStringConvertible", "UITransitionContextViewControllerKey"]
+- !private ["Ps28CustomDebugStringConvertible", "UITransitionContextViewKey"]
+- !private ["Ps28CustomDebugStringConvertible", "UIView"]
+- !private ["Ps28CustomDebugStringConvertible", "addSubview"]
+- !private ["Ps28CustomDebugStringConvertible", "afterAnimation"]
+- !private ["Ps28CustomDebugStringConvertible", "animate"]
+- ["Ps28CustomDebugStringConvertible", "animateTransition"]
+- !private ["Ps28CustomDebugStringConvertible", "animateWithSpring"]
+- ["Ps28CustomDebugStringConvertible", "animationEnded"]
+- !private ["Ps28CustomDebugStringConvertible", "beforeAnimation"]
+- !private ["Ps28CustomDebugStringConvertible", "frame"]
+- !private ["Ps28CustomDebugStringConvertible", "height"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "interruptibleAnimator"]
+- ["Ps28CustomDebugStringConvertible", "interruptibleAnimatorForTransition"]
+- !private ["Ps28CustomDebugStringConvertible", "options"]
+- !private ["Ps28CustomDebugStringConvertible", "origin"]
+- !private ["Ps28CustomDebugStringConvertible", "performAnimation"]
+- !private ["Ps28CustomDebugStringConvertible", "presentingViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "transform"]
+- ["Ps28CustomDebugStringConvertible", "transitionDuration"]
+- !private ["Ps28CustomDebugStringConvertible", "y"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "height"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "origin"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "y"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "height"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "origin"]
+- !private ["Ps17CustomReflectable", "y"]
+- !private ["Ps23CustomStringConvertible", "PresentrTransitionContext"]
+- !private ["Ps23CustomStringConvertible", "UITransitionContextViewControllerKey"]
+- !private ["Ps23CustomStringConvertible", "UITransitionContextViewKey"]
+- !private ["Ps23CustomStringConvertible", "UIView"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addSubview"]
+- !private ["Ps23CustomStringConvertible", "afterAnimation"]
+- !private ["Ps23CustomStringConvertible", "animate"]
+- ["Ps23CustomStringConvertible", "animateTransition"]
+- !private ["Ps23CustomStringConvertible", "animateWithSpring"]
+- ["Ps23CustomStringConvertible", "animationEnded"]
+- !private ["Ps23CustomStringConvertible", "beforeAnimation"]
+- !private ["Ps23CustomStringConvertible", "frame"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "interruptibleAnimator"]
+- ["Ps23CustomStringConvertible", "interruptibleAnimatorForTransition"]
+- !private ["Ps23CustomStringConvertible", "options"]
+- !private ["Ps23CustomStringConvertible", "performAnimation"]
+- !private ["Ps23CustomStringConvertible", "presentingViewController"]
+- !private ["Ps23CustomStringConvertible", "transform"]
+- ["Ps23CustomStringConvertible", "transitionDuration"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "PresentrTransitionContext"]
+- !private ["Ps9Equatable", "UITransitionContextViewControllerKey"]
+- !private ["Ps9Equatable", "UITransitionContextViewKey"]
+- !private ["Ps9Equatable", "UIView"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addSubview"]
+- !private ["Ps9Equatable", "afterAnimation"]
+- !private ["Ps9Equatable", "animate"]
+- ["Ps9Equatable", "animateTransition"]
+- !private ["Ps9Equatable", "animateWithSpring"]
+- ["Ps9Equatable", "animationEnded"]
+- !private ["Ps9Equatable", "beforeAnimation"]
+- !private ["Ps9Equatable", "frame"]
+- !private ["Ps9Equatable", "from"]
+- !private ["Ps9Equatable", "height"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "interruptibleAnimator"]
+- ["Ps9Equatable", "interruptibleAnimatorForTransition"]
+- !private ["Ps9Equatable", "options"]
+- !private ["Ps9Equatable", "origin"]
+- !private ["Ps9Equatable", "performAnimation"]
+- !private ["Ps9Equatable", "presentingViewController"]
+- !private ["Ps9Equatable", "to"]
+- !private ["Ps9Equatable", "transform"]
+- ["Ps9Equatable", "transitionDuration"]
+- !private ["Ps9Equatable", "y"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "PresentrTransitionContext"]
+- !private ["Ps8Hashable", "UITransitionContextViewControllerKey"]
+- !private ["Ps8Hashable", "UITransitionContextViewKey"]
+- !private ["Ps8Hashable", "UIView"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addSubview"]
+- !private ["Ps8Hashable", "afterAnimation"]
+- !private ["Ps8Hashable", "animate"]
+- ["Ps8Hashable", "animateTransition"]
+- !private ["Ps8Hashable", "animateWithSpring"]
+- ["Ps8Hashable", "animationEnded"]
+- !private ["Ps8Hashable", "beforeAnimation"]
+- !private ["Ps8Hashable", "frame"]
+- !private ["Ps8Hashable", "from"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "interruptibleAnimator"]
+- ["Ps8Hashable", "interruptibleAnimatorForTransition"]
+- !private ["Ps8Hashable", "options"]
+- !private ["Ps8Hashable", "performAnimation"]
+- !private ["Ps8Hashable", "presentingViewController"]
+- !private ["Ps8Hashable", "to"]
+- !private ["Ps8Hashable", "transform"]
+- ["Ps8Hashable", "transitionDuration"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSo8NSCoding", "addSubview"]
+- !private ["PSo8NSCoding", "animate"]
+- !private ["PSo8NSCoding", "frame"]
+- !private ["PSo8NSCoding", "presentingViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "presentingViewController"]
+- ["CSo8NSObject", "AnimationOptions"]
+- !private ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "PresentrTransitionContext"]
+- ["CSo8NSObject", "TimeInterval"]
+- !private ["CSo8NSObject", "UITransitionContextViewControllerKey"]
+- !private ["CSo8NSObject", "UITransitionContextViewKey"]
+- !private ["CSo8NSObject", "UIView"]
+- ["CSo8NSObject", "UIViewControllerContextTransitioning"]
+- !private ["CSo8NSObject", "addSubview"]
+- ["CSo8NSObject", "afterAnimation"]
+- ["CSo8NSObject", "animate"]
+- ["CSo8NSObject", "animateTransition"]
+- ["CSo8NSObject", "animateWithSpring"]
+- ["CSo8NSObject", "animationEnded"]
+- ["CSo8NSObject", "beforeAnimation"]
+- !private ["CSo8NSObject", "frame"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "interruptibleAnimator"]
+- ["CSo8NSObject", "interruptibleAnimatorForTransition"]
+- ["CSo8NSObject", "options"]
+- ["CSo8NSObject", "performAnimation"]
+- !private ["CSo8NSObject", "presentingViewController"]
+- ["CSo8NSObject", "transform"]
+- ["CSo8NSObject", "transitionDuration"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "PresentrTransitionContext"]
+- !private ["PSo16NSObjectProtocol", "UITransitionContextViewControllerKey"]
+- !private ["PSo16NSObjectProtocol", "UITransitionContextViewKey"]
+- !private ["PSo16NSObjectProtocol", "UIView"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
+- !private ["PSo16NSObjectProtocol", "afterAnimation"]
+- !private ["PSo16NSObjectProtocol", "animate"]
+- ["PSo16NSObjectProtocol", "animateTransition"]
+- !private ["PSo16NSObjectProtocol", "animateWithSpring"]
+- ["PSo16NSObjectProtocol", "animationEnded"]
+- !private ["PSo16NSObjectProtocol", "beforeAnimation"]
+- !private ["PSo16NSObjectProtocol", "completeTransition"]
+- !private ["PSo16NSObjectProtocol", "containerView"]
+- !private ["PSo16NSObjectProtocol", "finalFrame"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "initialFrame"]
+- ["PSo16NSObjectProtocol", "interruptibleAnimator"]
+- ["PSo16NSObjectProtocol", "interruptibleAnimatorForTransition"]
+- !private ["PSo16NSObjectProtocol", "options"]
+- !private ["PSo16NSObjectProtocol", "performAnimation"]
+- !private ["PSo16NSObjectProtocol", "presentingViewController"]
+- !private ["PSo16NSObjectProtocol", "transform"]
+- ["PSo16NSObjectProtocol", "transitionDuration"]
+- !private ["PSo16NSObjectProtocol", "transitionWasCancelled"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- !private ["PSo16NSObjectProtocol", "viewController"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C8Presentr17PresentrAnimation", "AnimationOptions"]
+- !private ["C8Presentr17PresentrAnimation", "Bool"]
+- !private ["C8Presentr17PresentrAnimation", "CGFloat"]
+- ["C8Presentr17PresentrAnimation", "CGRect"]
+- ["C8Presentr17PresentrAnimation", "PresentrTransitionContext"]
+- ["C8Presentr17PresentrAnimation", "TimeInterval"]
+- !private ["C8Presentr17PresentrAnimation", "UITransitionContextViewControllerKey"]
+- !private ["C8Presentr17PresentrAnimation", "UITransitionContextViewKey"]
+- !private ["C8Presentr17PresentrAnimation", "UIView"]
+- ["C8Presentr17PresentrAnimation", "UIViewControllerContextTransitioning"]
+- ["C8Presentr17PresentrAnimation", "afterAnimation"]
+- !private ["C8Presentr17PresentrAnimation", "animate"]
+- ["C8Presentr17PresentrAnimation", "animateTransition"]
+- !private ["C8Presentr17PresentrAnimation", "animateWithSpring"]
+- ["C8Presentr17PresentrAnimation", "animationEnded"]
+- ["C8Presentr17PresentrAnimation", "beforeAnimation"]
+- ["C8Presentr17PresentrAnimation", "deinit"]
+- ["C8Presentr17PresentrAnimation", "init"]
+- ["C8Presentr17PresentrAnimation", "interruptibleAnimator"]
+- ["C8Presentr17PresentrAnimation", "interruptibleAnimatorForTransition"]
+- ["C8Presentr17PresentrAnimation", "options"]
+- ["C8Presentr17PresentrAnimation", "performAnimation"]
+- ["C8Presentr17PresentrAnimation", "transform"]
+- ["C8Presentr17PresentrAnimation", "transitionDuration"]
+- ["V8Presentr25PresentrTransitionContext", "Bool"]
+- ["V8Presentr25PresentrTransitionContext", "CGRect"]
+- ["V8Presentr25PresentrTransitionContext", "UIView"]
+- ["V8Presentr25PresentrTransitionContext", "UIViewController"]
+- ["V8Presentr25PresentrTransitionContext", "animatingView"]
+- ["V8Presentr25PresentrTransitionContext", "animatingViewController"]
+- ["V8Presentr25PresentrTransitionContext", "containerView"]
+- ["V8Presentr25PresentrTransitionContext", "finalFrame"]
+- ["V8Presentr25PresentrTransitionContext", "fromView"]
+- ["V8Presentr25PresentrTransitionContext", "fromViewController"]
+- ["V8Presentr25PresentrTransitionContext", "init"]
+- ["V8Presentr25PresentrTransitionContext", "initialFrame"]
+- ["V8Presentr25PresentrTransitionContext", "isPresenting"]
+- ["V8Presentr25PresentrTransitionContext", "toView"]
+- ["V8Presentr25PresentrTransitionContext", "toViewController"]
+- !private ["Ps16RawRepresentable", "from"]
+- !private ["Ps16RawRepresentable", "to"]
+- !private ["Vs12StaticString", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "animate"]
+- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "animate"]
+- !private ["PSo12UIAppearance", "frame"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
+- !private ["PSo21UIAppearanceContainer", "animate"]
+- !private ["PSo21UIAppearanceContainer", "frame"]
+- !private ["PSo21UIAppearanceContainer", "presentingViewController"]
+- !private ["PSo18UIContentContainer", "presentingViewController"]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "animate"]
+- !private ["PSo17UICoordinateSpace", "frame"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "animate"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- !private ["PSo18UIFocusEnvironment", "animate"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
+- !private ["PSo18UIFocusEnvironment", "presentingViewController"]
+- !private ["PSo11UIFocusItem", "addSubview"]
+- !private ["PSo11UIFocusItem", "animate"]
+- !private ["PSo11UIFocusItem", "frame"]
+- !private ["CSo11UIResponder", "addSubview"]
+- !private ["CSo11UIResponder", "animate"]
+- !private ["CSo11UIResponder", "frame"]
+- !private ["CSo11UIResponder", "presentingViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "addSubview"]
+- !private ["PSo30UIResponderStandardEditActions", "animate"]
+- !private ["PSo30UIResponderStandardEditActions", "frame"]
+- !private ["PSo30UIResponderStandardEditActions", "presentingViewController"]
+- !private ["PSo16UIStateRestoring", "presentingViewController"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
+- !private ["PSo18UITraitEnvironment", "animate"]
+- !private ["PSo18UITraitEnvironment", "frame"]
+- !private ["PSo18UITraitEnvironment", "presentingViewController"]
+- !private ["VSC36UITransitionContextViewControllerKey", "from"]
+- !private ["VSC36UITransitionContextViewControllerKey", "to"]
+- !private ["VSC26UITransitionContextViewKey", "from"]
+- !private ["VSC26UITransitionContextViewKey", "to"]
+- !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "animate"]
+- !private ["CSo6UIView", "frame"]
+- !private ["CSo16UIViewController", "presentingViewController"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "PresentrTransitionContext"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "UITransitionContextViewControllerKey"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "UITransitionContextViewKey"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "UIView"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "afterAnimation"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "animate"]
+- ["PSo37UIViewControllerAnimatedTransitioning", "animateTransition"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "animateWithSpring"]
+- ["PSo37UIViewControllerAnimatedTransitioning", "animationEnded"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "beforeAnimation"]
+- ["PSo37UIViewControllerAnimatedTransitioning", "interruptibleAnimator"]
+- ["PSo37UIViewControllerAnimatedTransitioning", "interruptibleAnimatorForTransition"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "options"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "performAnimation"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "transform"]
+- ["PSo37UIViewControllerAnimatedTransitioning", "transitionDuration"]
+- ["PSo37UIViewControllerAnimatedTransitioning", ""]
+- !private ["PSo36UIViewControllerContextTransitioning", "completeTransition"]
+- !private ["PSo36UIViewControllerContextTransitioning", "containerView"]
+- !private ["PSo36UIViewControllerContextTransitioning", "finalFrame"]
+- !private ["PSo36UIViewControllerContextTransitioning", "initialFrame"]
+- !private ["PSo36UIViewControllerContextTransitioning", "transitionWasCancelled"]
+- !private ["PSo36UIViewControllerContextTransitioning", "view"]
+- !private ["PSo36UIViewControllerContextTransitioning", "viewController"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addSubview"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "animate"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "frame"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps9_Hashable", "PresentrTransitionContext"]
+- !private ["Ps9_Hashable", "UITransitionContextViewControllerKey"]
+- !private ["Ps9_Hashable", "UITransitionContextViewKey"]
+- !private ["Ps9_Hashable", "UIView"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "addSubview"]
+- !private ["Ps9_Hashable", "afterAnimation"]
+- !private ["Ps9_Hashable", "animate"]
+- ["Ps9_Hashable", "animateTransition"]
+- !private ["Ps9_Hashable", "animateWithSpring"]
+- ["Ps9_Hashable", "animationEnded"]
+- !private ["Ps9_Hashable", "beforeAnimation"]
+- !private ["Ps9_Hashable", "frame"]
+- !private ["Ps9_Hashable", "from"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "interruptibleAnimator"]
+- ["Ps9_Hashable", "interruptibleAnimatorForTransition"]
+- !private ["Ps9_Hashable", "options"]
+- !private ["Ps9_Hashable", "performAnimation"]
+- !private ["Ps9_Hashable", "presentingViewController"]
+- !private ["Ps9_Hashable", "to"]
+- !private ["Ps9_Hashable", "transform"]
+- ["Ps9_Hashable", "transitionDuration"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "from"]
+- !private ["Ps21_ObjectiveCBridgeable", "height"]
+- !private ["Ps21_ObjectiveCBridgeable", "origin"]
+- !private ["Ps21_ObjectiveCBridgeable", "to"]
+- !private ["Ps21_ObjectiveCBridgeable", "y"]
+- !private ["Ps20_SwiftNewtypeWrapper", "from"]
+- !private ["Ps20_SwiftNewtypeWrapper", "to"]
+depends-nominal:
+- "O8Presentr16AnimationOptions"
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- !private "VSC7CGPoint"
+- !private "VSC6CGRect"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "PSo8NSCoding"
+- !private "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C8Presentr17PresentrAnimation"
+- "V8Presentr25PresentrTransitionContext"
+- !private "Ps16RawRepresentable"
+- !private "Vs12StaticString"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo16UIStateRestoring"
+- !private "PSo18UITraitEnvironment"
+- !private "VSC36UITransitionContextViewControllerKey"
+- !private "VSC26UITransitionContextViewKey"
+- !private "CSo6UIView"
+- !private "CSo16UIViewController"
+- "PSo37UIViewControllerAnimatedTransitioning"
+- !private "PSo36UIViewControllerContextTransitioning"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps20_SwiftNewtypeWrapper"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Target Support Files/Presentr/Presentr-umbrella.h"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Intermediates/Pods.build/Debug-iphonesimulator/Presentr.build/unextended-module.modulemap"
+interface-hash: "eabc179a9e6eac733ae130f88150cb7d"

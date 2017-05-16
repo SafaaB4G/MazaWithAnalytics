@@ -1,0 +1,370 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SKDetectingImageViewDelegate"
+- "SKDetectingImageView"
+provides-nominal:
+- "P14SKPhotoBrowser28SKDetectingImageViewDelegate"
+- "C14SKPhotoBrowser20SKDetectingImageView"
+provides-member:
+- ["P14SKPhotoBrowser28SKDetectingImageViewDelegate", ""]
+- ["C14SKPhotoBrowser20SKDetectingImageView", ""]
+provides-dynamic-lookup:
+- "delegate"
+- "handleDoubleTap"
+- "handleImageViewDoubleTap"
+- "handleImageViewSingleTap"
+- "handleSingleTap"
+depends-top-level:
+- !private "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CGPoint"
+- "CGRect"
+- "NSCoder"
+- "SKDetectingImageView"
+- "SKDetectingImageViewDelegate"
+- !private "StringLiteralType"
+- "UIImageView"
+- "UITapGestureRecognizer"
+depends-member:
+- !private ["Ps9AnyObject", "UITapGestureRecognizer"]
+- !private ["Ps9AnyObject", "addGestureRecognizer"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "handleDoubleTap"]
+- !private ["Ps9AnyObject", "handleSingleTap"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isUserInteractionEnabled"]
+- !private ["Ps9AnyObject", "location"]
+- !private ["Ps9AnyObject", "numberOfTapsRequired"]
+- !private ["Ps9AnyObject", "require"]
+- !private ["Ps9AnyObject", "setup"]
+- ["Ps9AnyObject", ""]
+- !private ["PSo15CALayerDelegate", "UITapGestureRecognizer"]
+- !private ["PSo15CALayerDelegate", "addGestureRecognizer"]
+- !private ["PSo15CALayerDelegate", "delegate"]
+- !private ["PSo15CALayerDelegate", "handleDoubleTap"]
+- !private ["PSo15CALayerDelegate", "handleSingleTap"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "isUserInteractionEnabled"]
+- !private ["PSo15CALayerDelegate", "setup"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["Ps7CVarArg", "UITapGestureRecognizer"]
+- !private ["Ps7CVarArg", "addGestureRecognizer"]
+- !private ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "handleDoubleTap"]
+- !private ["Ps7CVarArg", "handleSingleTap"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isUserInteractionEnabled"]
+- !private ["Ps7CVarArg", "location"]
+- !private ["Ps7CVarArg", "numberOfTapsRequired"]
+- !private ["Ps7CVarArg", "require"]
+- !private ["Ps7CVarArg", "setup"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "UITapGestureRecognizer"]
+- !private ["Ps28CustomDebugStringConvertible", "addGestureRecognizer"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "handleDoubleTap"]
+- !private ["Ps28CustomDebugStringConvertible", "handleSingleTap"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isUserInteractionEnabled"]
+- !private ["Ps28CustomDebugStringConvertible", "location"]
+- !private ["Ps28CustomDebugStringConvertible", "numberOfTapsRequired"]
+- !private ["Ps28CustomDebugStringConvertible", "require"]
+- !private ["Ps28CustomDebugStringConvertible", "setup"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "UITapGestureRecognizer"]
+- !private ["Ps23CustomStringConvertible", "addGestureRecognizer"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "handleDoubleTap"]
+- !private ["Ps23CustomStringConvertible", "handleSingleTap"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isUserInteractionEnabled"]
+- !private ["Ps23CustomStringConvertible", "location"]
+- !private ["Ps23CustomStringConvertible", "numberOfTapsRequired"]
+- !private ["Ps23CustomStringConvertible", "require"]
+- !private ["Ps23CustomStringConvertible", "setup"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "UITapGestureRecognizer"]
+- !private ["Ps9Equatable", "addGestureRecognizer"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "handleDoubleTap"]
+- !private ["Ps9Equatable", "handleSingleTap"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isUserInteractionEnabled"]
+- !private ["Ps9Equatable", "location"]
+- !private ["Ps9Equatable", "numberOfTapsRequired"]
+- !private ["Ps9Equatable", "require"]
+- !private ["Ps9Equatable", "setup"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "UITapGestureRecognizer"]
+- !private ["Ps8Hashable", "addGestureRecognizer"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "handleDoubleTap"]
+- !private ["Ps8Hashable", "handleSingleTap"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isUserInteractionEnabled"]
+- !private ["Ps8Hashable", "location"]
+- !private ["Ps8Hashable", "numberOfTapsRequired"]
+- !private ["Ps8Hashable", "require"]
+- !private ["Ps8Hashable", "setup"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "UITapGestureRecognizer"]
+- !private ["PSo8NSCoding", "addGestureRecognizer"]
+- !private ["PSo8NSCoding", "delegate"]
+- !private ["PSo8NSCoding", "handleDoubleTap"]
+- !private ["PSo8NSCoding", "handleSingleTap"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isUserInteractionEnabled"]
+- !private ["PSo8NSCoding", "setup"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "NSCoder"]
+- ["CSo8NSObject", "SKDetectingImageViewDelegate"]
+- ["CSo8NSObject", "UITapGestureRecognizer"]
+- !private ["CSo8NSObject", "addGestureRecognizer"]
+- ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "handleDoubleTap"]
+- ["CSo8NSObject", "handleSingleTap"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isUserInteractionEnabled"]
+- !private ["CSo8NSObject", "location"]
+- !private ["CSo8NSObject", "numberOfTapsRequired"]
+- !private ["CSo8NSObject", "require"]
+- !private ["CSo8NSObject", "setup"]
+- !private ["PSo16NSObjectProtocol", "UITapGestureRecognizer"]
+- !private ["PSo16NSObjectProtocol", "addGestureRecognizer"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "handleDoubleTap"]
+- !private ["PSo16NSObjectProtocol", "handleSingleTap"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isUserInteractionEnabled"]
+- !private ["PSo16NSObjectProtocol", "location"]
+- !private ["PSo16NSObjectProtocol", "numberOfTapsRequired"]
+- !private ["PSo16NSObjectProtocol", "require"]
+- !private ["PSo16NSObjectProtocol", "setup"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C14SKPhotoBrowser20SKDetectingImageView", "CGRect"]
+- ["C14SKPhotoBrowser20SKDetectingImageView", "NSCoder"]
+- ["C14SKPhotoBrowser20SKDetectingImageView", "SKDetectingImageViewDelegate"]
+- ["C14SKPhotoBrowser20SKDetectingImageView", "UITapGestureRecognizer"]
+- !private ["C14SKPhotoBrowser20SKDetectingImageView", "addGestureRecognizer"]
+- ["C14SKPhotoBrowser20SKDetectingImageView", "deinit"]
+- ["C14SKPhotoBrowser20SKDetectingImageView", "delegate"]
+- ["C14SKPhotoBrowser20SKDetectingImageView", "handleDoubleTap"]
+- ["C14SKPhotoBrowser20SKDetectingImageView", "handleSingleTap"]
+- ["C14SKPhotoBrowser20SKDetectingImageView", "init"]
+- !private ["C14SKPhotoBrowser20SKDetectingImageView", "isUserInteractionEnabled"]
+- !private ["C14SKPhotoBrowser20SKDetectingImageView", "setup"]
+- ["P14SKPhotoBrowser28SKDetectingImageViewDelegate", "CGPoint"]
+- ["P14SKPhotoBrowser28SKDetectingImageViewDelegate", "handleImageViewDoubleTap"]
+- ["P14SKPhotoBrowser28SKDetectingImageViewDelegate", "handleImageViewSingleTap"]
+- !private ["Vs12StaticString", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "UITapGestureRecognizer"]
+- !private ["PSo29UIAccessibilityIdentification", "addGestureRecognizer"]
+- !private ["PSo29UIAccessibilityIdentification", "delegate"]
+- !private ["PSo29UIAccessibilityIdentification", "handleDoubleTap"]
+- !private ["PSo29UIAccessibilityIdentification", "handleSingleTap"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "isUserInteractionEnabled"]
+- !private ["PSo29UIAccessibilityIdentification", "setup"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "UITapGestureRecognizer"]
+- !private ["PSo12UIAppearance", "addGestureRecognizer"]
+- !private ["PSo12UIAppearance", "delegate"]
+- !private ["PSo12UIAppearance", "handleDoubleTap"]
+- !private ["PSo12UIAppearance", "handleSingleTap"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "isUserInteractionEnabled"]
+- !private ["PSo12UIAppearance", "setup"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "UITapGestureRecognizer"]
+- !private ["PSo21UIAppearanceContainer", "addGestureRecognizer"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- !private ["PSo21UIAppearanceContainer", "handleDoubleTap"]
+- !private ["PSo21UIAppearanceContainer", "handleSingleTap"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "isUserInteractionEnabled"]
+- !private ["PSo21UIAppearanceContainer", "setup"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo17UICoordinateSpace", "UITapGestureRecognizer"]
+- !private ["PSo17UICoordinateSpace", "addGestureRecognizer"]
+- !private ["PSo17UICoordinateSpace", "delegate"]
+- !private ["PSo17UICoordinateSpace", "handleDoubleTap"]
+- !private ["PSo17UICoordinateSpace", "handleSingleTap"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "isUserInteractionEnabled"]
+- !private ["PSo17UICoordinateSpace", "setup"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "UITapGestureRecognizer"]
+- !private ["PSo13UIDynamicItem", "addGestureRecognizer"]
+- !private ["PSo13UIDynamicItem", "delegate"]
+- !private ["PSo13UIDynamicItem", "handleDoubleTap"]
+- !private ["PSo13UIDynamicItem", "handleSingleTap"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "isUserInteractionEnabled"]
+- !private ["PSo13UIDynamicItem", "setup"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "UITapGestureRecognizer"]
+- !private ["PSo18UIFocusEnvironment", "addGestureRecognizer"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- !private ["PSo18UIFocusEnvironment", "handleDoubleTap"]
+- !private ["PSo18UIFocusEnvironment", "handleSingleTap"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "isUserInteractionEnabled"]
+- !private ["PSo18UIFocusEnvironment", "setup"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "UITapGestureRecognizer"]
+- !private ["PSo11UIFocusItem", "addGestureRecognizer"]
+- !private ["PSo11UIFocusItem", "delegate"]
+- !private ["PSo11UIFocusItem", "handleDoubleTap"]
+- !private ["PSo11UIFocusItem", "handleSingleTap"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "isUserInteractionEnabled"]
+- !private ["PSo11UIFocusItem", "setup"]
+- ["PSo11UIFocusItem", ""]
+- !private ["CSo19UIGestureRecognizer", "init"]
+- !private ["CSo19UIGestureRecognizer", "location"]
+- !private ["CSo19UIGestureRecognizer", "numberOfTapsRequired"]
+- !private ["CSo19UIGestureRecognizer", "require"]
+- ["CSo11UIImageView", "CGRect"]
+- ["CSo11UIImageView", "NSCoder"]
+- ["CSo11UIImageView", "SKDetectingImageViewDelegate"]
+- ["CSo11UIImageView", "UITapGestureRecognizer"]
+- !private ["CSo11UIImageView", "addGestureRecognizer"]
+- ["CSo11UIImageView", "delegate"]
+- ["CSo11UIImageView", "handleDoubleTap"]
+- ["CSo11UIImageView", "handleSingleTap"]
+- ["CSo11UIImageView", "init"]
+- !private ["CSo11UIImageView", "isUserInteractionEnabled"]
+- !private ["CSo11UIImageView", "setup"]
+- ["CSo11UIImageView", ""]
+- ["CSo11UIResponder", "CGRect"]
+- ["CSo11UIResponder", "NSCoder"]
+- ["CSo11UIResponder", "SKDetectingImageViewDelegate"]
+- ["CSo11UIResponder", "UITapGestureRecognizer"]
+- !private ["CSo11UIResponder", "addGestureRecognizer"]
+- ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "handleDoubleTap"]
+- ["CSo11UIResponder", "handleSingleTap"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "isUserInteractionEnabled"]
+- !private ["CSo11UIResponder", "setup"]
+- !private ["PSo30UIResponderStandardEditActions", "UITapGestureRecognizer"]
+- !private ["PSo30UIResponderStandardEditActions", "addGestureRecognizer"]
+- !private ["PSo30UIResponderStandardEditActions", "delegate"]
+- !private ["PSo30UIResponderStandardEditActions", "handleDoubleTap"]
+- !private ["PSo30UIResponderStandardEditActions", "handleSingleTap"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "isUserInteractionEnabled"]
+- !private ["PSo30UIResponderStandardEditActions", "setup"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["CSo22UITapGestureRecognizer", "init"]
+- !private ["CSo22UITapGestureRecognizer", "location"]
+- !private ["CSo22UITapGestureRecognizer", "numberOfTapsRequired"]
+- !private ["CSo22UITapGestureRecognizer", "require"]
+- !private ["PSo18UITraitEnvironment", "UITapGestureRecognizer"]
+- !private ["PSo18UITraitEnvironment", "addGestureRecognizer"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- !private ["PSo18UITraitEnvironment", "handleDoubleTap"]
+- !private ["PSo18UITraitEnvironment", "handleSingleTap"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "isUserInteractionEnabled"]
+- !private ["PSo18UITraitEnvironment", "setup"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "CGRect"]
+- ["CSo6UIView", "NSCoder"]
+- ["CSo6UIView", "SKDetectingImageViewDelegate"]
+- ["CSo6UIView", "UITapGestureRecognizer"]
+- !private ["CSo6UIView", "addGestureRecognizer"]
+- ["CSo6UIView", "delegate"]
+- ["CSo6UIView", "handleDoubleTap"]
+- ["CSo6UIView", "handleSingleTap"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "isUserInteractionEnabled"]
+- !private ["CSo6UIView", "setup"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UITapGestureRecognizer"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addGestureRecognizer"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "delegate"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "handleDoubleTap"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "handleSingleTap"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isUserInteractionEnabled"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setup"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps9_Hashable", "UITapGestureRecognizer"]
+- !private ["Ps9_Hashable", "addGestureRecognizer"]
+- !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "handleDoubleTap"]
+- !private ["Ps9_Hashable", "handleSingleTap"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isUserInteractionEnabled"]
+- !private ["Ps9_Hashable", "location"]
+- !private ["Ps9_Hashable", "numberOfTapsRequired"]
+- !private ["Ps9_Hashable", "require"]
+- !private ["Ps9_Hashable", "setup"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C14SKPhotoBrowser20SKDetectingImageView"
+- "P14SKPhotoBrowser28SKDetectingImageViewDelegate"
+- !private "Vs12StaticString"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- !private "CSo19UIGestureRecognizer"
+- "CSo11UIImageView"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "CSo22UITapGestureRecognizer"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Target Support Files/SKPhotoBrowser/SKPhotoBrowser-umbrella.h"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/SKPhotoBrowser/SKPhotoBrowser/SKPhotoBrowser.h"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Intermediates/Pods.build/Debug-iphonesimulator/SKPhotoBrowser.build/unextended-module.modulemap"
+interface-hash: "f4921bced34f9c230943b4380a71b2f9"

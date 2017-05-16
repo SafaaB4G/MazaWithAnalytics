@@ -1,0 +1,610 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MenuViewControllerDelegate"
+- "MenuViewController"
+provides-nominal:
+- "P15MazaganShowCase26MenuViewControllerDelegate"
+- "C15MazaganShowCase18MenuViewController"
+provides-member:
+- ["P15MazaganShowCase26MenuViewControllerDelegate", ""]
+- ["C15MazaganShowCase18MenuViewController", ""]
+- ["C15MazaganShowCase18MenuViewController", "tableView"]
+- ["C15MazaganShowCase18MenuViewController", "tableView"]
+provides-dynamic-lookup:
+- "dismissMenu"
+- "menuItems"
+- "selectedItem"
+- "tableView"
+- "viewWillAppear"
+depends-top-level:
+- !private "+"
+- !private "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CGPoint"
+- "IndexPath"
+- "Int"
+- "Menu"
+- "MenuViewController"
+- "MenuViewControllerDelegate"
+- "TernaryPrecedence"
+- "UITableView"
+- "UITableViewController"
+- "UIView"
+depends-member:
+- !private ["Ps9AnyObject", "CGPoint"]
+- !private ["Ps9AnyObject", "IndexPath"]
+- !private ["Ps9AnyObject", "convert"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "indexPathForSelectedRow"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "menuItems"]
+- !private ["Ps9AnyObject", "rectForRow"]
+- !private ["Ps9AnyObject", "selectRow"]
+- !private ["Ps9AnyObject", "selectedItem"]
+- !private ["Ps9AnyObject", "tableHeaderView"]
+- !private ["Ps9AnyObject", "tableView"]
+- !private ["Ps9AnyObject", "viewWillAppear"]
+- !private ["Ps9AnyObject", "visibleCells"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "row"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "convert"]
+- !private ["PSo15CALayerDelegate", "indexPathForSelectedRow"]
+- !private ["PSo15CALayerDelegate", "rectForRow"]
+- !private ["PSo15CALayerDelegate", "selectRow"]
+- !private ["PSo15CALayerDelegate", "tableHeaderView"]
+- !private ["PSo15CALayerDelegate", "visibleCells"]
+- !private ["VSC7CGPoint", "init"]
+- !private ["VSC6CGRect", "midX"]
+- !private ["VSC6CGRect", "midY"]
+- !private ["Ps7CVarArg", "CGPoint"]
+- !private ["Ps7CVarArg", "IndexPath"]
+- !private ["Ps7CVarArg", "convert"]
+- !private ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "indexPathForSelectedRow"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "menuItems"]
+- !private ["Ps7CVarArg", "rectForRow"]
+- !private ["Ps7CVarArg", "selectRow"]
+- !private ["Ps7CVarArg", "selectedItem"]
+- !private ["Ps7CVarArg", "tableHeaderView"]
+- !private ["Ps7CVarArg", "tableView"]
+- !private ["Ps7CVarArg", "viewWillAppear"]
+- !private ["Ps7CVarArg", "visibleCells"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "row"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "row"]
+- !private ["Ps28CustomDebugStringConvertible", "CGPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexPath"]
+- !private ["Ps28CustomDebugStringConvertible", "convert"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "indexPathForSelectedRow"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "menuItems"]
+- !private ["Ps28CustomDebugStringConvertible", "midX"]
+- !private ["Ps28CustomDebugStringConvertible", "midY"]
+- !private ["Ps28CustomDebugStringConvertible", "rectForRow"]
+- !private ["Ps28CustomDebugStringConvertible", "row"]
+- !private ["Ps28CustomDebugStringConvertible", "selectRow"]
+- !private ["Ps28CustomDebugStringConvertible", "selectedItem"]
+- !private ["Ps28CustomDebugStringConvertible", "tableHeaderView"]
+- !private ["Ps28CustomDebugStringConvertible", "tableView"]
+- !private ["Ps28CustomDebugStringConvertible", "viewWillAppear"]
+- !private ["Ps28CustomDebugStringConvertible", "visibleCells"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "midX"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "midY"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "midX"]
+- !private ["Ps17CustomReflectable", "midY"]
+- !private ["Ps17CustomReflectable", "row"]
+- !private ["Ps23CustomStringConvertible", "CGPoint"]
+- !private ["Ps23CustomStringConvertible", "IndexPath"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "convert"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "indexPathForSelectedRow"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "menuItems"]
+- !private ["Ps23CustomStringConvertible", "rectForRow"]
+- !private ["Ps23CustomStringConvertible", "row"]
+- !private ["Ps23CustomStringConvertible", "selectRow"]
+- !private ["Ps23CustomStringConvertible", "selectedItem"]
+- !private ["Ps23CustomStringConvertible", "tableHeaderView"]
+- !private ["Ps23CustomStringConvertible", "tableView"]
+- !private ["Ps23CustomStringConvertible", "viewWillAppear"]
+- !private ["Ps23CustomStringConvertible", "visibleCells"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CGPoint"]
+- !private ["Ps9Equatable", "IndexPath"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "convert"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "indexPathForSelectedRow"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "menuItems"]
+- !private ["Ps9Equatable", "midX"]
+- !private ["Ps9Equatable", "midY"]
+- !private ["Ps9Equatable", "none"]
+- !private ["Ps9Equatable", "rectForRow"]
+- !private ["Ps9Equatable", "row"]
+- !private ["Ps9Equatable", "selectRow"]
+- !private ["Ps9Equatable", "selectedItem"]
+- !private ["Ps9Equatable", "tableHeaderView"]
+- !private ["Ps9Equatable", "tableView"]
+- !private ["Ps9Equatable", "viewWillAppear"]
+- !private ["Ps9Equatable", "visibleCells"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "row"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "CGPoint"]
+- !private ["Ps8Hashable", "IndexPath"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "convert"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "indexPathForSelectedRow"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "menuItems"]
+- !private ["Ps8Hashable", "none"]
+- !private ["Ps8Hashable", "rectForRow"]
+- !private ["Ps8Hashable", "row"]
+- !private ["Ps8Hashable", "selectRow"]
+- !private ["Ps8Hashable", "selectedItem"]
+- !private ["Ps8Hashable", "tableHeaderView"]
+- !private ["Ps8Hashable", "tableView"]
+- !private ["Ps8Hashable", "viewWillAppear"]
+- !private ["Ps8Hashable", "visibleCells"]
+- ["Ps8Hashable", ""]
+- !private ["V10Foundation9IndexPath", "init"]
+- !private ["V10Foundation9IndexPath", "row"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["P8SideMenu4Menu", "CGPoint"]
+- !private ["P8SideMenu4Menu", "IndexPath"]
+- !private ["P8SideMenu4Menu", "delegate"]
+- ["P8SideMenu4Menu", "menuItems"]
+- !private ["P8SideMenu4Menu", "selectedItem"]
+- !private ["P8SideMenu4Menu", "tableView"]
+- ["P8SideMenu4Menu", ""]
+- ["C15MazaganShowCase18MenuViewController", "Bool"]
+- !private ["C15MazaganShowCase18MenuViewController", "CGPoint"]
+- ["C15MazaganShowCase18MenuViewController", "IndexPath"]
+- ["C15MazaganShowCase18MenuViewController", "MenuViewControllerDelegate"]
+- ["C15MazaganShowCase18MenuViewController", "UITableView"]
+- ["C15MazaganShowCase18MenuViewController", "UIView"]
+- ["C15MazaganShowCase18MenuViewController", "deinit"]
+- ["C15MazaganShowCase18MenuViewController", "delegate"]
+- !private ["C15MazaganShowCase18MenuViewController", "dismissMenu"]
+- ["C15MazaganShowCase18MenuViewController", "init"]
+- ["C15MazaganShowCase18MenuViewController", "menuItems"]
+- ["C15MazaganShowCase18MenuViewController", "selectedItem"]
+- ["C15MazaganShowCase18MenuViewController", "tableView"]
+- ["C15MazaganShowCase18MenuViewController", "viewWillAppear"]
+- ["P15MazaganShowCase26MenuViewControllerDelegate", "CGPoint"]
+- ["P15MazaganShowCase26MenuViewControllerDelegate", "Int"]
+- ["P15MazaganShowCase26MenuViewControllerDelegate", "MenuViewController"]
+- ["P15MazaganShowCase26MenuViewControllerDelegate", "menu"]
+- ["P15MazaganShowCase26MenuViewControllerDelegate", "menuDidCancel"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps17MutableCollection", "row"]
+- !private ["PSo8NSCoding", "CGPoint"]
+- !private ["PSo8NSCoding", "IndexPath"]
+- !private ["PSo8NSCoding", "convert"]
+- !private ["PSo8NSCoding", "delegate"]
+- !private ["PSo8NSCoding", "indexPathForSelectedRow"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "menuItems"]
+- !private ["PSo8NSCoding", "rectForRow"]
+- !private ["PSo8NSCoding", "selectRow"]
+- !private ["PSo8NSCoding", "selectedItem"]
+- !private ["PSo8NSCoding", "tableHeaderView"]
+- !private ["PSo8NSCoding", "tableView"]
+- !private ["PSo8NSCoding", "viewWillAppear"]
+- !private ["PSo8NSCoding", "visibleCells"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "CGPoint"]
+- !private ["PSo26NSExtensionRequestHandling", "IndexPath"]
+- !private ["PSo26NSExtensionRequestHandling", "delegate"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "menuItems"]
+- !private ["PSo26NSExtensionRequestHandling", "selectedItem"]
+- !private ["PSo26NSExtensionRequestHandling", "tableView"]
+- !private ["PSo26NSExtensionRequestHandling", "viewWillAppear"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "CGPoint"]
+- ["CSo8NSObject", "IndexPath"]
+- ["CSo8NSObject", "MenuViewControllerDelegate"]
+- ["CSo8NSObject", "UITableView"]
+- ["CSo8NSObject", "UIView"]
+- !private ["CSo8NSObject", "convert"]
+- ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "dismissMenu"]
+- !private ["CSo8NSObject", "indexPathForSelectedRow"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "menuItems"]
+- !private ["CSo8NSObject", "rectForRow"]
+- !private ["CSo8NSObject", "selectRow"]
+- ["CSo8NSObject", "selectedItem"]
+- !private ["CSo8NSObject", "tableHeaderView"]
+- ["CSo8NSObject", "tableView"]
+- ["CSo8NSObject", "viewWillAppear"]
+- !private ["CSo8NSObject", "visibleCells"]
+- !private ["PSo16NSObjectProtocol", "CGPoint"]
+- !private ["PSo16NSObjectProtocol", "IndexPath"]
+- !private ["PSo16NSObjectProtocol", "convert"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "indexPathForSelectedRow"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "menuItems"]
+- !private ["PSo16NSObjectProtocol", "rectForRow"]
+- !private ["PSo16NSObjectProtocol", "selectRow"]
+- !private ["PSo16NSObjectProtocol", "selectedItem"]
+- !private ["PSo16NSObjectProtocol", "tableHeaderView"]
+- !private ["PSo16NSObjectProtocol", "tableView"]
+- !private ["PSo16NSObjectProtocol", "viewWillAppear"]
+- !private ["PSo16NSObjectProtocol", "visibleCells"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "row"]
+- !private ["Ps16RawRepresentable", "none"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "row"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "row"]
+- !private ["PSo29UIAccessibilityIdentification", "convert"]
+- !private ["PSo29UIAccessibilityIdentification", "indexPathForSelectedRow"]
+- !private ["PSo29UIAccessibilityIdentification", "rectForRow"]
+- !private ["PSo29UIAccessibilityIdentification", "selectRow"]
+- !private ["PSo29UIAccessibilityIdentification", "tableHeaderView"]
+- !private ["PSo29UIAccessibilityIdentification", "visibleCells"]
+- !private ["PSo12UIAppearance", "convert"]
+- !private ["PSo12UIAppearance", "indexPathForSelectedRow"]
+- !private ["PSo12UIAppearance", "rectForRow"]
+- !private ["PSo12UIAppearance", "selectRow"]
+- !private ["PSo12UIAppearance", "tableHeaderView"]
+- !private ["PSo12UIAppearance", "visibleCells"]
+- !private ["PSo21UIAppearanceContainer", "CGPoint"]
+- !private ["PSo21UIAppearanceContainer", "IndexPath"]
+- !private ["PSo21UIAppearanceContainer", "convert"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- !private ["PSo21UIAppearanceContainer", "indexPathForSelectedRow"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "menuItems"]
+- !private ["PSo21UIAppearanceContainer", "rectForRow"]
+- !private ["PSo21UIAppearanceContainer", "selectRow"]
+- !private ["PSo21UIAppearanceContainer", "selectedItem"]
+- !private ["PSo21UIAppearanceContainer", "tableHeaderView"]
+- !private ["PSo21UIAppearanceContainer", "tableView"]
+- !private ["PSo21UIAppearanceContainer", "viewWillAppear"]
+- !private ["PSo21UIAppearanceContainer", "visibleCells"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "CGPoint"]
+- !private ["PSo18UIContentContainer", "IndexPath"]
+- !private ["PSo18UIContentContainer", "delegate"]
+- !private ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "menuItems"]
+- !private ["PSo18UIContentContainer", "selectedItem"]
+- !private ["PSo18UIContentContainer", "tableView"]
+- !private ["PSo18UIContentContainer", "viewWillAppear"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "convert"]
+- !private ["PSo17UICoordinateSpace", "indexPathForSelectedRow"]
+- !private ["PSo17UICoordinateSpace", "rectForRow"]
+- !private ["PSo17UICoordinateSpace", "selectRow"]
+- !private ["PSo17UICoordinateSpace", "tableHeaderView"]
+- !private ["PSo17UICoordinateSpace", "visibleCells"]
+- !private ["PSo13UIDynamicItem", "convert"]
+- !private ["PSo13UIDynamicItem", "indexPathForSelectedRow"]
+- !private ["PSo13UIDynamicItem", "rectForRow"]
+- !private ["PSo13UIDynamicItem", "selectRow"]
+- !private ["PSo13UIDynamicItem", "tableHeaderView"]
+- !private ["PSo13UIDynamicItem", "visibleCells"]
+- !private ["PSo18UIFocusEnvironment", "CGPoint"]
+- !private ["PSo18UIFocusEnvironment", "IndexPath"]
+- !private ["PSo18UIFocusEnvironment", "convert"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- !private ["PSo18UIFocusEnvironment", "indexPathForSelectedRow"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "menuItems"]
+- !private ["PSo18UIFocusEnvironment", "rectForRow"]
+- !private ["PSo18UIFocusEnvironment", "selectRow"]
+- !private ["PSo18UIFocusEnvironment", "selectedItem"]
+- !private ["PSo18UIFocusEnvironment", "tableHeaderView"]
+- !private ["PSo18UIFocusEnvironment", "tableView"]
+- !private ["PSo18UIFocusEnvironment", "viewWillAppear"]
+- !private ["PSo18UIFocusEnvironment", "visibleCells"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "convert"]
+- !private ["PSo11UIFocusItem", "indexPathForSelectedRow"]
+- !private ["PSo11UIFocusItem", "rectForRow"]
+- !private ["PSo11UIFocusItem", "selectRow"]
+- !private ["PSo11UIFocusItem", "tableHeaderView"]
+- !private ["PSo11UIFocusItem", "visibleCells"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "CGPoint"]
+- ["CSo11UIResponder", "IndexPath"]
+- ["CSo11UIResponder", "MenuViewControllerDelegate"]
+- ["CSo11UIResponder", "UITableView"]
+- ["CSo11UIResponder", "UIView"]
+- !private ["CSo11UIResponder", "convert"]
+- ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "dismissMenu"]
+- !private ["CSo11UIResponder", "indexPathForSelectedRow"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "menuItems"]
+- !private ["CSo11UIResponder", "rectForRow"]
+- !private ["CSo11UIResponder", "selectRow"]
+- ["CSo11UIResponder", "selectedItem"]
+- !private ["CSo11UIResponder", "tableHeaderView"]
+- ["CSo11UIResponder", "tableView"]
+- ["CSo11UIResponder", "viewWillAppear"]
+- !private ["CSo11UIResponder", "visibleCells"]
+- !private ["PSo30UIResponderStandardEditActions", "CGPoint"]
+- !private ["PSo30UIResponderStandardEditActions", "IndexPath"]
+- !private ["PSo30UIResponderStandardEditActions", "convert"]
+- !private ["PSo30UIResponderStandardEditActions", "delegate"]
+- !private ["PSo30UIResponderStandardEditActions", "indexPathForSelectedRow"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "menuItems"]
+- !private ["PSo30UIResponderStandardEditActions", "rectForRow"]
+- !private ["PSo30UIResponderStandardEditActions", "selectRow"]
+- !private ["PSo30UIResponderStandardEditActions", "selectedItem"]
+- !private ["PSo30UIResponderStandardEditActions", "tableHeaderView"]
+- !private ["PSo30UIResponderStandardEditActions", "tableView"]
+- !private ["PSo30UIResponderStandardEditActions", "viewWillAppear"]
+- !private ["PSo30UIResponderStandardEditActions", "visibleCells"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["CSo12UIScrollView", "convert"]
+- !private ["CSo12UIScrollView", "indexPathForSelectedRow"]
+- !private ["CSo12UIScrollView", "rectForRow"]
+- !private ["CSo12UIScrollView", "selectRow"]
+- !private ["CSo12UIScrollView", "tableHeaderView"]
+- !private ["CSo12UIScrollView", "visibleCells"]
+- !private ["PSo20UIScrollViewDelegate", "CGPoint"]
+- !private ["PSo20UIScrollViewDelegate", "IndexPath"]
+- !private ["PSo20UIScrollViewDelegate", "delegate"]
+- !private ["PSo20UIScrollViewDelegate", "init"]
+- ["PSo20UIScrollViewDelegate", "menuItems"]
+- !private ["PSo20UIScrollViewDelegate", "selectedItem"]
+- !private ["PSo20UIScrollViewDelegate", "tableView"]
+- !private ["PSo20UIScrollViewDelegate", "viewWillAppear"]
+- ["PSo20UIScrollViewDelegate", ""]
+- !private ["PSo16UIStateRestoring", "CGPoint"]
+- !private ["PSo16UIStateRestoring", "IndexPath"]
+- !private ["PSo16UIStateRestoring", "delegate"]
+- !private ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "menuItems"]
+- !private ["PSo16UIStateRestoring", "selectedItem"]
+- !private ["PSo16UIStateRestoring", "tableView"]
+- !private ["PSo16UIStateRestoring", "viewWillAppear"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo11UITableView", "convert"]
+- !private ["CSo11UITableView", "indexPathForSelectedRow"]
+- !private ["CSo11UITableView", "rectForRow"]
+- !private ["CSo11UITableView", "selectRow"]
+- !private ["CSo11UITableView", "tableHeaderView"]
+- !private ["CSo11UITableView", "visibleCells"]
+- ["CSo21UITableViewController", "Bool"]
+- !private ["CSo21UITableViewController", "CGPoint"]
+- ["CSo21UITableViewController", "IndexPath"]
+- ["CSo21UITableViewController", "MenuViewControllerDelegate"]
+- ["CSo21UITableViewController", "UITableView"]
+- ["CSo21UITableViewController", "UIView"]
+- ["CSo21UITableViewController", "delegate"]
+- ["CSo21UITableViewController", "dismissMenu"]
+- ["CSo21UITableViewController", "init"]
+- ["CSo21UITableViewController", "menuItems"]
+- ["CSo21UITableViewController", "selectedItem"]
+- ["CSo21UITableViewController", "tableView"]
+- ["CSo21UITableViewController", "viewWillAppear"]
+- ["CSo21UITableViewController", ""]
+- !private ["PSo21UITableViewDataSource", "CGPoint"]
+- !private ["PSo21UITableViewDataSource", "IndexPath"]
+- !private ["PSo21UITableViewDataSource", "delegate"]
+- !private ["PSo21UITableViewDataSource", "init"]
+- ["PSo21UITableViewDataSource", "menuItems"]
+- !private ["PSo21UITableViewDataSource", "selectedItem"]
+- !private ["PSo21UITableViewDataSource", "tableView"]
+- !private ["PSo21UITableViewDataSource", "viewWillAppear"]
+- ["PSo21UITableViewDataSource", ""]
+- !private ["PSo19UITableViewDelegate", "CGPoint"]
+- !private ["PSo19UITableViewDelegate", "IndexPath"]
+- !private ["PSo19UITableViewDelegate", "delegate"]
+- !private ["PSo19UITableViewDelegate", "init"]
+- ["PSo19UITableViewDelegate", "menuItems"]
+- !private ["PSo19UITableViewDelegate", "selectedItem"]
+- !private ["PSo19UITableViewDelegate", "tableView"]
+- !private ["PSo19UITableViewDelegate", "viewWillAppear"]
+- ["PSo19UITableViewDelegate", ""]
+- !private ["OSC25UITableViewScrollPosition", "none"]
+- !private ["PSo18UITraitEnvironment", "CGPoint"]
+- !private ["PSo18UITraitEnvironment", "IndexPath"]
+- !private ["PSo18UITraitEnvironment", "convert"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- !private ["PSo18UITraitEnvironment", "indexPathForSelectedRow"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "menuItems"]
+- !private ["PSo18UITraitEnvironment", "rectForRow"]
+- !private ["PSo18UITraitEnvironment", "selectRow"]
+- !private ["PSo18UITraitEnvironment", "selectedItem"]
+- !private ["PSo18UITraitEnvironment", "tableHeaderView"]
+- !private ["PSo18UITraitEnvironment", "tableView"]
+- !private ["PSo18UITraitEnvironment", "viewWillAppear"]
+- !private ["PSo18UITraitEnvironment", "visibleCells"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "convert"]
+- !private ["CSo6UIView", "indexPathForSelectedRow"]
+- !private ["CSo6UIView", "rectForRow"]
+- !private ["CSo6UIView", "selectRow"]
+- !private ["CSo6UIView", "tableHeaderView"]
+- !private ["CSo6UIView", "visibleCells"]
+- ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "CGPoint"]
+- ["CSo16UIViewController", "IndexPath"]
+- ["CSo16UIViewController", "MenuViewControllerDelegate"]
+- ["CSo16UIViewController", "UITableView"]
+- ["CSo16UIViewController", "UIView"]
+- ["CSo16UIViewController", "delegate"]
+- ["CSo16UIViewController", "dismissMenu"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "menuItems"]
+- ["CSo16UIViewController", "selectedItem"]
+- ["CSo16UIViewController", "tableView"]
+- ["CSo16UIViewController", "viewWillAppear"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps23_BidirectionalIndexable", "row"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "convert"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "indexPathForSelectedRow"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "rectForRow"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "selectRow"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "tableHeaderView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "visibleCells"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "CGPoint"]
+- !private ["Ps9_Hashable", "IndexPath"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "convert"]
+- !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "indexPathForSelectedRow"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "menuItems"]
+- !private ["Ps9_Hashable", "none"]
+- !private ["Ps9_Hashable", "rectForRow"]
+- !private ["Ps9_Hashable", "row"]
+- !private ["Ps9_Hashable", "selectRow"]
+- !private ["Ps9_Hashable", "selectedItem"]
+- !private ["Ps9_Hashable", "tableHeaderView"]
+- !private ["Ps9_Hashable", "tableView"]
+- !private ["Ps9_Hashable", "viewWillAppear"]
+- !private ["Ps9_Hashable", "visibleCells"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "row"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "row"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps17_MutableIndexable", "row"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "midX"]
+- !private ["Ps21_ObjectiveCBridgeable", "midY"]
+- !private ["Ps21_ObjectiveCBridgeable", "row"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "row"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- !private "VSC7CGPoint"
+- !private "VSC6CGRect"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps8Hashable"
+- !private "V10Foundation9IndexPath"
+- !private "Ps25LosslessStringConvertible"
+- "P8SideMenu4Menu"
+- "C15MazaganShowCase18MenuViewController"
+- "P15MazaganShowCase26MenuViewControllerDelegate"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Ps8Sequence"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "CSo12UIScrollView"
+- "PSo20UIScrollViewDelegate"
+- "PSo16UIStateRestoring"
+- !private "CSo11UITableView"
+- "CSo21UITableViewController"
+- "PSo21UITableViewDataSource"
+- "PSo19UITableViewDelegate"
+- !private "OSC25UITableViewScrollPosition"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Modules/SJFluidSegmentedControl.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Modules/ActionButton.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Modules/SKPhotoBrowser.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Modules/Presentr.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Headers/SJFluidSegmentedControl-umbrella.h"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Headers/ActionButton-umbrella.h"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Headers/ITRFlipper-umbrella.h"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser-umbrella.h"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Headers/Presentr-umbrella.h"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Headers/YALSideMenu-umbrella.h"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/Controllers/iCarousel.h"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/Controllers/MazaganShowCase-Bridging-Header.h"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Headers/ITRFlipper.h"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser.h"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Headers/SJFluidSegmentedControl-Swift.h"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Headers/ActionButton-Swift.h"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser-Swift.h"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Headers/Presentr-Swift.h"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Modules/module.modulemap"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Modules/module.modulemap"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Modules/module.modulemap"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Modules/module.modulemap"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Modules/module.modulemap"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Modules/module.modulemap"
+interface-hash: "091ed4d35eccc713cd9958e6c8c4a2cf"

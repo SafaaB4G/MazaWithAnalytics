@@ -1,0 +1,175 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SKMesurement"
+provides-nominal:
+- "V14SKPhotoBrowser12SKMesurement"
+provides-member:
+- ["V14SKPhotoBrowser12SKMesurement", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "/"
+- "=="
+- "Bool"
+- "CGFloat"
+- "SKMesurement"
+- !private "UIApplication"
+- "UIDevice"
+- !private "UIScreen"
+depends-member:
+- !private ["Ps9AnyObject", "bounds"]
+- ["Ps9AnyObject", "current"]
+- !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "scale"]
+- !private ["Ps9AnyObject", "shared"]
+- !private ["Ps9AnyObject", "statusBarFrame"]
+- ["Ps9AnyObject", "userInterfaceIdiom"]
+- !private ["VSC6CGRect", "height"]
+- !private ["VSC6CGRect", "width"]
+- !private ["Ps7CVarArg", "bounds"]
+- ["Ps7CVarArg", "current"]
+- !private ["Ps7CVarArg", "main"]
+- !private ["Ps7CVarArg", "scale"]
+- !private ["Ps7CVarArg", "shared"]
+- !private ["Ps7CVarArg", "statusBarFrame"]
+- ["Ps7CVarArg", "userInterfaceIdiom"]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- ["Ps28CustomDebugStringConvertible", "current"]
+- !private ["Ps28CustomDebugStringConvertible", "height"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "scale"]
+- !private ["Ps28CustomDebugStringConvertible", "shared"]
+- !private ["Ps28CustomDebugStringConvertible", "statusBarFrame"]
+- ["Ps28CustomDebugStringConvertible", "userInterfaceIdiom"]
+- !private ["Ps28CustomDebugStringConvertible", "width"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "height"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "width"]
+- !private ["Ps17CustomReflectable", "height"]
+- !private ["Ps17CustomReflectable", "width"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
+- ["Ps23CustomStringConvertible", "current"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- !private ["Ps23CustomStringConvertible", "scale"]
+- !private ["Ps23CustomStringConvertible", "shared"]
+- !private ["Ps23CustomStringConvertible", "statusBarFrame"]
+- ["Ps23CustomStringConvertible", "userInterfaceIdiom"]
+- !private ["Ps9Equatable", "bounds"]
+- ["Ps9Equatable", "current"]
+- !private ["Ps9Equatable", "height"]
+- !private ["Ps9Equatable", "main"]
+- ["Ps9Equatable", "pad"]
+- ["Ps9Equatable", "phone"]
+- !private ["Ps9Equatable", "scale"]
+- !private ["Ps9Equatable", "shared"]
+- !private ["Ps9Equatable", "statusBarFrame"]
+- ["Ps9Equatable", "userInterfaceIdiom"]
+- !private ["Ps9Equatable", "width"]
+- !private ["Ps8Hashable", "bounds"]
+- ["Ps8Hashable", "current"]
+- !private ["Ps8Hashable", "main"]
+- ["Ps8Hashable", "pad"]
+- ["Ps8Hashable", "phone"]
+- !private ["Ps8Hashable", "scale"]
+- !private ["Ps8Hashable", "shared"]
+- !private ["Ps8Hashable", "statusBarFrame"]
+- ["Ps8Hashable", "userInterfaceIdiom"]
+- !private ["CSo8NSObject", "bounds"]
+- ["CSo8NSObject", "current"]
+- !private ["CSo8NSObject", "main"]
+- !private ["CSo8NSObject", "scale"]
+- !private ["CSo8NSObject", "shared"]
+- !private ["CSo8NSObject", "statusBarFrame"]
+- ["CSo8NSObject", "userInterfaceIdiom"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- ["PSo16NSObjectProtocol", "current"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- !private ["PSo16NSObjectProtocol", "scale"]
+- !private ["PSo16NSObjectProtocol", "shared"]
+- !private ["PSo16NSObjectProtocol", "statusBarFrame"]
+- ["PSo16NSObjectProtocol", "userInterfaceIdiom"]
+- ["Ps16RawRepresentable", "pad"]
+- ["Ps16RawRepresentable", "phone"]
+- ["V14SKPhotoBrowser12SKMesurement", "Bool"]
+- ["V14SKPhotoBrowser12SKMesurement", "CGFloat"]
+- !private ["V14SKPhotoBrowser12SKMesurement", "UIApplication"]
+- ["V14SKPhotoBrowser12SKMesurement", "UIDevice"]
+- !private ["V14SKPhotoBrowser12SKMesurement", "UIScreen"]
+- ["V14SKPhotoBrowser12SKMesurement", "init"]
+- ["V14SKPhotoBrowser12SKMesurement", "isPad"]
+- ["V14SKPhotoBrowser12SKMesurement", "isPhone"]
+- ["V14SKPhotoBrowser12SKMesurement", "screenHeight"]
+- ["V14SKPhotoBrowser12SKMesurement", "screenRatio"]
+- ["V14SKPhotoBrowser12SKMesurement", "screenScale"]
+- ["V14SKPhotoBrowser12SKMesurement", "screenWidth"]
+- ["V14SKPhotoBrowser12SKMesurement", "statusBarH"]
+- !private ["CSo13UIApplication", "shared"]
+- !private ["CSo13UIApplication", "statusBarFrame"]
+- ["CSo8UIDevice", "current"]
+- ["CSo8UIDevice", "userInterfaceIdiom"]
+- !private ["CSo11UIResponder", "shared"]
+- !private ["CSo11UIResponder", "statusBarFrame"]
+- !private ["PSo30UIResponderStandardEditActions", "shared"]
+- !private ["PSo30UIResponderStandardEditActions", "statusBarFrame"]
+- !private ["CSo8UIScreen", "bounds"]
+- !private ["CSo8UIScreen", "main"]
+- !private ["CSo8UIScreen", "scale"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- !private ["PSo18UITraitEnvironment", "main"]
+- !private ["PSo18UITraitEnvironment", "scale"]
+- ["OSC20UIUserInterfaceIdiom", "pad"]
+- ["OSC20UIUserInterfaceIdiom", "phone"]
+- !private ["Ps9_Hashable", "bounds"]
+- ["Ps9_Hashable", "current"]
+- !private ["Ps9_Hashable", "main"]
+- ["Ps9_Hashable", "pad"]
+- ["Ps9_Hashable", "phone"]
+- !private ["Ps9_Hashable", "scale"]
+- !private ["Ps9_Hashable", "shared"]
+- !private ["Ps9_Hashable", "statusBarFrame"]
+- ["Ps9_Hashable", "userInterfaceIdiom"]
+- !private ["Ps21_ObjectiveCBridgeable", "height"]
+- !private ["Ps21_ObjectiveCBridgeable", "width"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "VSC6CGRect"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Ps16RawRepresentable"
+- "V14SKPhotoBrowser12SKMesurement"
+- !private "CSo13UIApplication"
+- "CSo8UIDevice"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "CSo8UIScreen"
+- !private "PSo18UITraitEnvironment"
+- "OSC20UIUserInterfaceIdiom"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Target Support Files/SKPhotoBrowser/SKPhotoBrowser-umbrella.h"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/SKPhotoBrowser/SKPhotoBrowser/SKPhotoBrowser.h"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Intermediates/Pods.build/Debug-iphonesimulator/SKPhotoBrowser.build/unextended-module.modulemap"
+interface-hash: "49ee7b847ea846192c04da4e2f0ecdce"

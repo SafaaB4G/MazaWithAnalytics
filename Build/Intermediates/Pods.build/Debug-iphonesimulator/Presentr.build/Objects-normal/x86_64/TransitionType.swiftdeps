@@ -1,0 +1,80 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TransitionType"
+provides-nominal:
+- "O8Presentr14TransitionType"
+provides-member:
+- ["O8Presentr14TransitionType", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "BooleanLiteralType"
+- !private "CoverHorizontalAnimation"
+- !private "CoverVerticalAnimation"
+- !private "CoverVerticalFromTopAnimation"
+- !private "CrossDissolveAnimation"
+- "PresentrAnimation"
+- "TransitionType"
+depends-member:
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["C8Presentr24CoverHorizontalAnimation", "init"]
+- !private ["C8Presentr22CoverVerticalAnimation", "init"]
+- !private ["C8Presentr29CoverVerticalFromTopAnimation", "init"]
+- !private ["C8Presentr22CrossDissolveAnimation", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps8Hashable", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["C8Presentr17PresentrAnimation", "init"]
+- !private ["O8Presentr14TransitionType", "CoverHorizontalAnimation"]
+- !private ["O8Presentr14TransitionType", "CoverVerticalAnimation"]
+- !private ["O8Presentr14TransitionType", "CoverVerticalFromTopAnimation"]
+- !private ["O8Presentr14TransitionType", "CrossDissolveAnimation"]
+- ["O8Presentr14TransitionType", "PresentrAnimation"]
+- ["O8Presentr14TransitionType", "animation"]
+- ["O8Presentr14TransitionType", "coverHorizontalFromLeft"]
+- ["O8Presentr14TransitionType", "coverHorizontalFromRight"]
+- ["O8Presentr14TransitionType", "coverVertical"]
+- ["O8Presentr14TransitionType", "coverVerticalFromTop"]
+- ["O8Presentr14TransitionType", "crossDissolve"]
+- ["O8Presentr14TransitionType", "custom"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "init"]
+- !private ["Ps9_Hashable", "init"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Ps7CVarArg"
+- !private "C8Presentr24CoverHorizontalAnimation"
+- !private "C8Presentr22CoverVerticalAnimation"
+- !private "C8Presentr29CoverVerticalFromTopAnimation"
+- !private "C8Presentr22CrossDissolveAnimation"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps8Hashable"
+- !private "PSo16NSObjectProtocol"
+- !private "C8Presentr17PresentrAnimation"
+- "O8Presentr14TransitionType"
+- !private "PSo37UIViewControllerAnimatedTransitioning"
+- !private "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Target Support Files/Presentr/Presentr-umbrella.h"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Intermediates/Pods.build/Debug-iphonesimulator/Presentr.build/unextended-module.modulemap"
+interface-hash: "ef044f8f2d3be17e02fc44bc520f70d2"

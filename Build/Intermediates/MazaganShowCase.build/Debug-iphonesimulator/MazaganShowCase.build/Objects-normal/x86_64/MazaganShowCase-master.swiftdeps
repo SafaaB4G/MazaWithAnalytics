@@ -1,0 +1,22 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "5449b2fcfcffad762041034c9e138ccb"
+build_time: [548173076, 849052000]
+inputs:
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/Controllers/ContentViewController.swift": [546426805, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/Controllers/EnfantController.swift": [547574128, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/Misc/CircularRevealAnimator.swift": [546426805, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/Misc/CircularRevealTransitionAnimator.swift": [546426805, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/Controllers/ViewController.swift": [547138830, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/Controllers/SpaController.swift": [547553403, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/Model/ContentType.swift": [546426805, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/Misc/AnimationDelegate.swift": [546426805, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/Controllers/MapController.swift": [547831927, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/AppDelegate.swift": [546426805, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/Controllers/Utils.swift": [548172651, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/Controllers/RestaurationView.swift": [547744337, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/Controllers/ViewControllerSegmented.swift": [547834001, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/Controllers/MenuViewController.swift": [546435848, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/Controllers/HomePageController.swift": [547813259, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/Controllers/GalleryImage.swift": [547832781, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/Controllers/ActiviteController.swift": [548173071, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/Controllers/GolfController.swift": [547553403, 0]

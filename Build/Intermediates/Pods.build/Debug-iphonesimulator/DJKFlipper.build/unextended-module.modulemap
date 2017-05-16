@@ -1,0 +1,10 @@
+framework module DJKFlipper {
+  umbrella header "DJKFlipper-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module DJKFlipper.__Swift {
+    exclude header "DJKFlipper-Swift.h"
+}

@@ -1,0 +1,20 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "873cc237807ad0f494468a457a944839"
+build_time: [548172674, 132835000]
+inputs:
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Presentr/Presentr/AlertViewController.swift": [547555801, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Presentr/Presentr/BackgroundView.swift": [547555801, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Presentr/Presentr/CoverHorizontalAnimation.swift": [547555801, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Presentr/Presentr/CoverVerticalAnimation.swift": [547555801, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Presentr/Presentr/CoverVerticalFromTopAnimation.swift": [547555801, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Presentr/Presentr/CrossDissolveAnimation.swift": [547555801, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Presentr/Presentr/KeyboardTranslation.swift": [547555801, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Presentr/Presentr/ModalCenterPosition.swift": [547555801, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Presentr/Presentr/ModalSize.swift": [547555801, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Presentr/Presentr/PresentationType.swift": [547555801, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Presentr/Presentr/Presentr+Equatable.swift": [547555801, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Presentr/Presentr/Presentr.swift": [547555801, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Presentr/Presentr/PresentrAnimation.swift": [547555801, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Presentr/Presentr/PresentrController.swift": [547555801, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Presentr/Presentr/PresentrShadow.swift": [547555801, 0]
+  "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Presentr/Presentr/TransitionType.swift": [547555801, 0]

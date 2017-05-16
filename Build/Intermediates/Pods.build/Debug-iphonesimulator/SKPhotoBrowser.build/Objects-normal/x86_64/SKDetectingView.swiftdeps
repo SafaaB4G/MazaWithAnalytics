@@ -1,0 +1,310 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SKDetectingViewDelegate"
+- "SKDetectingView"
+provides-nominal:
+- "P14SKPhotoBrowser23SKDetectingViewDelegate"
+- "C14SKPhotoBrowser15SKDetectingView"
+provides-member:
+- ["P14SKPhotoBrowser23SKDetectingViewDelegate", ""]
+- ["C14SKPhotoBrowser15SKDetectingView", ""]
+provides-dynamic-lookup:
+- "delegate"
+- "handleDoubleTap"
+- "handleSingleTap"
+- "touchesEnded"
+depends-top-level:
+- !private "AssignmentPrecedence"
+- "SKDetectingView"
+- "SKDetectingViewDelegate"
+- "Set"
+- "UIEvent"
+- "UITouch"
+- "UIView"
+- !private "~="
+depends-member:
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "handleDoubleTap"]
+- !private ["Ps9AnyObject", "handleSingleTap"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "next"]
+- !private ["Ps9AnyObject", "tapCount"]
+- !private ["Ps9AnyObject", "touchesEnded"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "delegate"]
+- !private ["PSo15CALayerDelegate", "handleDoubleTap"]
+- !private ["PSo15CALayerDelegate", "handleSingleTap"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "next"]
+- !private ["PSo15CALayerDelegate", "touchesEnded"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "first"]
+- !private ["Ps7CVarArg", "handleDoubleTap"]
+- !private ["Ps7CVarArg", "handleSingleTap"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "next"]
+- !private ["Ps7CVarArg", "tapCount"]
+- !private ["Ps7CVarArg", "touchesEnded"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "first"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "first"]
+- !private ["Ps28CustomDebugStringConvertible", "handleDoubleTap"]
+- !private ["Ps28CustomDebugStringConvertible", "handleSingleTap"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "next"]
+- !private ["Ps28CustomDebugStringConvertible", "tapCount"]
+- !private ["Ps28CustomDebugStringConvertible", "touchesEnded"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "first"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "first"]
+- !private ["Ps23CustomStringConvertible", "handleDoubleTap"]
+- !private ["Ps23CustomStringConvertible", "handleSingleTap"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "next"]
+- !private ["Ps23CustomStringConvertible", "tapCount"]
+- !private ["Ps23CustomStringConvertible", "touchesEnded"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "first"]
+- !private ["Ps9Equatable", "handleDoubleTap"]
+- !private ["Ps9Equatable", "handleSingleTap"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "next"]
+- !private ["Ps9Equatable", "tapCount"]
+- !private ["Ps9Equatable", "touchesEnded"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "first"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "first"]
+- !private ["Ps8Hashable", "handleDoubleTap"]
+- !private ["Ps8Hashable", "handleSingleTap"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "next"]
+- !private ["Ps8Hashable", "tapCount"]
+- !private ["Ps8Hashable", "touchesEnded"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSo8NSCoding", "delegate"]
+- !private ["PSo8NSCoding", "handleDoubleTap"]
+- !private ["PSo8NSCoding", "handleSingleTap"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "next"]
+- !private ["PSo8NSCoding", "touchesEnded"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "SKDetectingViewDelegate"]
+- ["CSo8NSObject", "Set"]
+- ["CSo8NSObject", "UIEvent"]
+- ["CSo8NSObject", "UITouch"]
+- ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "handleDoubleTap"]
+- ["CSo8NSObject", "handleSingleTap"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "next"]
+- !private ["CSo8NSObject", "tapCount"]
+- ["CSo8NSObject", "touchesEnded"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "handleDoubleTap"]
+- !private ["PSo16NSObjectProtocol", "handleSingleTap"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "next"]
+- !private ["PSo16NSObjectProtocol", "tapCount"]
+- !private ["PSo16NSObjectProtocol", "touchesEnded"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C14SKPhotoBrowser15SKDetectingView", "SKDetectingViewDelegate"]
+- ["C14SKPhotoBrowser15SKDetectingView", "Set"]
+- ["C14SKPhotoBrowser15SKDetectingView", "UIEvent"]
+- ["C14SKPhotoBrowser15SKDetectingView", "UITouch"]
+- ["C14SKPhotoBrowser15SKDetectingView", "deinit"]
+- ["C14SKPhotoBrowser15SKDetectingView", "delegate"]
+- ["C14SKPhotoBrowser15SKDetectingView", "handleDoubleTap"]
+- ["C14SKPhotoBrowser15SKDetectingView", "handleSingleTap"]
+- ["C14SKPhotoBrowser15SKDetectingView", "init"]
+- !private ["C14SKPhotoBrowser15SKDetectingView", "next"]
+- ["C14SKPhotoBrowser15SKDetectingView", "touchesEnded"]
+- ["P14SKPhotoBrowser23SKDetectingViewDelegate", "UITouch"]
+- ["P14SKPhotoBrowser23SKDetectingViewDelegate", "UIView"]
+- ["P14SKPhotoBrowser23SKDetectingViewDelegate", "handleDoubleTap"]
+- ["P14SKPhotoBrowser23SKDetectingViewDelegate", "handleSingleTap"]
+- !private ["Ps8Sequence", "first"]
+- !private ["Vs3Set", "first"]
+- !private ["Ps10SetAlgebra", "first"]
+- !private ["PSo29UIAccessibilityIdentification", "delegate"]
+- !private ["PSo29UIAccessibilityIdentification", "handleDoubleTap"]
+- !private ["PSo29UIAccessibilityIdentification", "handleSingleTap"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "next"]
+- !private ["PSo29UIAccessibilityIdentification", "touchesEnded"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "delegate"]
+- !private ["PSo12UIAppearance", "handleDoubleTap"]
+- !private ["PSo12UIAppearance", "handleSingleTap"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "next"]
+- !private ["PSo12UIAppearance", "touchesEnded"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- !private ["PSo21UIAppearanceContainer", "handleDoubleTap"]
+- !private ["PSo21UIAppearanceContainer", "handleSingleTap"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "next"]
+- !private ["PSo21UIAppearanceContainer", "touchesEnded"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo17UICoordinateSpace", "delegate"]
+- !private ["PSo17UICoordinateSpace", "handleDoubleTap"]
+- !private ["PSo17UICoordinateSpace", "handleSingleTap"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "next"]
+- !private ["PSo17UICoordinateSpace", "touchesEnded"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "delegate"]
+- !private ["PSo13UIDynamicItem", "handleDoubleTap"]
+- !private ["PSo13UIDynamicItem", "handleSingleTap"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "next"]
+- !private ["PSo13UIDynamicItem", "touchesEnded"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- !private ["PSo18UIFocusEnvironment", "handleDoubleTap"]
+- !private ["PSo18UIFocusEnvironment", "handleSingleTap"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "next"]
+- !private ["PSo18UIFocusEnvironment", "touchesEnded"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "delegate"]
+- !private ["PSo11UIFocusItem", "handleDoubleTap"]
+- !private ["PSo11UIFocusItem", "handleSingleTap"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "next"]
+- !private ["PSo11UIFocusItem", "touchesEnded"]
+- ["PSo11UIFocusItem", ""]
+- ["CSo11UIResponder", "SKDetectingViewDelegate"]
+- ["CSo11UIResponder", "Set"]
+- ["CSo11UIResponder", "UIEvent"]
+- ["CSo11UIResponder", "UITouch"]
+- ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "handleDoubleTap"]
+- ["CSo11UIResponder", "handleSingleTap"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "next"]
+- ["CSo11UIResponder", "touchesEnded"]
+- !private ["PSo30UIResponderStandardEditActions", "delegate"]
+- !private ["PSo30UIResponderStandardEditActions", "handleDoubleTap"]
+- !private ["PSo30UIResponderStandardEditActions", "handleSingleTap"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "next"]
+- !private ["PSo30UIResponderStandardEditActions", "touchesEnded"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["CSo7UITouch", "tapCount"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- !private ["PSo18UITraitEnvironment", "handleDoubleTap"]
+- !private ["PSo18UITraitEnvironment", "handleSingleTap"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "next"]
+- !private ["PSo18UITraitEnvironment", "touchesEnded"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "SKDetectingViewDelegate"]
+- ["CSo6UIView", "Set"]
+- ["CSo6UIView", "UIEvent"]
+- ["CSo6UIView", "UITouch"]
+- ["CSo6UIView", "delegate"]
+- ["CSo6UIView", "handleDoubleTap"]
+- ["CSo6UIView", "handleSingleTap"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "next"]
+- ["CSo6UIView", "touchesEnded"]
+- ["CSo6UIView", ""]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "delegate"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "handleDoubleTap"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "handleSingleTap"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "next"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "touchesEnded"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "first"]
+- !private ["Ps9_Hashable", "handleDoubleTap"]
+- !private ["Ps9_Hashable", "handleSingleTap"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "next"]
+- !private ["Ps9_Hashable", "tapCount"]
+- !private ["Ps9_Hashable", "touchesEnded"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "first"]
+- !private ["Ps14_IndexableBase", "first"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "first"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C14SKPhotoBrowser15SKDetectingView"
+- "P14SKPhotoBrowser23SKDetectingViewDelegate"
+- !private "Ps8Sequence"
+- !private "Vs3Set"
+- !private "Ps10SetAlgebra"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "CSo7UITouch"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Target Support Files/SKPhotoBrowser/SKPhotoBrowser-umbrella.h"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/SKPhotoBrowser/SKPhotoBrowser/SKPhotoBrowser.h"
+- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Intermediates/Pods.build/Debug-iphonesimulator/SKPhotoBrowser.build/unextended-module.modulemap"
+interface-hash: "35af9b48461615f6db1c1ce4147db04c"

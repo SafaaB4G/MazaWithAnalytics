@@ -1,0 +1,10 @@
+framework module HDAugmentedReality {
+  umbrella header "HDAugmentedReality-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module HDAugmentedReality.Swift {
+    header "HDAugmentedReality-Swift.h"
+}
