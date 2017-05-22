@@ -1,6 +1,6 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "0cc14b085294757033b48338b63d4749"
-build_time: [548269868, 294518000]
+options: "55511913d71ac12a03dff0a35cd2a7e6"
+build_time: [548764141, 481753000]
 inputs:
   "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/YALSideMenu/SideMenu/Menu.swift": [548213010, 0]
   "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/YALSideMenu/SideMenu/MenuItemsAnimator.swift": [548213010, 0]

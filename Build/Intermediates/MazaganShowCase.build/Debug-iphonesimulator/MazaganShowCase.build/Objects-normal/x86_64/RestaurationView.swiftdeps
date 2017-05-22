@@ -16,6 +16,7 @@ provides-dynamic-lookup:
 - "descriptionForteen"
 - "descriptionNine"
 - "descriptionOne"
+- "descriptionResaturation"
 - "descriptionSeven"
 - "descriptionSex"
 - "descriptionSexteen"
@@ -48,6 +49,7 @@ depends-top-level:
 - !private "CGRect"
 - "CastingPrecedence"
 - !private "GalleryImage"
+- !private "GlobaleVariables"
 - "ITRFlipper"
 - "ITRFlipperDataSource"
 - "Int"
@@ -57,6 +59,7 @@ depends-top-level:
 - !private "NSDictionary"
 - !private "PresentationType"
 - !private "Presentr"
+- !private "Reachability"
 - "RestaurationView"
 - "String"
 - !private "StringLiteralType"
@@ -93,11 +96,14 @@ depends-member:
 - !private ["Ps9AnyObject", "Bundle"]
 - !private ["Ps9AnyObject", "CGPoint"]
 - !private ["Ps9AnyObject", "CGRect"]
+- !private ["Ps9AnyObject", "GlobaleVariables"]
 - !private ["Ps9AnyObject", "ITRFlipper"]
 - !private ["Ps9AnyObject", "ModalCenterPosition"]
 - !private ["Ps9AnyObject", "ModalSize"]
+- !private ["Ps9AnyObject", "ModeToShow"]
 - !private ["Ps9AnyObject", "PresentationType"]
 - !private ["Ps9AnyObject", "Presentr"]
+- !private ["Ps9AnyObject", "Reachability"]
 - !private ["Ps9AnyObject", "String"]
 - !private ["Ps9AnyObject", "UIButton"]
 - !private ["Ps9AnyObject", "UIColor"]
@@ -134,6 +140,7 @@ depends-member:
 - !private ["Ps9AnyObject", "descriptionForteen"]
 - !private ["Ps9AnyObject", "descriptionNine"]
 - !private ["Ps9AnyObject", "descriptionOne"]
+- !private ["Ps9AnyObject", "descriptionResaturation"]
 - !private ["Ps9AnyObject", "descriptionSeven"]
 - !private ["Ps9AnyObject", "descriptionSex"]
 - !private ["Ps9AnyObject", "descriptionSexteen"]
@@ -152,8 +159,10 @@ depends-member:
 - !private ["Ps9AnyObject", "imageTapped"]
 - !private ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "instantiateViewController"]
+- !private ["Ps9AnyObject", "isInternetAvailable"]
 - !private ["Ps9AnyObject", "isUserInteractionEnabled"]
 - !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "makeToast"]
 - !private ["Ps9AnyObject", "navigationController"]
 - ["Ps9AnyObject", "number"]
 - !private ["Ps9AnyObject", "numberOfLines"]
@@ -190,6 +199,7 @@ depends-member:
 - !private ["PSo15CALayerDelegate", "image"]
 - !private ["PSo15CALayerDelegate", "init"]
 - !private ["PSo15CALayerDelegate", "isUserInteractionEnabled"]
+- !private ["PSo15CALayerDelegate", "makeToast"]
 - !private ["PSo15CALayerDelegate", "numberOfLines"]
 - !private ["PSo15CALayerDelegate", "setTitle"]
 - !private ["PSo15CALayerDelegate", "setTitleColor"]
@@ -206,11 +216,13 @@ depends-member:
 - !private ["Ps7CVarArg", "Bundle"]
 - !private ["Ps7CVarArg", "CGPoint"]
 - !private ["Ps7CVarArg", "CGRect"]
+- !private ["Ps7CVarArg", "GlobaleVariables"]
 - !private ["Ps7CVarArg", "ITRFlipper"]
 - !private ["Ps7CVarArg", "ModalCenterPosition"]
 - !private ["Ps7CVarArg", "ModalSize"]
 - !private ["Ps7CVarArg", "PresentationType"]
 - !private ["Ps7CVarArg", "Presentr"]
+- !private ["Ps7CVarArg", "Reachability"]
 - !private ["Ps7CVarArg", "String"]
 - !private ["Ps7CVarArg", "UIButton"]
 - !private ["Ps7CVarArg", "UIColor"]
@@ -247,6 +259,7 @@ depends-member:
 - !private ["Ps7CVarArg", "descriptionForteen"]
 - !private ["Ps7CVarArg", "descriptionNine"]
 - !private ["Ps7CVarArg", "descriptionOne"]
+- !private ["Ps7CVarArg", "descriptionResaturation"]
 - !private ["Ps7CVarArg", "descriptionSeven"]
 - !private ["Ps7CVarArg", "descriptionSex"]
 - !private ["Ps7CVarArg", "descriptionSexteen"]
@@ -266,6 +279,7 @@ depends-member:
 - !private ["Ps7CVarArg", "instantiateViewController"]
 - !private ["Ps7CVarArg", "isUserInteractionEnabled"]
 - !private ["Ps7CVarArg", "main"]
+- !private ["Ps7CVarArg", "makeToast"]
 - !private ["Ps7CVarArg", "navigationController"]
 - ["Ps7CVarArg", "number"]
 - !private ["Ps7CVarArg", "numberOfLines"]
@@ -298,11 +312,13 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "Bundle"]
 - !private ["Ps28CustomDebugStringConvertible", "CGPoint"]
 - !private ["Ps28CustomDebugStringConvertible", "CGRect"]
+- !private ["Ps28CustomDebugStringConvertible", "GlobaleVariables"]
 - !private ["Ps28CustomDebugStringConvertible", "ITRFlipper"]
 - !private ["Ps28CustomDebugStringConvertible", "ModalCenterPosition"]
 - !private ["Ps28CustomDebugStringConvertible", "ModalSize"]
 - !private ["Ps28CustomDebugStringConvertible", "PresentationType"]
 - !private ["Ps28CustomDebugStringConvertible", "Presentr"]
+- !private ["Ps28CustomDebugStringConvertible", "Reachability"]
 - !private ["Ps28CustomDebugStringConvertible", "String"]
 - !private ["Ps28CustomDebugStringConvertible", "UIButton"]
 - !private ["Ps28CustomDebugStringConvertible", "UIColor"]
@@ -341,6 +357,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "descriptionForteen"]
 - !private ["Ps28CustomDebugStringConvertible", "descriptionNine"]
 - !private ["Ps28CustomDebugStringConvertible", "descriptionOne"]
+- !private ["Ps28CustomDebugStringConvertible", "descriptionResaturation"]
 - !private ["Ps28CustomDebugStringConvertible", "descriptionSeven"]
 - !private ["Ps28CustomDebugStringConvertible", "descriptionSex"]
 - !private ["Ps28CustomDebugStringConvertible", "descriptionSexteen"]
@@ -361,6 +378,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "instantiateViewController"]
 - !private ["Ps28CustomDebugStringConvertible", "isUserInteractionEnabled"]
 - !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "makeToast"]
 - !private ["Ps28CustomDebugStringConvertible", "navigationController"]
 - ["Ps28CustomDebugStringConvertible", "number"]
 - !private ["Ps28CustomDebugStringConvertible", "numberOfLines"]
@@ -404,11 +422,13 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "Bundle"]
 - !private ["Ps23CustomStringConvertible", "CGPoint"]
 - !private ["Ps23CustomStringConvertible", "CGRect"]
+- !private ["Ps23CustomStringConvertible", "GlobaleVariables"]
 - !private ["Ps23CustomStringConvertible", "ITRFlipper"]
 - !private ["Ps23CustomStringConvertible", "ModalCenterPosition"]
 - !private ["Ps23CustomStringConvertible", "ModalSize"]
 - !private ["Ps23CustomStringConvertible", "PresentationType"]
 - !private ["Ps23CustomStringConvertible", "Presentr"]
+- !private ["Ps23CustomStringConvertible", "Reachability"]
 - !private ["Ps23CustomStringConvertible", "String"]
 - !private ["Ps23CustomStringConvertible", "UIButton"]
 - !private ["Ps23CustomStringConvertible", "UIColor"]
@@ -446,6 +466,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "descriptionForteen"]
 - !private ["Ps23CustomStringConvertible", "descriptionNine"]
 - !private ["Ps23CustomStringConvertible", "descriptionOne"]
+- !private ["Ps23CustomStringConvertible", "descriptionResaturation"]
 - !private ["Ps23CustomStringConvertible", "descriptionSeven"]
 - !private ["Ps23CustomStringConvertible", "descriptionSex"]
 - !private ["Ps23CustomStringConvertible", "descriptionSexteen"]
@@ -465,6 +486,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "instantiateViewController"]
 - !private ["Ps23CustomStringConvertible", "isUserInteractionEnabled"]
 - !private ["Ps23CustomStringConvertible", "main"]
+- !private ["Ps23CustomStringConvertible", "makeToast"]
 - !private ["Ps23CustomStringConvertible", "navigationController"]
 - ["Ps23CustomStringConvertible", "number"]
 - !private ["Ps23CustomStringConvertible", "numberOfLines"]
@@ -497,11 +519,13 @@ depends-member:
 - !private ["Ps9Equatable", "Bundle"]
 - !private ["Ps9Equatable", "CGPoint"]
 - !private ["Ps9Equatable", "CGRect"]
+- !private ["Ps9Equatable", "GlobaleVariables"]
 - !private ["Ps9Equatable", "ITRFlipper"]
 - !private ["Ps9Equatable", "ModalCenterPosition"]
 - !private ["Ps9Equatable", "ModalSize"]
 - !private ["Ps9Equatable", "PresentationType"]
 - !private ["Ps9Equatable", "Presentr"]
+- !private ["Ps9Equatable", "Reachability"]
 - !private ["Ps9Equatable", "String"]
 - !private ["Ps9Equatable", "UIButton"]
 - !private ["Ps9Equatable", "UIColor"]
@@ -542,6 +566,7 @@ depends-member:
 - !private ["Ps9Equatable", "descriptionForteen"]
 - !private ["Ps9Equatable", "descriptionNine"]
 - !private ["Ps9Equatable", "descriptionOne"]
+- !private ["Ps9Equatable", "descriptionResaturation"]
 - !private ["Ps9Equatable", "descriptionSeven"]
 - !private ["Ps9Equatable", "descriptionSex"]
 - !private ["Ps9Equatable", "descriptionSexteen"]
@@ -565,6 +590,7 @@ depends-member:
 - !private ["Ps9Equatable", "instantiateViewController"]
 - !private ["Ps9Equatable", "isUserInteractionEnabled"]
 - !private ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "makeToast"]
 - !private ["Ps9Equatable", "navigationController"]
 - !private ["Ps9Equatable", "normal"]
 - ["Ps9Equatable", "number"]
@@ -606,17 +632,20 @@ depends-member:
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - !private ["C15MazaganShowCase12GalleryImage", "toPass"]
+- !private ["C15MazaganShowCase16GlobaleVariables", "ModeToShow"]
 - !private ["Ps8Hashable", "ActionButton"]
 - !private ["Ps8Hashable", "ActionButtonItem"]
 - !private ["Ps8Hashable", "AlertAction"]
 - !private ["Ps8Hashable", "Bundle"]
 - !private ["Ps8Hashable", "CGPoint"]
 - !private ["Ps8Hashable", "CGRect"]
+- !private ["Ps8Hashable", "GlobaleVariables"]
 - !private ["Ps8Hashable", "ITRFlipper"]
 - !private ["Ps8Hashable", "ModalCenterPosition"]
 - !private ["Ps8Hashable", "ModalSize"]
 - !private ["Ps8Hashable", "PresentationType"]
 - !private ["Ps8Hashable", "Presentr"]
+- !private ["Ps8Hashable", "Reachability"]
 - !private ["Ps8Hashable", "String"]
 - !private ["Ps8Hashable", "UIButton"]
 - !private ["Ps8Hashable", "UIColor"]
@@ -655,6 +684,7 @@ depends-member:
 - !private ["Ps8Hashable", "descriptionForteen"]
 - !private ["Ps8Hashable", "descriptionNine"]
 - !private ["Ps8Hashable", "descriptionOne"]
+- !private ["Ps8Hashable", "descriptionResaturation"]
 - !private ["Ps8Hashable", "descriptionSeven"]
 - !private ["Ps8Hashable", "descriptionSex"]
 - !private ["Ps8Hashable", "descriptionSexteen"]
@@ -674,6 +704,7 @@ depends-member:
 - !private ["Ps8Hashable", "instantiateViewController"]
 - !private ["Ps8Hashable", "isUserInteractionEnabled"]
 - !private ["Ps8Hashable", "main"]
+- !private ["Ps8Hashable", "makeToast"]
 - !private ["Ps8Hashable", "navigationController"]
 - ["Ps8Hashable", "number"]
 - !private ["Ps8Hashable", "numberOfLines"]
@@ -710,11 +741,13 @@ depends-member:
 - !private ["PSo20ITRFlipperDataSource", "Bundle"]
 - !private ["PSo20ITRFlipperDataSource", "CGPoint"]
 - !private ["PSo20ITRFlipperDataSource", "CGRect"]
+- !private ["PSo20ITRFlipperDataSource", "GlobaleVariables"]
 - !private ["PSo20ITRFlipperDataSource", "ITRFlipper"]
 - !private ["PSo20ITRFlipperDataSource", "ModalCenterPosition"]
 - !private ["PSo20ITRFlipperDataSource", "ModalSize"]
 - !private ["PSo20ITRFlipperDataSource", "PresentationType"]
 - !private ["PSo20ITRFlipperDataSource", "Presentr"]
+- !private ["PSo20ITRFlipperDataSource", "Reachability"]
 - !private ["PSo20ITRFlipperDataSource", "String"]
 - !private ["PSo20ITRFlipperDataSource", "UIButton"]
 - !private ["PSo20ITRFlipperDataSource", "UIColor"]
@@ -738,6 +771,7 @@ depends-member:
 - !private ["PSo20ITRFlipperDataSource", "descriptionForteen"]
 - !private ["PSo20ITRFlipperDataSource", "descriptionNine"]
 - !private ["PSo20ITRFlipperDataSource", "descriptionOne"]
+- !private ["PSo20ITRFlipperDataSource", "descriptionResaturation"]
 - !private ["PSo20ITRFlipperDataSource", "descriptionSeven"]
 - !private ["PSo20ITRFlipperDataSource", "descriptionSex"]
 - !private ["PSo20ITRFlipperDataSource", "descriptionSexteen"]
@@ -761,6 +795,7 @@ depends-member:
 - !private ["Ps10MirrorPath", "init"]
 - !private ["O8Presentr19ModalCenterPosition", "customOrigin"]
 - !private ["O8Presentr9ModalSize", "fluid"]
+- !private ["VC15MazaganShowCase16GlobaleVariables10ModeToShow", "mode"]
 - !private ["CSo7NSArray", "subscript"]
 - !private ["PSo8NSCoding", "ActionButton"]
 - !private ["PSo8NSCoding", "ActionButtonItem"]
@@ -768,11 +803,13 @@ depends-member:
 - !private ["PSo8NSCoding", "Bundle"]
 - !private ["PSo8NSCoding", "CGPoint"]
 - !private ["PSo8NSCoding", "CGRect"]
+- !private ["PSo8NSCoding", "GlobaleVariables"]
 - !private ["PSo8NSCoding", "ITRFlipper"]
 - !private ["PSo8NSCoding", "ModalCenterPosition"]
 - !private ["PSo8NSCoding", "ModalSize"]
 - !private ["PSo8NSCoding", "PresentationType"]
 - !private ["PSo8NSCoding", "Presentr"]
+- !private ["PSo8NSCoding", "Reachability"]
 - !private ["PSo8NSCoding", "String"]
 - !private ["PSo8NSCoding", "UIButton"]
 - !private ["PSo8NSCoding", "UIColor"]
@@ -805,6 +842,7 @@ depends-member:
 - !private ["PSo8NSCoding", "descriptionForteen"]
 - !private ["PSo8NSCoding", "descriptionNine"]
 - !private ["PSo8NSCoding", "descriptionOne"]
+- !private ["PSo8NSCoding", "descriptionResaturation"]
 - !private ["PSo8NSCoding", "descriptionSeven"]
 - !private ["PSo8NSCoding", "descriptionSex"]
 - !private ["PSo8NSCoding", "descriptionSexteen"]
@@ -819,6 +857,7 @@ depends-member:
 - !private ["PSo8NSCoding", "imageTapped"]
 - !private ["PSo8NSCoding", "init"]
 - !private ["PSo8NSCoding", "isUserInteractionEnabled"]
+- !private ["PSo8NSCoding", "makeToast"]
 - !private ["PSo8NSCoding", "navigationController"]
 - ["PSo8NSCoding", "number"]
 - !private ["PSo8NSCoding", "numberOfLines"]
@@ -851,11 +890,13 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "Bundle"]
 - !private ["PSo26NSExtensionRequestHandling", "CGPoint"]
 - !private ["PSo26NSExtensionRequestHandling", "CGRect"]
+- !private ["PSo26NSExtensionRequestHandling", "GlobaleVariables"]
 - !private ["PSo26NSExtensionRequestHandling", "ITRFlipper"]
 - !private ["PSo26NSExtensionRequestHandling", "ModalCenterPosition"]
 - !private ["PSo26NSExtensionRequestHandling", "ModalSize"]
 - !private ["PSo26NSExtensionRequestHandling", "PresentationType"]
 - !private ["PSo26NSExtensionRequestHandling", "Presentr"]
+- !private ["PSo26NSExtensionRequestHandling", "Reachability"]
 - !private ["PSo26NSExtensionRequestHandling", "String"]
 - !private ["PSo26NSExtensionRequestHandling", "UIButton"]
 - !private ["PSo26NSExtensionRequestHandling", "UIColor"]
@@ -881,6 +922,7 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "descriptionForteen"]
 - !private ["PSo26NSExtensionRequestHandling", "descriptionNine"]
 - !private ["PSo26NSExtensionRequestHandling", "descriptionOne"]
+- !private ["PSo26NSExtensionRequestHandling", "descriptionResaturation"]
 - !private ["PSo26NSExtensionRequestHandling", "descriptionSeven"]
 - !private ["PSo26NSExtensionRequestHandling", "descriptionSex"]
 - !private ["PSo26NSExtensionRequestHandling", "descriptionSexteen"]
@@ -916,6 +958,7 @@ depends-member:
 - !private ["CSo8NSObject", "CGPoint"]
 - !private ["CSo8NSObject", "CGRect"]
 - !private ["CSo8NSObject", "GalleryImage"]
+- !private ["CSo8NSObject", "GlobaleVariables"]
 - ["CSo8NSObject", "ITRFlipper"]
 - ["CSo8NSObject", "Int"]
 - !private ["CSo8NSObject", "ModalCenterPosition"]
@@ -924,6 +967,7 @@ depends-member:
 - !private ["CSo8NSObject", "NSDictionary"]
 - !private ["CSo8NSObject", "PresentationType"]
 - !private ["CSo8NSObject", "Presentr"]
+- !private ["CSo8NSObject", "Reachability"]
 - ["CSo8NSObject", "String"]
 - !private ["CSo8NSObject", "UIButton"]
 - !private ["CSo8NSObject", "UIColor"]
@@ -960,6 +1004,7 @@ depends-member:
 - ["CSo8NSObject", "descriptionForteen"]
 - ["CSo8NSObject", "descriptionNine"]
 - ["CSo8NSObject", "descriptionOne"]
+- ["CSo8NSObject", "descriptionResaturation"]
 - ["CSo8NSObject", "descriptionSeven"]
 - ["CSo8NSObject", "descriptionSex"]
 - ["CSo8NSObject", "descriptionSexteen"]
@@ -979,6 +1024,7 @@ depends-member:
 - !private ["CSo8NSObject", "instantiateViewController"]
 - !private ["CSo8NSObject", "isUserInteractionEnabled"]
 - !private ["CSo8NSObject", "main"]
+- !private ["CSo8NSObject", "makeToast"]
 - !private ["CSo8NSObject", "navigationController"]
 - ["CSo8NSObject", "number"]
 - !private ["CSo8NSObject", "numberOfLines"]
@@ -1009,11 +1055,13 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "Bundle"]
 - !private ["PSo16NSObjectProtocol", "CGPoint"]
 - !private ["PSo16NSObjectProtocol", "CGRect"]
+- !private ["PSo16NSObjectProtocol", "GlobaleVariables"]
 - !private ["PSo16NSObjectProtocol", "ITRFlipper"]
 - !private ["PSo16NSObjectProtocol", "ModalCenterPosition"]
 - !private ["PSo16NSObjectProtocol", "ModalSize"]
 - !private ["PSo16NSObjectProtocol", "PresentationType"]
 - !private ["PSo16NSObjectProtocol", "Presentr"]
+- !private ["PSo16NSObjectProtocol", "Reachability"]
 - !private ["PSo16NSObjectProtocol", "String"]
 - !private ["PSo16NSObjectProtocol", "UIButton"]
 - !private ["PSo16NSObjectProtocol", "UIColor"]
@@ -1050,6 +1098,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "descriptionForteen"]
 - !private ["PSo16NSObjectProtocol", "descriptionNine"]
 - !private ["PSo16NSObjectProtocol", "descriptionOne"]
+- !private ["PSo16NSObjectProtocol", "descriptionResaturation"]
 - !private ["PSo16NSObjectProtocol", "descriptionSeven"]
 - !private ["PSo16NSObjectProtocol", "descriptionSex"]
 - !private ["PSo16NSObjectProtocol", "descriptionSexteen"]
@@ -1069,6 +1118,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "instantiateViewController"]
 - !private ["PSo16NSObjectProtocol", "isUserInteractionEnabled"]
 - !private ["PSo16NSObjectProtocol", "main"]
+- !private ["PSo16NSObjectProtocol", "makeToast"]
 - !private ["PSo16NSObjectProtocol", "navigationController"]
 - ["PSo16NSObjectProtocol", "number"]
 - !private ["PSo16NSObjectProtocol", "numberOfLines"]
@@ -1124,6 +1174,7 @@ depends-member:
 - !private ["Ps16RawRepresentable", "flexibleWidth"]
 - !private ["Ps16RawRepresentable", "init"]
 - !private ["Ps16RawRepresentable", "normal"]
+- !private ["C15MazaganShowCase12Reachability", "isInternetAvailable"]
 - ["C15MazaganShowCase16RestaurationView", "ActionButton"]
 - !private ["C15MazaganShowCase16RestaurationView", "ActionButtonItem"]
 - !private ["C15MazaganShowCase16RestaurationView", "AlertAction"]
@@ -1133,6 +1184,7 @@ depends-member:
 - !private ["C15MazaganShowCase16RestaurationView", "CGPoint"]
 - !private ["C15MazaganShowCase16RestaurationView", "CGRect"]
 - !private ["C15MazaganShowCase16RestaurationView", "GalleryImage"]
+- !private ["C15MazaganShowCase16RestaurationView", "GlobaleVariables"]
 - ["C15MazaganShowCase16RestaurationView", "ITRFlipper"]
 - ["C15MazaganShowCase16RestaurationView", "Int"]
 - !private ["C15MazaganShowCase16RestaurationView", "ModalCenterPosition"]
@@ -1141,6 +1193,7 @@ depends-member:
 - !private ["C15MazaganShowCase16RestaurationView", "NSDictionary"]
 - !private ["C15MazaganShowCase16RestaurationView", "PresentationType"]
 - !private ["C15MazaganShowCase16RestaurationView", "Presentr"]
+- !private ["C15MazaganShowCase16RestaurationView", "Reachability"]
 - ["C15MazaganShowCase16RestaurationView", "String"]
 - !private ["C15MazaganShowCase16RestaurationView", "UIButton"]
 - !private ["C15MazaganShowCase16RestaurationView", "UIColor"]
@@ -1166,6 +1219,7 @@ depends-member:
 - ["C15MazaganShowCase16RestaurationView", "descriptionForteen"]
 - ["C15MazaganShowCase16RestaurationView", "descriptionNine"]
 - ["C15MazaganShowCase16RestaurationView", "descriptionOne"]
+- ["C15MazaganShowCase16RestaurationView", "descriptionResaturation"]
 - ["C15MazaganShowCase16RestaurationView", "descriptionSeven"]
 - ["C15MazaganShowCase16RestaurationView", "descriptionSex"]
 - ["C15MazaganShowCase16RestaurationView", "descriptionSexteen"]
@@ -1206,6 +1260,7 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "image"]
 - !private ["PSo29UIAccessibilityIdentification", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "isUserInteractionEnabled"]
+- !private ["PSo29UIAccessibilityIdentification", "makeToast"]
 - !private ["PSo29UIAccessibilityIdentification", "numberOfLines"]
 - !private ["PSo29UIAccessibilityIdentification", "setTitle"]
 - !private ["PSo29UIAccessibilityIdentification", "setTitleColor"]
@@ -1221,6 +1276,7 @@ depends-member:
 - !private ["PSo12UIAppearance", "image"]
 - !private ["PSo12UIAppearance", "init"]
 - !private ["PSo12UIAppearance", "isUserInteractionEnabled"]
+- !private ["PSo12UIAppearance", "makeToast"]
 - !private ["PSo12UIAppearance", "numberOfLines"]
 - !private ["PSo12UIAppearance", "setTitle"]
 - !private ["PSo12UIAppearance", "setTitleColor"]
@@ -1233,11 +1289,13 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "Bundle"]
 - !private ["PSo21UIAppearanceContainer", "CGPoint"]
 - !private ["PSo21UIAppearanceContainer", "CGRect"]
+- !private ["PSo21UIAppearanceContainer", "GlobaleVariables"]
 - !private ["PSo21UIAppearanceContainer", "ITRFlipper"]
 - !private ["PSo21UIAppearanceContainer", "ModalCenterPosition"]
 - !private ["PSo21UIAppearanceContainer", "ModalSize"]
 - !private ["PSo21UIAppearanceContainer", "PresentationType"]
 - !private ["PSo21UIAppearanceContainer", "Presentr"]
+- !private ["PSo21UIAppearanceContainer", "Reachability"]
 - !private ["PSo21UIAppearanceContainer", "String"]
 - !private ["PSo21UIAppearanceContainer", "UIButton"]
 - !private ["PSo21UIAppearanceContainer", "UIColor"]
@@ -1268,6 +1326,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "descriptionForteen"]
 - !private ["PSo21UIAppearanceContainer", "descriptionNine"]
 - !private ["PSo21UIAppearanceContainer", "descriptionOne"]
+- !private ["PSo21UIAppearanceContainer", "descriptionResaturation"]
 - !private ["PSo21UIAppearanceContainer", "descriptionSeven"]
 - !private ["PSo21UIAppearanceContainer", "descriptionSex"]
 - !private ["PSo21UIAppearanceContainer", "descriptionSexteen"]
@@ -1282,6 +1341,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "imageTapped"]
 - !private ["PSo21UIAppearanceContainer", "init"]
 - !private ["PSo21UIAppearanceContainer", "isUserInteractionEnabled"]
+- !private ["PSo21UIAppearanceContainer", "makeToast"]
 - !private ["PSo21UIAppearanceContainer", "navigationController"]
 - ["PSo21UIAppearanceContainer", "number"]
 - !private ["PSo21UIAppearanceContainer", "numberOfLines"]
@@ -1316,11 +1376,13 @@ depends-member:
 - !private ["PSo18UIContentContainer", "Bundle"]
 - !private ["PSo18UIContentContainer", "CGPoint"]
 - !private ["PSo18UIContentContainer", "CGRect"]
+- !private ["PSo18UIContentContainer", "GlobaleVariables"]
 - !private ["PSo18UIContentContainer", "ITRFlipper"]
 - !private ["PSo18UIContentContainer", "ModalCenterPosition"]
 - !private ["PSo18UIContentContainer", "ModalSize"]
 - !private ["PSo18UIContentContainer", "PresentationType"]
 - !private ["PSo18UIContentContainer", "Presentr"]
+- !private ["PSo18UIContentContainer", "Reachability"]
 - !private ["PSo18UIContentContainer", "String"]
 - !private ["PSo18UIContentContainer", "UIButton"]
 - !private ["PSo18UIContentContainer", "UIColor"]
@@ -1346,6 +1408,7 @@ depends-member:
 - !private ["PSo18UIContentContainer", "descriptionForteen"]
 - !private ["PSo18UIContentContainer", "descriptionNine"]
 - !private ["PSo18UIContentContainer", "descriptionOne"]
+- !private ["PSo18UIContentContainer", "descriptionResaturation"]
 - !private ["PSo18UIContentContainer", "descriptionSeven"]
 - !private ["PSo18UIContentContainer", "descriptionSex"]
 - !private ["PSo18UIContentContainer", "descriptionSexteen"]
@@ -1390,6 +1453,7 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "image"]
 - !private ["PSo17UICoordinateSpace", "init"]
 - !private ["PSo17UICoordinateSpace", "isUserInteractionEnabled"]
+- !private ["PSo17UICoordinateSpace", "makeToast"]
 - !private ["PSo17UICoordinateSpace", "numberOfLines"]
 - !private ["PSo17UICoordinateSpace", "setTitle"]
 - !private ["PSo17UICoordinateSpace", "setTitleColor"]
@@ -1405,6 +1469,7 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "image"]
 - !private ["PSo13UIDynamicItem", "init"]
 - !private ["PSo13UIDynamicItem", "isUserInteractionEnabled"]
+- !private ["PSo13UIDynamicItem", "makeToast"]
 - !private ["PSo13UIDynamicItem", "numberOfLines"]
 - !private ["PSo13UIDynamicItem", "setTitle"]
 - !private ["PSo13UIDynamicItem", "setTitleColor"]
@@ -1417,11 +1482,13 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "Bundle"]
 - !private ["PSo18UIFocusEnvironment", "CGPoint"]
 - !private ["PSo18UIFocusEnvironment", "CGRect"]
+- !private ["PSo18UIFocusEnvironment", "GlobaleVariables"]
 - !private ["PSo18UIFocusEnvironment", "ITRFlipper"]
 - !private ["PSo18UIFocusEnvironment", "ModalCenterPosition"]
 - !private ["PSo18UIFocusEnvironment", "ModalSize"]
 - !private ["PSo18UIFocusEnvironment", "PresentationType"]
 - !private ["PSo18UIFocusEnvironment", "Presentr"]
+- !private ["PSo18UIFocusEnvironment", "Reachability"]
 - !private ["PSo18UIFocusEnvironment", "String"]
 - !private ["PSo18UIFocusEnvironment", "UIButton"]
 - !private ["PSo18UIFocusEnvironment", "UIColor"]
@@ -1452,6 +1519,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "descriptionForteen"]
 - !private ["PSo18UIFocusEnvironment", "descriptionNine"]
 - !private ["PSo18UIFocusEnvironment", "descriptionOne"]
+- !private ["PSo18UIFocusEnvironment", "descriptionResaturation"]
 - !private ["PSo18UIFocusEnvironment", "descriptionSeven"]
 - !private ["PSo18UIFocusEnvironment", "descriptionSex"]
 - !private ["PSo18UIFocusEnvironment", "descriptionSexteen"]
@@ -1466,6 +1534,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "imageTapped"]
 - !private ["PSo18UIFocusEnvironment", "init"]
 - !private ["PSo18UIFocusEnvironment", "isUserInteractionEnabled"]
+- !private ["PSo18UIFocusEnvironment", "makeToast"]
 - !private ["PSo18UIFocusEnvironment", "navigationController"]
 - ["PSo18UIFocusEnvironment", "number"]
 - !private ["PSo18UIFocusEnvironment", "numberOfLines"]
@@ -1493,6 +1562,7 @@ depends-member:
 - !private ["PSo11UIFocusItem", "image"]
 - !private ["PSo11UIFocusItem", "init"]
 - !private ["PSo11UIFocusItem", "isUserInteractionEnabled"]
+- !private ["PSo11UIFocusItem", "makeToast"]
 - !private ["PSo11UIFocusItem", "numberOfLines"]
 - !private ["PSo11UIFocusItem", "setTitle"]
 - !private ["PSo11UIFocusItem", "setTitleColor"]
@@ -1523,6 +1593,7 @@ depends-member:
 - !private ["CSo11UIResponder", "CGPoint"]
 - !private ["CSo11UIResponder", "CGRect"]
 - !private ["CSo11UIResponder", "GalleryImage"]
+- !private ["CSo11UIResponder", "GlobaleVariables"]
 - ["CSo11UIResponder", "ITRFlipper"]
 - ["CSo11UIResponder", "Int"]
 - !private ["CSo11UIResponder", "ModalCenterPosition"]
@@ -1531,6 +1602,7 @@ depends-member:
 - !private ["CSo11UIResponder", "NSDictionary"]
 - !private ["CSo11UIResponder", "PresentationType"]
 - !private ["CSo11UIResponder", "Presentr"]
+- !private ["CSo11UIResponder", "Reachability"]
 - ["CSo11UIResponder", "String"]
 - !private ["CSo11UIResponder", "UIButton"]
 - !private ["CSo11UIResponder", "UIColor"]
@@ -1561,6 +1633,7 @@ depends-member:
 - ["CSo11UIResponder", "descriptionForteen"]
 - ["CSo11UIResponder", "descriptionNine"]
 - ["CSo11UIResponder", "descriptionOne"]
+- ["CSo11UIResponder", "descriptionResaturation"]
 - ["CSo11UIResponder", "descriptionSeven"]
 - ["CSo11UIResponder", "descriptionSex"]
 - ["CSo11UIResponder", "descriptionSexteen"]
@@ -1575,6 +1648,7 @@ depends-member:
 - ["CSo11UIResponder", "imageTapped"]
 - ["CSo11UIResponder", "init"]
 - !private ["CSo11UIResponder", "isUserInteractionEnabled"]
+- !private ["CSo11UIResponder", "makeToast"]
 - !private ["CSo11UIResponder", "navigationController"]
 - ["CSo11UIResponder", "number"]
 - !private ["CSo11UIResponder", "numberOfLines"]
@@ -1598,11 +1672,13 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "Bundle"]
 - !private ["PSo30UIResponderStandardEditActions", "CGPoint"]
 - !private ["PSo30UIResponderStandardEditActions", "CGRect"]
+- !private ["PSo30UIResponderStandardEditActions", "GlobaleVariables"]
 - !private ["PSo30UIResponderStandardEditActions", "ITRFlipper"]
 - !private ["PSo30UIResponderStandardEditActions", "ModalCenterPosition"]
 - !private ["PSo30UIResponderStandardEditActions", "ModalSize"]
 - !private ["PSo30UIResponderStandardEditActions", "PresentationType"]
 - !private ["PSo30UIResponderStandardEditActions", "Presentr"]
+- !private ["PSo30UIResponderStandardEditActions", "Reachability"]
 - !private ["PSo30UIResponderStandardEditActions", "String"]
 - !private ["PSo30UIResponderStandardEditActions", "UIButton"]
 - !private ["PSo30UIResponderStandardEditActions", "UIColor"]
@@ -1633,6 +1709,7 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "descriptionForteen"]
 - !private ["PSo30UIResponderStandardEditActions", "descriptionNine"]
 - !private ["PSo30UIResponderStandardEditActions", "descriptionOne"]
+- !private ["PSo30UIResponderStandardEditActions", "descriptionResaturation"]
 - !private ["PSo30UIResponderStandardEditActions", "descriptionSeven"]
 - !private ["PSo30UIResponderStandardEditActions", "descriptionSex"]
 - !private ["PSo30UIResponderStandardEditActions", "descriptionSexteen"]
@@ -1647,6 +1724,7 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "imageTapped"]
 - !private ["PSo30UIResponderStandardEditActions", "init"]
 - !private ["PSo30UIResponderStandardEditActions", "isUserInteractionEnabled"]
+- !private ["PSo30UIResponderStandardEditActions", "makeToast"]
 - !private ["PSo30UIResponderStandardEditActions", "navigationController"]
 - ["PSo30UIResponderStandardEditActions", "number"]
 - !private ["PSo30UIResponderStandardEditActions", "numberOfLines"]
@@ -1674,11 +1752,13 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "Bundle"]
 - !private ["PSo16UIStateRestoring", "CGPoint"]
 - !private ["PSo16UIStateRestoring", "CGRect"]
+- !private ["PSo16UIStateRestoring", "GlobaleVariables"]
 - !private ["PSo16UIStateRestoring", "ITRFlipper"]
 - !private ["PSo16UIStateRestoring", "ModalCenterPosition"]
 - !private ["PSo16UIStateRestoring", "ModalSize"]
 - !private ["PSo16UIStateRestoring", "PresentationType"]
 - !private ["PSo16UIStateRestoring", "Presentr"]
+- !private ["PSo16UIStateRestoring", "Reachability"]
 - !private ["PSo16UIStateRestoring", "String"]
 - !private ["PSo16UIStateRestoring", "UIButton"]
 - !private ["PSo16UIStateRestoring", "UIColor"]
@@ -1704,6 +1784,7 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "descriptionForteen"]
 - !private ["PSo16UIStateRestoring", "descriptionNine"]
 - !private ["PSo16UIStateRestoring", "descriptionOne"]
+- !private ["PSo16UIStateRestoring", "descriptionResaturation"]
 - !private ["PSo16UIStateRestoring", "descriptionSeven"]
 - !private ["PSo16UIStateRestoring", "descriptionSex"]
 - !private ["PSo16UIStateRestoring", "descriptionSexteen"]
@@ -1737,11 +1818,13 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "Bundle"]
 - !private ["PSo18UITraitEnvironment", "CGPoint"]
 - !private ["PSo18UITraitEnvironment", "CGRect"]
+- !private ["PSo18UITraitEnvironment", "GlobaleVariables"]
 - !private ["PSo18UITraitEnvironment", "ITRFlipper"]
 - !private ["PSo18UITraitEnvironment", "ModalCenterPosition"]
 - !private ["PSo18UITraitEnvironment", "ModalSize"]
 - !private ["PSo18UITraitEnvironment", "PresentationType"]
 - !private ["PSo18UITraitEnvironment", "Presentr"]
+- !private ["PSo18UITraitEnvironment", "Reachability"]
 - !private ["PSo18UITraitEnvironment", "String"]
 - !private ["PSo18UITraitEnvironment", "UIButton"]
 - !private ["PSo18UITraitEnvironment", "UIColor"]
@@ -1773,6 +1856,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "descriptionForteen"]
 - !private ["PSo18UITraitEnvironment", "descriptionNine"]
 - !private ["PSo18UITraitEnvironment", "descriptionOne"]
+- !private ["PSo18UITraitEnvironment", "descriptionResaturation"]
 - !private ["PSo18UITraitEnvironment", "descriptionSeven"]
 - !private ["PSo18UITraitEnvironment", "descriptionSex"]
 - !private ["PSo18UITraitEnvironment", "descriptionSexteen"]
@@ -1788,6 +1872,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "init"]
 - !private ["PSo18UITraitEnvironment", "isUserInteractionEnabled"]
 - !private ["PSo18UITraitEnvironment", "main"]
+- !private ["PSo18UITraitEnvironment", "makeToast"]
 - !private ["PSo18UITraitEnvironment", "navigationController"]
 - ["PSo18UITraitEnvironment", "number"]
 - !private ["PSo18UITraitEnvironment", "numberOfLines"]
@@ -1815,6 +1900,7 @@ depends-member:
 - !private ["CSo6UIView", "image"]
 - !private ["CSo6UIView", "init"]
 - !private ["CSo6UIView", "isUserInteractionEnabled"]
+- !private ["CSo6UIView", "makeToast"]
 - !private ["CSo6UIView", "numberOfLines"]
 - !private ["CSo6UIView", "setTitle"]
 - !private ["CSo6UIView", "setTitleColor"]
@@ -1832,6 +1918,7 @@ depends-member:
 - !private ["CSo16UIViewController", "CGPoint"]
 - !private ["CSo16UIViewController", "CGRect"]
 - !private ["CSo16UIViewController", "GalleryImage"]
+- !private ["CSo16UIViewController", "GlobaleVariables"]
 - ["CSo16UIViewController", "ITRFlipper"]
 - ["CSo16UIViewController", "Int"]
 - !private ["CSo16UIViewController", "ModalCenterPosition"]
@@ -1840,6 +1927,7 @@ depends-member:
 - !private ["CSo16UIViewController", "NSDictionary"]
 - !private ["CSo16UIViewController", "PresentationType"]
 - !private ["CSo16UIViewController", "Presentr"]
+- !private ["CSo16UIViewController", "Reachability"]
 - ["CSo16UIViewController", "String"]
 - !private ["CSo16UIViewController", "UIButton"]
 - !private ["CSo16UIViewController", "UIColor"]
@@ -1865,6 +1953,7 @@ depends-member:
 - ["CSo16UIViewController", "descriptionForteen"]
 - ["CSo16UIViewController", "descriptionNine"]
 - ["CSo16UIViewController", "descriptionOne"]
+- ["CSo16UIViewController", "descriptionResaturation"]
 - ["CSo16UIViewController", "descriptionSeven"]
 - ["CSo16UIViewController", "descriptionSex"]
 - ["CSo16UIViewController", "descriptionSexteen"]
@@ -1909,6 +1998,7 @@ depends-member:
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "image"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isUserInteractionEnabled"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "makeToast"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "numberOfLines"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setTitle"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setTitleColor"]
@@ -1933,11 +2023,13 @@ depends-member:
 - !private ["Ps9_Hashable", "Bundle"]
 - !private ["Ps9_Hashable", "CGPoint"]
 - !private ["Ps9_Hashable", "CGRect"]
+- !private ["Ps9_Hashable", "GlobaleVariables"]
 - !private ["Ps9_Hashable", "ITRFlipper"]
 - !private ["Ps9_Hashable", "ModalCenterPosition"]
 - !private ["Ps9_Hashable", "ModalSize"]
 - !private ["Ps9_Hashable", "PresentationType"]
 - !private ["Ps9_Hashable", "Presentr"]
+- !private ["Ps9_Hashable", "Reachability"]
 - !private ["Ps9_Hashable", "String"]
 - !private ["Ps9_Hashable", "UIButton"]
 - !private ["Ps9_Hashable", "UIColor"]
@@ -1976,6 +2068,7 @@ depends-member:
 - !private ["Ps9_Hashable", "descriptionForteen"]
 - !private ["Ps9_Hashable", "descriptionNine"]
 - !private ["Ps9_Hashable", "descriptionOne"]
+- !private ["Ps9_Hashable", "descriptionResaturation"]
 - !private ["Ps9_Hashable", "descriptionSeven"]
 - !private ["Ps9_Hashable", "descriptionSex"]
 - !private ["Ps9_Hashable", "descriptionSexteen"]
@@ -1995,6 +2088,7 @@ depends-member:
 - !private ["Ps9_Hashable", "instantiateViewController"]
 - !private ["Ps9_Hashable", "isUserInteractionEnabled"]
 - !private ["Ps9_Hashable", "main"]
+- !private ["Ps9_Hashable", "makeToast"]
 - !private ["Ps9_Hashable", "navigationController"]
 - ["Ps9_Hashable", "number"]
 - !private ["Ps9_Hashable", "numberOfLines"]
@@ -2055,6 +2149,7 @@ depends-nominal:
 - !private "Ps26ExpressibleByStringLiteral"
 - !private "Ps33ExpressibleByUnicodeScalarLiteral"
 - !private "C15MazaganShowCase12GalleryImage"
+- !private "C15MazaganShowCase16GlobaleVariables"
 - "Ps8Hashable"
 - !private "CSo10ITRFlipper"
 - "PSo20ITRFlipperDataSource"
@@ -2062,6 +2157,7 @@ depends-nominal:
 - !private "Ps10MirrorPath"
 - !private "O8Presentr19ModalCenterPosition"
 - !private "O8Presentr9ModalSize"
+- !private "VC15MazaganShowCase16GlobaleVariables10ModeToShow"
 - !private "CSo7NSArray"
 - "PSo8NSCoding"
 - !private "PSo9NSCopying"
@@ -2079,6 +2175,7 @@ depends-nominal:
 - !private "O8Presentr16PresentationType"
 - !private "C8Presentr8Presentr"
 - !private "Ps16RawRepresentable"
+- !private "C15MazaganShowCase12Reachability"
 - "C15MazaganShowCase16RestaurationView"
 - !private "P14SKPhotoBrowser22SKPhotoBrowserDelegate"
 - !private "Ps8Sequence"
@@ -2140,11 +2237,12 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Modules/SJFluidSegmentedControl.swiftmodule/x86_64.swiftmodule"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Modules/ActionButton.swiftmodule/x86_64.swiftmodule"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Modules/SKPhotoBrowser.swiftmodule/x86_64.swiftmodule"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Modules/Presentr.swiftmodule/x86_64.swiftmodule"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Modules/SJFluidSegmentedControl.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Modules/ActionButton.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Modules/SKPhotoBrowser.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Modules/Presentr.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Toast-Swift/Toast_Swift.framework/Modules/Toast_Swift.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
@@ -2155,25 +2253,52 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Headers/SJFluidSegmentedControl-umbrella.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Headers/ActionButton-umbrella.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Headers/ITRFlipper-umbrella.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser-umbrella.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Headers/Presentr-umbrella.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Headers/YALSideMenu-umbrella.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/Controllers/iCarousel.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/Controllers/MazaganShowCase-Bridging-Header.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Headers/ITRFlipper.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Headers/SJFluidSegmentedControl-Swift.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Headers/ActionButton-Swift.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser-Swift.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Headers/Presentr-Swift.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Modules/module.modulemap"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Modules/module.modulemap"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Modules/module.modulemap"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Modules/module.modulemap"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Modules/module.modulemap"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Modules/module.modulemap"
-interface-hash: "b05f23dfec629abc988a5fea12c15e92"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAI.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Headers/SJFluidSegmentedControl-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Headers/ActionButton-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Headers/ITRFlipper-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Headers/Presentr-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Toast-Swift/Toast_Swift.framework/Headers/Toast-Swift-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Headers/YALSideMenu-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Headers/GGLErrorCode.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Headers/GGLCore.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/MazaganShowCase/Controllers/iCarousel.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Headers/GGLConfiguration.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Headers/GMRConfiguration.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIEcommerceProductAction.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIEcommercePromotion.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/MazaganShowCase/Controllers/MazaganShowCase-Bridging-Header.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIDictionaryBuilder.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAILogger.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAITracker.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAITrackedViewController.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Headers/ITRFlipper.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLAnalytics.framework/Headers/GGLContext+Analytics.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/Google/Google/Analytics.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLAnalytics.framework/Headers/GGLAnalytics.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIFields.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIEcommerceFields.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIEcommerceProduct.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Headers/SJFluidSegmentedControl-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Headers/ActionButton-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Headers/Presentr-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Toast-Swift/Toast_Swift.framework/Headers/Toast_Swift-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Headers/GGLContext.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GVRSDK/GVRPanoramaView.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GVRSDK/GVRVideoView.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GVRSDK/GVRWidgetView.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLAnalytics.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Toast-Swift/Toast_Swift.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Headers/module.modulemap"
+interface-hash: "950e6fd8b46c7a86722d1210c59a8763"

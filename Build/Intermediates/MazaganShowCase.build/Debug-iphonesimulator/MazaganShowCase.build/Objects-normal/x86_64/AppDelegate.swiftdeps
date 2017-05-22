@@ -14,15 +14,26 @@ provides-dynamic-lookup:
 - "applicationWillTerminate"
 - "window"
 depends-top-level:
+- !private "=="
 - "AppDelegate"
+- "AssignmentPrecedence"
 - "Bool"
 - !private "BooleanLiteralType"
+- !private "GAI"
+- !private "GAILogLevel"
+- !private "GGLContext"
+- !private "NSError"
+- !private "StringLiteralType"
 - "UIApplication"
 - "UIApplicationDelegate"
 - "UIApplicationLaunchOptionsKey"
 - "UIResponder"
 - "UIWindow"
+- !private "assert"
 depends-member:
+- !private ["Ps9AnyObject", "GAI"]
+- !private ["Ps9AnyObject", "GAILogLevel"]
+- !private ["Ps9AnyObject", "GGLContext"]
 - ["Ps9AnyObject", "application"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]
 - ["Ps9AnyObject", "applicationDidEnterBackground"]
@@ -35,10 +46,19 @@ depends-member:
 - ["Ps9AnyObject", "applicationWillEnterForeground"]
 - ["Ps9AnyObject", "applicationWillResignActive"]
 - ["Ps9AnyObject", "applicationWillTerminate"]
+- !private ["Ps9AnyObject", "assert"]
+- !private ["Ps9AnyObject", "configureWithError"]
 - !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "logger"]
+- !private ["Ps9AnyObject", "sharedInstance"]
+- !private ["Ps9AnyObject", "trackUncaughtExceptions"]
 - ["Ps9AnyObject", "window"]
 - ["Ps9AnyObject", ""]
 - ["C15MazaganShowCase11AppDelegate", "Bool"]
+- !private ["C15MazaganShowCase11AppDelegate", "GAI"]
+- !private ["C15MazaganShowCase11AppDelegate", "GAILogLevel"]
+- !private ["C15MazaganShowCase11AppDelegate", "GGLContext"]
+- !private ["C15MazaganShowCase11AppDelegate", "NSError"]
 - ["C15MazaganShowCase11AppDelegate", "UIApplication"]
 - ["C15MazaganShowCase11AppDelegate", "UIApplicationLaunchOptionsKey"]
 - ["C15MazaganShowCase11AppDelegate", "UIWindow"]
@@ -54,9 +74,13 @@ depends-member:
 - ["C15MazaganShowCase11AppDelegate", "applicationWillEnterForeground"]
 - ["C15MazaganShowCase11AppDelegate", "applicationWillResignActive"]
 - ["C15MazaganShowCase11AppDelegate", "applicationWillTerminate"]
+- !private ["C15MazaganShowCase11AppDelegate", "assert"]
 - ["C15MazaganShowCase11AppDelegate", "deinit"]
 - ["C15MazaganShowCase11AppDelegate", "init"]
 - ["C15MazaganShowCase11AppDelegate", "window"]
+- !private ["Ps7CVarArg", "GAI"]
+- !private ["Ps7CVarArg", "GAILogLevel"]
+- !private ["Ps7CVarArg", "GGLContext"]
 - ["Ps7CVarArg", "application"]
 - ["Ps7CVarArg", "applicationDidBecomeActive"]
 - ["Ps7CVarArg", "applicationDidEnterBackground"]
@@ -69,9 +93,18 @@ depends-member:
 - ["Ps7CVarArg", "applicationWillEnterForeground"]
 - ["Ps7CVarArg", "applicationWillResignActive"]
 - ["Ps7CVarArg", "applicationWillTerminate"]
+- !private ["Ps7CVarArg", "assert"]
+- !private ["Ps7CVarArg", "configureWithError"]
 - !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "logger"]
+- !private ["Ps7CVarArg", "sharedInstance"]
+- !private ["Ps7CVarArg", "trackUncaughtExceptions"]
 - ["Ps7CVarArg", "window"]
 - ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "GAI"]
+- !private ["Ps28CustomDebugStringConvertible", "GAILogLevel"]
+- !private ["Ps28CustomDebugStringConvertible", "GGLContext"]
 - ["Ps28CustomDebugStringConvertible", "application"]
 - ["Ps28CustomDebugStringConvertible", "applicationDidBecomeActive"]
 - ["Ps28CustomDebugStringConvertible", "applicationDidEnterBackground"]
@@ -84,9 +117,19 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "applicationWillEnterForeground"]
 - ["Ps28CustomDebugStringConvertible", "applicationWillResignActive"]
 - ["Ps28CustomDebugStringConvertible", "applicationWillTerminate"]
+- !private ["Ps28CustomDebugStringConvertible", "assert"]
+- !private ["Ps28CustomDebugStringConvertible", "configureWithError"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "logger"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedInstance"]
+- !private ["Ps28CustomDebugStringConvertible", "trackUncaughtExceptions"]
 - ["Ps28CustomDebugStringConvertible", "window"]
 - ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "GAI"]
+- !private ["Ps23CustomStringConvertible", "GAILogLevel"]
+- !private ["Ps23CustomStringConvertible", "GGLContext"]
 - ["Ps23CustomStringConvertible", "application"]
 - ["Ps23CustomStringConvertible", "applicationDidBecomeActive"]
 - ["Ps23CustomStringConvertible", "applicationDidEnterBackground"]
@@ -99,9 +142,17 @@ depends-member:
 - ["Ps23CustomStringConvertible", "applicationWillEnterForeground"]
 - ["Ps23CustomStringConvertible", "applicationWillResignActive"]
 - ["Ps23CustomStringConvertible", "applicationWillTerminate"]
+- !private ["Ps23CustomStringConvertible", "assert"]
+- !private ["Ps23CustomStringConvertible", "configureWithError"]
 - !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "logger"]
+- !private ["Ps23CustomStringConvertible", "sharedInstance"]
+- !private ["Ps23CustomStringConvertible", "trackUncaughtExceptions"]
 - ["Ps23CustomStringConvertible", "window"]
 - ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "GAI"]
+- !private ["Ps9Equatable", "GAILogLevel"]
+- !private ["Ps9Equatable", "GGLContext"]
 - ["Ps9Equatable", "application"]
 - ["Ps9Equatable", "applicationDidBecomeActive"]
 - ["Ps9Equatable", "applicationDidEnterBackground"]
@@ -114,9 +165,28 @@ depends-member:
 - ["Ps9Equatable", "applicationWillEnterForeground"]
 - ["Ps9Equatable", "applicationWillResignActive"]
 - ["Ps9Equatable", "applicationWillTerminate"]
+- !private ["Ps9Equatable", "assert"]
+- !private ["Ps9Equatable", "configureWithError"]
 - !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "logger"]
+- !private ["Ps9Equatable", "sharedInstance"]
+- !private ["Ps9Equatable", "trackUncaughtExceptions"]
+- !private ["Ps9Equatable", "verbose"]
 - ["Ps9Equatable", "window"]
 - ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["CSo3GAI", "logger"]
+- !private ["CSo3GAI", "sharedInstance"]
+- !private ["CSo3GAI", "trackUncaughtExceptions"]
+- !private ["OSC11GAILogLevel", "verbose"]
+- !private ["PSo9GAILogger", "logLevel"]
+- !private ["CSo10GGLContext", "configureWithError"]
+- !private ["CSo10GGLContext", "sharedInstance"]
+- !private ["Ps8Hashable", "GAI"]
+- !private ["Ps8Hashable", "GAILogLevel"]
+- !private ["Ps8Hashable", "GGLContext"]
 - ["Ps8Hashable", "application"]
 - ["Ps8Hashable", "applicationDidBecomeActive"]
 - ["Ps8Hashable", "applicationDidEnterBackground"]
@@ -129,10 +199,25 @@ depends-member:
 - ["Ps8Hashable", "applicationWillEnterForeground"]
 - ["Ps8Hashable", "applicationWillResignActive"]
 - ["Ps8Hashable", "applicationWillTerminate"]
+- !private ["Ps8Hashable", "assert"]
+- !private ["Ps8Hashable", "configureWithError"]
 - !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "logger"]
+- !private ["Ps8Hashable", "sharedInstance"]
+- !private ["Ps8Hashable", "trackUncaughtExceptions"]
+- !private ["Ps8Hashable", "verbose"]
 - ["Ps8Hashable", "window"]
 - ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
 - ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "GAI"]
+- !private ["CSo8NSObject", "GAILogLevel"]
+- !private ["CSo8NSObject", "GGLContext"]
+- !private ["CSo8NSObject", "NSError"]
 - ["CSo8NSObject", "UIApplication"]
 - ["CSo8NSObject", "UIApplicationLaunchOptionsKey"]
 - ["CSo8NSObject", "UIWindow"]
@@ -148,8 +233,16 @@ depends-member:
 - ["CSo8NSObject", "applicationWillEnterForeground"]
 - ["CSo8NSObject", "applicationWillResignActive"]
 - ["CSo8NSObject", "applicationWillTerminate"]
+- !private ["CSo8NSObject", "assert"]
+- !private ["CSo8NSObject", "configureWithError"]
 - ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "logger"]
+- !private ["CSo8NSObject", "sharedInstance"]
+- !private ["CSo8NSObject", "trackUncaughtExceptions"]
 - ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "GAI"]
+- !private ["PSo16NSObjectProtocol", "GAILogLevel"]
+- !private ["PSo16NSObjectProtocol", "GGLContext"]
 - ["PSo16NSObjectProtocol", "application"]
 - ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
 - ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
@@ -162,9 +255,25 @@ depends-member:
 - ["PSo16NSObjectProtocol", "applicationWillEnterForeground"]
 - ["PSo16NSObjectProtocol", "applicationWillResignActive"]
 - ["PSo16NSObjectProtocol", "applicationWillTerminate"]
+- !private ["PSo16NSObjectProtocol", "assert"]
+- !private ["PSo16NSObjectProtocol", "configureWithError"]
 - !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "logLevel"]
+- !private ["PSo16NSObjectProtocol", "logger"]
+- !private ["PSo16NSObjectProtocol", "sharedInstance"]
+- !private ["PSo16NSObjectProtocol", "trackUncaughtExceptions"]
 - ["PSo16NSObjectProtocol", "window"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps16RawRepresentable", "verbose"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo21UIApplicationDelegate", "GAI"]
+- !private ["PSo21UIApplicationDelegate", "GAILogLevel"]
+- !private ["PSo21UIApplicationDelegate", "GGLContext"]
 - ["PSo21UIApplicationDelegate", "application"]
 - ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
 - ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
@@ -177,9 +286,14 @@ depends-member:
 - ["PSo21UIApplicationDelegate", "applicationWillEnterForeground"]
 - ["PSo21UIApplicationDelegate", "applicationWillResignActive"]
 - ["PSo21UIApplicationDelegate", "applicationWillTerminate"]
+- !private ["PSo21UIApplicationDelegate", "assert"]
 - ["PSo21UIApplicationDelegate", "window"]
 - ["PSo21UIApplicationDelegate", ""]
 - ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "GAI"]
+- !private ["CSo11UIResponder", "GAILogLevel"]
+- !private ["CSo11UIResponder", "GGLContext"]
+- !private ["CSo11UIResponder", "NSError"]
 - ["CSo11UIResponder", "UIApplication"]
 - ["CSo11UIResponder", "UIApplicationLaunchOptionsKey"]
 - ["CSo11UIResponder", "UIWindow"]
@@ -195,9 +309,13 @@ depends-member:
 - ["CSo11UIResponder", "applicationWillEnterForeground"]
 - ["CSo11UIResponder", "applicationWillResignActive"]
 - ["CSo11UIResponder", "applicationWillTerminate"]
+- !private ["CSo11UIResponder", "assert"]
 - ["CSo11UIResponder", "init"]
 - ["CSo11UIResponder", "window"]
 - ["CSo11UIResponder", ""]
+- !private ["PSo30UIResponderStandardEditActions", "GAI"]
+- !private ["PSo30UIResponderStandardEditActions", "GAILogLevel"]
+- !private ["PSo30UIResponderStandardEditActions", "GGLContext"]
 - ["PSo30UIResponderStandardEditActions", "application"]
 - ["PSo30UIResponderStandardEditActions", "applicationDidBecomeActive"]
 - ["PSo30UIResponderStandardEditActions", "applicationDidEnterBackground"]
@@ -210,9 +328,19 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "applicationWillEnterForeground"]
 - ["PSo30UIResponderStandardEditActions", "applicationWillResignActive"]
 - ["PSo30UIResponderStandardEditActions", "applicationWillTerminate"]
+- !private ["PSo30UIResponderStandardEditActions", "assert"]
 - !private ["PSo30UIResponderStandardEditActions", "init"]
 - ["PSo30UIResponderStandardEditActions", "window"]
 - ["PSo30UIResponderStandardEditActions", ""]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "GAI"]
+- !private ["Ps9_Hashable", "GAILogLevel"]
+- !private ["Ps9_Hashable", "GGLContext"]
 - ["Ps9_Hashable", "application"]
 - ["Ps9_Hashable", "applicationDidBecomeActive"]
 - ["Ps9_Hashable", "applicationDidEnterBackground"]
@@ -225,23 +353,59 @@ depends-member:
 - ["Ps9_Hashable", "applicationWillEnterForeground"]
 - ["Ps9_Hashable", "applicationWillResignActive"]
 - ["Ps9_Hashable", "applicationWillTerminate"]
+- !private ["Ps9_Hashable", "assert"]
+- !private ["Ps9_Hashable", "configureWithError"]
 - !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "logger"]
+- !private ["Ps9_Hashable", "sharedInstance"]
+- !private ["Ps9_Hashable", "trackUncaughtExceptions"]
+- !private ["Ps9_Hashable", "verbose"]
 - ["Ps9_Hashable", "window"]
 - ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
 depends-nominal:
 - "Ps9AnyObject"
 - "C15MazaganShowCase11AppDelegate"
 - "Ps7CVarArg"
+- !private "Ps10Comparable"
 - "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
 - "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "CSo3GAI"
+- !private "OSC11GAILogLevel"
+- !private "PSo9GAILogger"
+- !private "CSo10GGLContext"
 - "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps16RawRepresentable"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
 - "PSo21UIApplicationDelegate"
 - "CSo11UIResponder"
 - "PSo30UIResponderStandardEditActions"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
 - "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
@@ -250,11 +414,12 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Modules/SJFluidSegmentedControl.swiftmodule/x86_64.swiftmodule"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Modules/ActionButton.swiftmodule/x86_64.swiftmodule"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Modules/SKPhotoBrowser.swiftmodule/x86_64.swiftmodule"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Modules/Presentr.swiftmodule/x86_64.swiftmodule"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Modules/SJFluidSegmentedControl.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Modules/ActionButton.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Modules/SKPhotoBrowser.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Modules/Presentr.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Toast-Swift/Toast_Swift.framework/Modules/Toast_Swift.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
@@ -265,25 +430,52 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Headers/SJFluidSegmentedControl-umbrella.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Headers/ActionButton-umbrella.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Headers/ITRFlipper-umbrella.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser-umbrella.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Headers/Presentr-umbrella.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Headers/YALSideMenu-umbrella.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/Controllers/iCarousel.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/Controllers/MazaganShowCase-Bridging-Header.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Headers/ITRFlipper.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Headers/SJFluidSegmentedControl-Swift.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Headers/ActionButton-Swift.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser-Swift.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Headers/Presentr-Swift.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Modules/module.modulemap"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Modules/module.modulemap"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Modules/module.modulemap"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Modules/module.modulemap"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Modules/module.modulemap"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAI.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Headers/SJFluidSegmentedControl-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Headers/ActionButton-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Headers/ITRFlipper-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Headers/Presentr-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Toast-Swift/Toast_Swift.framework/Headers/Toast-Swift-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Headers/YALSideMenu-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Headers/GGLErrorCode.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Headers/GGLCore.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/MazaganShowCase/Controllers/iCarousel.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Headers/GGLConfiguration.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Headers/GMRConfiguration.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIEcommerceProductAction.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIEcommercePromotion.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/MazaganShowCase/Controllers/MazaganShowCase-Bridging-Header.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIDictionaryBuilder.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAILogger.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAITracker.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAITrackedViewController.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Headers/ITRFlipper.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLAnalytics.framework/Headers/GGLContext+Analytics.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/Google/Google/Analytics.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLAnalytics.framework/Headers/GGLAnalytics.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIFields.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIEcommerceFields.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIEcommerceProduct.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Headers/SJFluidSegmentedControl-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Headers/ActionButton-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Headers/Presentr-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Toast-Swift/Toast_Swift.framework/Headers/Toast_Swift-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Headers/GGLContext.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GVRSDK/GVRPanoramaView.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GVRSDK/GVRVideoView.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GVRSDK/GVRWidgetView.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLAnalytics.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Toast-Swift/Toast_Swift.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Headers/module.modulemap"
 interface-hash: "b306772a10463f7c5fce689aa6452f8e"

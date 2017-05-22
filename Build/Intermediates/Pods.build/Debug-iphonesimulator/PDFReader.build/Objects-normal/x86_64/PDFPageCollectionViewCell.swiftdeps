@@ -1,0 +1,442 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PDFPageCollectionViewCellDelegate"
+- "PDFPageCollectionViewCell"
+provides-nominal:
+- "P9PDFReader33PDFPageCollectionViewCellDelegate"
+- "C9PDFReader25PDFPageCollectionViewCell"
+provides-member:
+- ["P9PDFReader33PDFPageCollectionViewCellDelegate", ""]
+- ["C9PDFReader25PDFPageCollectionViewCell", ""]
+provides-dynamic-lookup:
+- "handleSingleTap"
+- "pageView"
+depends-top-level:
+- !private "+"
+- "AssignmentPrecedence"
+- "CGRect"
+- "Int"
+- "PDFDocument"
+- "PDFPageCollectionViewCell"
+- "PDFPageCollectionViewCellDelegate"
+- "PDFPageView"
+- "PDFPageViewDelegate"
+- "UICollectionViewCell"
+depends-member:
+- !private ["Ps9AnyObject", "PDFPageView"]
+- !private ["Ps9AnyObject", "addSubview"]
+- !private ["Ps9AnyObject", "bounds"]
+- ["Ps9AnyObject", "handleSingleTap"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "pageCollectionViewCellDelegate"]
+- !private ["Ps9AnyObject", "pageIndex"]
+- !private ["Ps9AnyObject", "pageView"]
+- !private ["Ps9AnyObject", "removeFromSuperview"]
+- !private ["Ps9AnyObject", "subviews"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "forEach"]
+- !private ["Ps23BidirectionalCollection", "forEach"]
+- !private ["PSo15CALayerDelegate", "PDFPageView"]
+- !private ["PSo15CALayerDelegate", "addSubview"]
+- !private ["PSo15CALayerDelegate", "bounds"]
+- ["PSo15CALayerDelegate", "handleSingleTap"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "pageCollectionViewCellDelegate"]
+- !private ["PSo15CALayerDelegate", "pageIndex"]
+- !private ["PSo15CALayerDelegate", "pageView"]
+- !private ["PSo15CALayerDelegate", "removeFromSuperview"]
+- !private ["PSo15CALayerDelegate", "subviews"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["Ps7CVarArg", "PDFPageView"]
+- !private ["Ps7CVarArg", "addSubview"]
+- !private ["Ps7CVarArg", "bounds"]
+- !private ["Ps7CVarArg", "forEach"]
+- ["Ps7CVarArg", "handleSingleTap"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "pageCollectionViewCellDelegate"]
+- !private ["Ps7CVarArg", "pageIndex"]
+- !private ["Ps7CVarArg", "pageView"]
+- !private ["Ps7CVarArg", "removeFromSuperview"]
+- !private ["Ps7CVarArg", "subviews"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "forEach"]
+- !private ["Ps28CustomDebugStringConvertible", "PDFPageView"]
+- !private ["Ps28CustomDebugStringConvertible", "addSubview"]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- !private ["Ps28CustomDebugStringConvertible", "forEach"]
+- ["Ps28CustomDebugStringConvertible", "handleSingleTap"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "pageCollectionViewCellDelegate"]
+- !private ["Ps28CustomDebugStringConvertible", "pageIndex"]
+- !private ["Ps28CustomDebugStringConvertible", "pageView"]
+- !private ["Ps28CustomDebugStringConvertible", "removeFromSuperview"]
+- !private ["Ps28CustomDebugStringConvertible", "subviews"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps17CustomReflectable", "forEach"]
+- !private ["Ps23CustomStringConvertible", "PDFPageView"]
+- !private ["Ps23CustomStringConvertible", "addSubview"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
+- !private ["Ps23CustomStringConvertible", "forEach"]
+- ["Ps23CustomStringConvertible", "handleSingleTap"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "pageCollectionViewCellDelegate"]
+- !private ["Ps23CustomStringConvertible", "pageIndex"]
+- !private ["Ps23CustomStringConvertible", "pageView"]
+- !private ["Ps23CustomStringConvertible", "removeFromSuperview"]
+- !private ["Ps23CustomStringConvertible", "subviews"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "PDFPageView"]
+- !private ["Ps9Equatable", "addSubview"]
+- !private ["Ps9Equatable", "bounds"]
+- ["Ps9Equatable", "handleSingleTap"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "pageCollectionViewCellDelegate"]
+- !private ["Ps9Equatable", "pageIndex"]
+- !private ["Ps9Equatable", "pageView"]
+- !private ["Ps9Equatable", "removeFromSuperview"]
+- !private ["Ps9Equatable", "subviews"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "forEach"]
+- !private ["Ps8Hashable", "PDFPageView"]
+- !private ["Ps8Hashable", "addSubview"]
+- !private ["Ps8Hashable", "bounds"]
+- ["Ps8Hashable", "handleSingleTap"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "pageCollectionViewCellDelegate"]
+- !private ["Ps8Hashable", "pageIndex"]
+- !private ["Ps8Hashable", "pageView"]
+- !private ["Ps8Hashable", "removeFromSuperview"]
+- !private ["Ps8Hashable", "subviews"]
+- ["Ps8Hashable", ""]
+- !private ["Ps17MutableCollection", "forEach"]
+- !private ["PSo8NSCoding", "PDFPageView"]
+- !private ["PSo8NSCoding", "addSubview"]
+- !private ["PSo8NSCoding", "bounds"]
+- ["PSo8NSCoding", "handleSingleTap"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "pageCollectionViewCellDelegate"]
+- !private ["PSo8NSCoding", "pageIndex"]
+- !private ["PSo8NSCoding", "pageView"]
+- !private ["PSo8NSCoding", "removeFromSuperview"]
+- !private ["PSo8NSCoding", "subviews"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "PDFDocument"]
+- ["CSo8NSObject", "PDFPageCollectionViewCellDelegate"]
+- ["CSo8NSObject", "PDFPageView"]
+- !private ["CSo8NSObject", "addSubview"]
+- !private ["CSo8NSObject", "bounds"]
+- ["CSo8NSObject", "handleSingleTap"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "pageCollectionViewCellDelegate"]
+- ["CSo8NSObject", "pageIndex"]
+- ["CSo8NSObject", "pageView"]
+- !private ["CSo8NSObject", "removeFromSuperview"]
+- ["CSo8NSObject", "setup"]
+- !private ["CSo8NSObject", "subviews"]
+- !private ["PSo16NSObjectProtocol", "PDFPageView"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- ["PSo16NSObjectProtocol", "handleSingleTap"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "pageCollectionViewCellDelegate"]
+- !private ["PSo16NSObjectProtocol", "pageIndex"]
+- !private ["PSo16NSObjectProtocol", "pageView"]
+- !private ["PSo16NSObjectProtocol", "removeFromSuperview"]
+- !private ["PSo16NSObjectProtocol", "subviews"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["V9PDFReader11PDFDocument", "pdfPageImage"]
+- ["C9PDFReader25PDFPageCollectionViewCell", "CGRect"]
+- ["C9PDFReader25PDFPageCollectionViewCell", "Int"]
+- ["C9PDFReader25PDFPageCollectionViewCell", "PDFDocument"]
+- ["C9PDFReader25PDFPageCollectionViewCell", "PDFPageCollectionViewCellDelegate"]
+- ["C9PDFReader25PDFPageCollectionViewCell", "PDFPageView"]
+- !private ["C9PDFReader25PDFPageCollectionViewCell", "addSubview"]
+- !private ["C9PDFReader25PDFPageCollectionViewCell", "bounds"]
+- ["C9PDFReader25PDFPageCollectionViewCell", "deinit"]
+- ["C9PDFReader25PDFPageCollectionViewCell", "handleSingleTap"]
+- ["C9PDFReader25PDFPageCollectionViewCell", "init"]
+- !private ["C9PDFReader25PDFPageCollectionViewCell", "pageCollectionViewCellDelegate"]
+- ["C9PDFReader25PDFPageCollectionViewCell", "pageIndex"]
+- ["C9PDFReader25PDFPageCollectionViewCell", "pageView"]
+- ["C9PDFReader25PDFPageCollectionViewCell", "setup"]
+- !private ["C9PDFReader25PDFPageCollectionViewCell", "subviews"]
+- ["P9PDFReader33PDFPageCollectionViewCellDelegate", "PDFPageCollectionViewCell"]
+- ["P9PDFReader33PDFPageCollectionViewCellDelegate", "PDFPageView"]
+- ["P9PDFReader33PDFPageCollectionViewCellDelegate", "handleSingleTap"]
+- !private ["C9PDFReader11PDFPageView", "deinit"]
+- !private ["C9PDFReader11PDFPageView", "init"]
+- !private ["P9PDFReader19PDFPageViewDelegate", "PDFPageView"]
+- !private ["P9PDFReader19PDFPageViewDelegate", "addSubview"]
+- !private ["P9PDFReader19PDFPageViewDelegate", "bounds"]
+- ["P9PDFReader19PDFPageViewDelegate", "handleSingleTap"]
+- !private ["P9PDFReader19PDFPageViewDelegate", "pageCollectionViewCellDelegate"]
+- !private ["P9PDFReader19PDFPageViewDelegate", "pageIndex"]
+- !private ["P9PDFReader19PDFPageViewDelegate", "pageView"]
+- !private ["P9PDFReader19PDFPageViewDelegate", "subviews"]
+- ["P9PDFReader19PDFPageViewDelegate", ""]
+- !private ["Ps22RandomAccessCollection", "forEach"]
+- !private ["Ps26RangeReplaceableCollection", "forEach"]
+- !private ["Ps8Sequence", "forEach"]
+- !private ["PSo29UIAccessibilityIdentification", "PDFPageView"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "bounds"]
+- ["PSo29UIAccessibilityIdentification", "handleSingleTap"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "pageCollectionViewCellDelegate"]
+- !private ["PSo29UIAccessibilityIdentification", "pageIndex"]
+- !private ["PSo29UIAccessibilityIdentification", "pageView"]
+- !private ["PSo29UIAccessibilityIdentification", "removeFromSuperview"]
+- !private ["PSo29UIAccessibilityIdentification", "subviews"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "PDFPageView"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "bounds"]
+- ["PSo12UIAppearance", "handleSingleTap"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "pageCollectionViewCellDelegate"]
+- !private ["PSo12UIAppearance", "pageIndex"]
+- !private ["PSo12UIAppearance", "pageView"]
+- !private ["PSo12UIAppearance", "removeFromSuperview"]
+- !private ["PSo12UIAppearance", "subviews"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "PDFPageView"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
+- !private ["PSo21UIAppearanceContainer", "bounds"]
+- ["PSo21UIAppearanceContainer", "handleSingleTap"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "pageCollectionViewCellDelegate"]
+- !private ["PSo21UIAppearanceContainer", "pageIndex"]
+- !private ["PSo21UIAppearanceContainer", "pageView"]
+- !private ["PSo21UIAppearanceContainer", "removeFromSuperview"]
+- !private ["PSo21UIAppearanceContainer", "subviews"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["CSo24UICollectionReusableView", "CGRect"]
+- ["CSo24UICollectionReusableView", "Int"]
+- ["CSo24UICollectionReusableView", "PDFDocument"]
+- ["CSo24UICollectionReusableView", "PDFPageCollectionViewCellDelegate"]
+- ["CSo24UICollectionReusableView", "PDFPageView"]
+- !private ["CSo24UICollectionReusableView", "addSubview"]
+- !private ["CSo24UICollectionReusableView", "bounds"]
+- ["CSo24UICollectionReusableView", "handleSingleTap"]
+- ["CSo24UICollectionReusableView", "init"]
+- ["CSo24UICollectionReusableView", "pageCollectionViewCellDelegate"]
+- ["CSo24UICollectionReusableView", "pageIndex"]
+- ["CSo24UICollectionReusableView", "pageView"]
+- ["CSo24UICollectionReusableView", "setup"]
+- !private ["CSo24UICollectionReusableView", "subviews"]
+- ["CSo20UICollectionViewCell", "CGRect"]
+- ["CSo20UICollectionViewCell", "Int"]
+- ["CSo20UICollectionViewCell", "PDFDocument"]
+- ["CSo20UICollectionViewCell", "PDFPageCollectionViewCellDelegate"]
+- ["CSo20UICollectionViewCell", "PDFPageView"]
+- !private ["CSo20UICollectionViewCell", "addSubview"]
+- !private ["CSo20UICollectionViewCell", "bounds"]
+- ["CSo20UICollectionViewCell", "handleSingleTap"]
+- ["CSo20UICollectionViewCell", "init"]
+- ["CSo20UICollectionViewCell", "pageCollectionViewCellDelegate"]
+- ["CSo20UICollectionViewCell", "pageIndex"]
+- ["CSo20UICollectionViewCell", "pageView"]
+- ["CSo20UICollectionViewCell", "setup"]
+- !private ["CSo20UICollectionViewCell", "subviews"]
+- ["CSo20UICollectionViewCell", ""]
+- !private ["PSo17UICoordinateSpace", "PDFPageView"]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "bounds"]
+- ["PSo17UICoordinateSpace", "handleSingleTap"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "pageCollectionViewCellDelegate"]
+- !private ["PSo17UICoordinateSpace", "pageIndex"]
+- !private ["PSo17UICoordinateSpace", "pageView"]
+- !private ["PSo17UICoordinateSpace", "removeFromSuperview"]
+- !private ["PSo17UICoordinateSpace", "subviews"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "PDFPageView"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "bounds"]
+- ["PSo13UIDynamicItem", "handleSingleTap"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "pageCollectionViewCellDelegate"]
+- !private ["PSo13UIDynamicItem", "pageIndex"]
+- !private ["PSo13UIDynamicItem", "pageView"]
+- !private ["PSo13UIDynamicItem", "removeFromSuperview"]
+- !private ["PSo13UIDynamicItem", "subviews"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "PDFPageView"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- !private ["PSo18UIFocusEnvironment", "bounds"]
+- ["PSo18UIFocusEnvironment", "handleSingleTap"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "pageCollectionViewCellDelegate"]
+- !private ["PSo18UIFocusEnvironment", "pageIndex"]
+- !private ["PSo18UIFocusEnvironment", "pageView"]
+- !private ["PSo18UIFocusEnvironment", "removeFromSuperview"]
+- !private ["PSo18UIFocusEnvironment", "subviews"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "PDFPageView"]
+- !private ["PSo11UIFocusItem", "addSubview"]
+- !private ["PSo11UIFocusItem", "bounds"]
+- ["PSo11UIFocusItem", "handleSingleTap"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "pageCollectionViewCellDelegate"]
+- !private ["PSo11UIFocusItem", "pageIndex"]
+- !private ["PSo11UIFocusItem", "pageView"]
+- !private ["PSo11UIFocusItem", "removeFromSuperview"]
+- !private ["PSo11UIFocusItem", "subviews"]
+- ["PSo11UIFocusItem", ""]
+- ["CSo11UIResponder", "CGRect"]
+- ["CSo11UIResponder", "Int"]
+- ["CSo11UIResponder", "PDFDocument"]
+- ["CSo11UIResponder", "PDFPageCollectionViewCellDelegate"]
+- ["CSo11UIResponder", "PDFPageView"]
+- !private ["CSo11UIResponder", "addSubview"]
+- !private ["CSo11UIResponder", "bounds"]
+- ["CSo11UIResponder", "handleSingleTap"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "pageCollectionViewCellDelegate"]
+- ["CSo11UIResponder", "pageIndex"]
+- ["CSo11UIResponder", "pageView"]
+- !private ["CSo11UIResponder", "removeFromSuperview"]
+- ["CSo11UIResponder", "setup"]
+- !private ["CSo11UIResponder", "subviews"]
+- !private ["PSo30UIResponderStandardEditActions", "PDFPageView"]
+- !private ["PSo30UIResponderStandardEditActions", "addSubview"]
+- !private ["PSo30UIResponderStandardEditActions", "bounds"]
+- ["PSo30UIResponderStandardEditActions", "handleSingleTap"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "pageCollectionViewCellDelegate"]
+- !private ["PSo30UIResponderStandardEditActions", "pageIndex"]
+- !private ["PSo30UIResponderStandardEditActions", "pageView"]
+- !private ["PSo30UIResponderStandardEditActions", "removeFromSuperview"]
+- !private ["PSo30UIResponderStandardEditActions", "subviews"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo20UIScrollViewDelegate", "init"]
+- !private ["PSo18UITraitEnvironment", "PDFPageView"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- ["PSo18UITraitEnvironment", "handleSingleTap"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "pageCollectionViewCellDelegate"]
+- !private ["PSo18UITraitEnvironment", "pageIndex"]
+- !private ["PSo18UITraitEnvironment", "pageView"]
+- !private ["PSo18UITraitEnvironment", "removeFromSuperview"]
+- !private ["PSo18UITraitEnvironment", "subviews"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "CGRect"]
+- ["CSo6UIView", "Int"]
+- ["CSo6UIView", "PDFDocument"]
+- ["CSo6UIView", "PDFPageCollectionViewCellDelegate"]
+- ["CSo6UIView", "PDFPageView"]
+- !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "bounds"]
+- ["CSo6UIView", "handleSingleTap"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "pageCollectionViewCellDelegate"]
+- ["CSo6UIView", "pageIndex"]
+- ["CSo6UIView", "pageView"]
+- !private ["CSo6UIView", "removeFromSuperview"]
+- ["CSo6UIView", "setup"]
+- !private ["CSo6UIView", "subviews"]
+- !private ["Ps14_ArrayProtocol", "forEach"]
+- !private ["Ps23_BidirectionalIndexable", "forEach"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "PDFPageView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addSubview"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "bounds"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "handleSingleTap"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "pageCollectionViewCellDelegate"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "pageIndex"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "pageView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "removeFromSuperview"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "subviews"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps24_DestructorSafeContainer", "forEach"]
+- !private ["Ps9_Hashable", "PDFPageView"]
+- !private ["Ps9_Hashable", "addSubview"]
+- !private ["Ps9_Hashable", "bounds"]
+- ["Ps9_Hashable", "handleSingleTap"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "pageCollectionViewCellDelegate"]
+- !private ["Ps9_Hashable", "pageIndex"]
+- !private ["Ps9_Hashable", "pageView"]
+- !private ["Ps9_Hashable", "removeFromSuperview"]
+- !private ["Ps9_Hashable", "subviews"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "forEach"]
+- !private ["Ps14_IndexableBase", "forEach"]
+- !private ["Ps17_MutableIndexable", "forEach"]
+- !private ["Ps21_ObjectiveCBridgeable", "forEach"]
+- !private ["Ps22_RandomAccessIndexable", "forEach"]
+- !private ["Ps26_RangeReplaceableIndexable", "forEach"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- "Ps8Hashable"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "V9PDFReader11PDFDocument"
+- "C9PDFReader25PDFPageCollectionViewCell"
+- "P9PDFReader33PDFPageCollectionViewCellDelegate"
+- !private "C9PDFReader11PDFPageView"
+- "P9PDFReader19PDFPageViewDelegate"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps8Sequence"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "CSo24UICollectionReusableView"
+- "CSo20UICollectionViewCell"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "PSo20UIScrollViewDelegate"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Target Support Files/PDFReader/PDFReader-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Intermediates/Pods.build/Debug-iphonesimulator/PDFReader.build/unextended-module.modulemap"
+interface-hash: "e36362b7d4274deabf9a6978888063e8"

@@ -1,0 +1,11 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "a3dd77565b2830dcc20fdaa87bc91995"
+build_time: [548764120, 261054000]
+inputs:
+  "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/PDFReader/Sources/Classes/PDFDocument.swift": [548511198, 0]
+  "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/PDFReader/Sources/Classes/PDFPageCollectionViewCell.swift": [548511198, 0]
+  "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/PDFReader/Sources/Classes/PDFPageView.swift": [548511198, 0]
+  "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/PDFReader/Sources/Classes/PDFThumbnailCell.swift": [548511198, 0]
+  "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/PDFReader/Sources/Classes/PDFThumbnailCollectionViewController.swift": [548511198, 0]
+  "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/PDFReader/Sources/Classes/PDFViewController.swift": [548511198, 0]
+  "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/PDFReader/Sources/Classes/TiledView.swift": [548511198, 0]

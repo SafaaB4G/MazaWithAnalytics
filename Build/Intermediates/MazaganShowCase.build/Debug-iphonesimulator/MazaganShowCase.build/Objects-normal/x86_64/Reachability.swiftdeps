@@ -1,0 +1,238 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Reachability"
+provides-nominal:
+- "C15MazaganShowCase12Reachability"
+provides-member:
+- ["C15MazaganShowCase12Reachability", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&"
+- !private "&&"
+- !private "AF_INET"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "MemoryLayout"
+- "Reachability"
+- !private "SCNetworkReachabilityCreateWithAddress"
+- !private "SCNetworkReachabilityFlags"
+- !private "SCNetworkReachabilityGetFlags"
+- !private "UInt32"
+- !private "UInt8"
+- !private "kSCNetworkFlagsConnectionRequired"
+- !private "kSCNetworkFlagsReachable"
+- !private "sa_family_t"
+- !private "sockaddr"
+- !private "sockaddr_in"
+- !private "withUnsafePointer"
+depends-member:
+- !private ["Ps9AnyObject", "AF_INET"]
+- !private ["Ps9AnyObject", "MemoryLayout"]
+- !private ["Ps9AnyObject", "SCNetworkReachabilityCreateWithAddress"]
+- !private ["Ps9AnyObject", "SCNetworkReachabilityFlags"]
+- !private ["Ps9AnyObject", "SCNetworkReachabilityGetFlags"]
+- !private ["Ps9AnyObject", "UInt32"]
+- !private ["Ps9AnyObject", "UInt8"]
+- !private ["Ps9AnyObject", "kSCNetworkFlagsConnectionRequired"]
+- !private ["Ps9AnyObject", "kSCNetworkFlagsReachable"]
+- !private ["Ps9AnyObject", "sa_family_t"]
+- !private ["Ps9AnyObject", "sockaddr"]
+- !private ["Ps9AnyObject", "sockaddr_in"]
+- !private ["Ps9AnyObject", "withUnsafePointer"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "withMemoryRebound"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "withMemoryRebound"]
+- !private ["Ps28CustomDebugStringConvertible", "withMemoryRebound"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "withMemoryRebound"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "withMemoryRebound"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "withMemoryRebound"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "rawValue"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "withMemoryRebound"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Os12MemoryLayout", "size"]
+- !private ["Ps9OptionSet", "init"]
+- !private ["Ps9OptionSet", "rawValue"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "rawValue"]
+- !private ["C15MazaganShowCase12Reachability", "AF_INET"]
+- ["C15MazaganShowCase12Reachability", "Bool"]
+- !private ["C15MazaganShowCase12Reachability", "MemoryLayout"]
+- !private ["C15MazaganShowCase12Reachability", "SCNetworkReachabilityCreateWithAddress"]
+- !private ["C15MazaganShowCase12Reachability", "SCNetworkReachabilityFlags"]
+- !private ["C15MazaganShowCase12Reachability", "SCNetworkReachabilityGetFlags"]
+- !private ["C15MazaganShowCase12Reachability", "UInt32"]
+- !private ["C15MazaganShowCase12Reachability", "UInt8"]
+- ["C15MazaganShowCase12Reachability", "deinit"]
+- ["C15MazaganShowCase12Reachability", "init"]
+- ["C15MazaganShowCase12Reachability", "isInternetAvailable"]
+- !private ["C15MazaganShowCase12Reachability", "kSCNetworkFlagsConnectionRequired"]
+- !private ["C15MazaganShowCase12Reachability", "kSCNetworkFlagsReachable"]
+- !private ["C15MazaganShowCase12Reachability", "sa_family_t"]
+- !private ["C15MazaganShowCase12Reachability", "sockaddr"]
+- !private ["C15MazaganShowCase12Reachability", "sockaddr_in"]
+- !private ["C15MazaganShowCase12Reachability", "withUnsafePointer"]
+- !private ["VSC26SCNetworkReachabilityFlags", "init"]
+- !private ["VSC26SCNetworkReachabilityFlags", "rawValue"]
+- !private ["Ps10SetAlgebra", "init"]
+- !private ["Ps10SetAlgebra", "rawValue"]
+- !private ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "withMemoryRebound"]
+- !private ["Vs6UInt32", "init"]
+- !private ["Vs5UInt8", "init"]
+- !private ["SP", "withMemoryRebound"]
+- !private ["Ps15UnsignedInteger", "init"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "withMemoryRebound"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps8_Pointer", "withMemoryRebound"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["Ps11_Strideable", "withMemoryRebound"]
+- !private ["Ps14_StringElement", "init"]
+- !private ["VSC11sockaddr_in", "init"]
+- !private ["VSC11sockaddr_in", "sin_family"]
+- !private ["VSC11sockaddr_in", "sin_len"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps8Hashable"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Os12MemoryLayout"
+- !private "Ps9OptionSet"
+- !private "Ps16RawRepresentable"
+- "C15MazaganShowCase12Reachability"
+- !private "VSC26SCNetworkReachabilityFlags"
+- !private "Ps10SetAlgebra"
+- !private "Ps10Strideable"
+- !private "Vs6UInt32"
+- !private "Vs5UInt8"
+- !private "SP"
+- !private "Ps15UnsignedInteger"
+- !private "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps8_Pointer"
+- !private "Ps11_Strideable"
+- !private "Ps14_StringElement"
+- !private "VSC11sockaddr_in"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Modules/SJFluidSegmentedControl.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Modules/ActionButton.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Modules/SKPhotoBrowser.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Modules/Presentr.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Toast-Swift/Toast_Swift.framework/Modules/Toast_Swift.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAI.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Headers/SJFluidSegmentedControl-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Headers/ActionButton-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Headers/ITRFlipper-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Headers/Presentr-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Toast-Swift/Toast_Swift.framework/Headers/Toast-Swift-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Headers/YALSideMenu-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Headers/GGLErrorCode.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Headers/GGLCore.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/MazaganShowCase/Controllers/iCarousel.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Headers/GGLConfiguration.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Headers/GMRConfiguration.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIEcommerceProductAction.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIEcommercePromotion.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/MazaganShowCase/Controllers/MazaganShowCase-Bridging-Header.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIDictionaryBuilder.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAILogger.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAITracker.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAITrackedViewController.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Headers/ITRFlipper.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLAnalytics.framework/Headers/GGLContext+Analytics.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/Google/Google/Analytics.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLAnalytics.framework/Headers/GGLAnalytics.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIFields.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIEcommerceFields.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIEcommerceProduct.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Headers/SJFluidSegmentedControl-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Headers/ActionButton-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Headers/Presentr-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Toast-Swift/Toast_Swift.framework/Headers/Toast_Swift-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Headers/GGLContext.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GVRSDK/GVRPanoramaView.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GVRSDK/GVRVideoView.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GVRSDK/GVRWidgetView.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLAnalytics.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Toast-Swift/Toast_Swift.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Headers/module.modulemap"
+interface-hash: "5224efe033fc939f2a21b7399eedbb77"

@@ -16,6 +16,8 @@ target 'MazaganShowCase' do
     pod 'HDAugmentedReality', '~> 2.0'
     pod 'Toast-Swift'
     pod 'Google/Analytics'
+    pod 'GVRSDK'
+    pod 'PDFReader'
 
     
 

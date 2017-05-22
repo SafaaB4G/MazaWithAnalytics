@@ -1,6 +1,6 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "a7ad5103026b50d519f019bf65ce6446"
-build_time: [548269852, 895761000]
+options: "8f2c437b2ea02b8569d10d73207bc244"
+build_time: [548764124, 982384000]
 inputs:
   "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/SJFluidSegmentedControl/SJFluidSegmentedControl/Classes/SJFluidSegmentedControl.swift": [548266178, 0]
   "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/SJFluidSegmentedControl/SJFluidSegmentedControl/Classes/SJGradientView.swift": [548266178, 0]

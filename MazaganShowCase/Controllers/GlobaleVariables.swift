@@ -7,4 +7,9 @@
 //
 
 import Foundation
-GlobaleVariables
+
+class GlobaleVariables {
+    struct ModeToShow {
+        static var mode : Int? = 0
+    }
+}

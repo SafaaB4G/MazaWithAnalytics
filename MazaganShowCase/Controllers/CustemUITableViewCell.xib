@@ -1,16 +1,56 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustemUITableViewCell" customModule="MazaganShowCase" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5zj-XL-oGP">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="Pck-DU-h1e"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1lk-3z-01s">
+                    <rect key="frame" x="0.0" y="200" width="375" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="Y4V-Bm-u7j"/>
+                    </constraints>
+                    <attributedString key="attributedText">
+                        <fragment content="Label">
+                            <attributes>
+                                <color key="NSColor" red="0.55754536390304565" green="0.33996036648750305" blue="0.090033508837223053" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <font key="NSFont" size="38" name=".AppleSystemUIFont"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="1lk-3z-01s" firstAttribute="bottom" secondItem="5zj-XL-oGP" secondAttribute="bottom" id="1Kh-EP-41X"/>
+                <constraint firstItem="5zj-XL-oGP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Bdw-yV-ovs"/>
+                <constraint firstItem="5zj-XL-oGP" firstAttribute="trailing" secondItem="1lk-3z-01s" secondAttribute="trailing" id="N6B-3e-lA3"/>
+                <constraint firstAttribute="trailing" secondItem="1lk-3z-01s" secondAttribute="trailing" id="QW3-Tt-Weq"/>
+                <constraint firstItem="1lk-3z-01s" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fKi-QP-rwS"/>
+                <constraint firstItem="5zj-XL-oGP" firstAttribute="leading" secondItem="1lk-3z-01s" secondAttribute="leading" id="uNA-5W-I05"/>
+            </constraints>
+            <connections>
+                <outlet property="imageCell" destination="5zj-XL-oGP" id="qCF-tN-nMw"/>
+                <outlet property="label" destination="1lk-3z-01s" id="fz8-HY-ib7"/>
+            </connections>
+            <point key="canvasLocation" x="36.5" y="154.5"/>
         </view>
     </objects>
 </document>

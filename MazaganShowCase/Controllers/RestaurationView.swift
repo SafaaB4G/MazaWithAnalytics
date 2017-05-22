@@ -70,8 +70,8 @@ class RestaurationView: UIViewController ,ITRFlipperDataSource{
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //calling the web service 
+        print("display mode : \(String(describing: GlobaleVariables.ModeToShow.mode))")
+        //calling the web service
         if Reachability.isInternetAvailable() {
 
         let resp = Utils.getSyncDataFromUrl(url: "http://www.beyond4edges.com/mazagan/MazaganWebService/public/index.php/Mazagan/GetDescription/Restauration", httpMethod: "GET", parameter: "") as! NSArray

@@ -20,6 +20,10 @@
 		BD652E571EBB5F9C006735D9 /* restauration.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD652E561EBB5F9C006735D9 /* restauration.xib */; };
 		BD652E5D1EC0CB44006735D9 /* GalleryImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD652E5C1EC0CB44006735D9 /* GalleryImage.swift */; };
 		BD652E5F1EC472AB006735D9 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD652E5E1EC472AB006735D9 /* MapController.swift */; };
+		BDAB8A5F1ECDB000001FF059 /* GVRCOntroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB8A5E1ECDB000001FF059 /* GVRCOntroller.swift */; };
+		BDAB8A611ECDE568001FF059 /* GlobaleVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB8A601ECDE568001FF059 /* GlobaleVariables.swift */; };
+		BDAB8A641ECE0125001FF059 /* CustemUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB8A621ECE0125001FF059 /* CustemUITableViewCell.swift */; };
+		BDAB8A671ECF04B7001FF059 /* CustemUITableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDAB8A661ECF04B7001FF059 /* CustemUITableViewCell.xib */; };
 		BDBD55E01E9287C3009C1B25 /* ViewControllerSegmented.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD55DF1E9287C3009C1B25 /* ViewControllerSegmented.swift */; };
 		C859D52B1E4F1F99000F351D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C859D52A1E4F1F99000F351D /* AppDelegate.swift */; };
 		C859D52D1E4F1F99000F351D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C859D52C1E4F1F99000F351D /* ViewController.swift */; };
@@ -53,6 +57,10 @@
 		BD652E561EBB5F9C006735D9 /* restauration.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = restauration.xib; sourceTree = "<group>"; };
 		BD652E5C1EC0CB44006735D9 /* GalleryImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryImage.swift; sourceTree = "<group>"; };
 		BD652E5E1EC472AB006735D9 /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		BDAB8A5E1ECDB000001FF059 /* GVRCOntroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVRCOntroller.swift; sourceTree = "<group>"; };
+		BDAB8A601ECDE568001FF059 /* GlobaleVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobaleVariables.swift; sourceTree = "<group>"; };
+		BDAB8A621ECE0125001FF059 /* CustemUITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustemUITableViewCell.swift; sourceTree = "<group>"; };
+		BDAB8A661ECF04B7001FF059 /* CustemUITableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustemUITableViewCell.xib; sourceTree = "<group>"; };
 		BDBD55DF1E9287C3009C1B25 /* ViewControllerSegmented.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerSegmented.swift; sourceTree = "<group>"; };
 		C859D5271E4F1F99000F351D /* MazaganShowCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MazaganShowCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C859D52A1E4F1F99000F351D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -157,6 +165,10 @@
 				BD652E5C1EC0CB44006735D9 /* GalleryImage.swift */,
 				BD652E5E1EC472AB006735D9 /* MapController.swift */,
 				D080A1C11ECAFE6100FD1B9F /* Reachability.swift */,
+				BDAB8A5E1ECDB000001FF059 /* GVRCOntroller.swift */,
+				BDAB8A601ECDE568001FF059 /* GlobaleVariables.swift */,
+				BDAB8A621ECE0125001FF059 /* CustemUITableViewCell.swift */,
+				BDAB8A661ECF04B7001FF059 /* CustemUITableViewCell.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -246,6 +258,7 @@
 				BD652E301EB20700006735D9 /* sport.html in Resources */,
 				C859D5351E4F1F99000F351D /* LaunchScreen.storyboard in Resources */,
 				C859D5321E4F1F99000F351D /* Assets.xcassets in Resources */,
+				BDAB8A671ECF04B7001FF059 /* CustemUITableViewCell.xib in Resources */,
 				BD652E571EBB5F9C006735D9 /* restauration.xib in Resources */,
 				D080A1C61ECB5DE200FD1B9F /* GoogleService-Info.plist in Resources */,
 			);
@@ -314,9 +327,12 @@
 				BD652E2A1EAF9B87006735D9 /* SpaController.swift in Sources */,
 				C859D5441E4F421F000F351D /* ContentType.swift in Sources */,
 				C859D5531E4F44CB000F351D /* AnimationDelegate.swift in Sources */,
+				BDAB8A611ECDE568001FF059 /* GlobaleVariables.swift in Sources */,
+				BDAB8A641ECE0125001FF059 /* CustemUITableViewCell.swift in Sources */,
 				BD652E5F1EC472AB006735D9 /* MapController.swift in Sources */,
 				C859D52B1E4F1F99000F351D /* AppDelegate.swift in Sources */,
 				BD652E361EBA1390006735D9 /* Utils.swift in Sources */,
+				BDAB8A5F1ECDB000001FF059 /* GVRCOntroller.swift in Sources */,
 				BD652E221EAF6529006735D9 /* RestaurationView.swift in Sources */,
 				BDBD55E01E9287C3009C1B25 /* ViewControllerSegmented.swift in Sources */,
 				C859D5411E4F40BF000F351D /* MenuViewController.swift in Sources */,

@@ -1,0 +1,752 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GVRCOntroller"
+provides-nominal:
+- "C15MazaganShowCase13GVRCOntroller"
+- "OC15MazaganShowCase13GVRCOntroller5Media"
+provides-member:
+- ["C15MazaganShowCase13GVRCOntroller", ""]
+- ["OC15MazaganShowCase13GVRCOntroller5Media", ""]
+provides-dynamic-lookup:
+- "VRView"
+- "currentDisplayMode"
+- "currentView"
+- "didReceiveMemoryWarning"
+- "viewDidLoad"
+- "widgetView"
+- "widgetViewDidTap"
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "=="
+- "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "GVRCOntroller"
+- !private "GVRPanoramaImageType"
+- "GVRPanoramaView"
+- "GVRWidgetDisplayMode"
+- "GVRWidgetView"
+- "GVRWidgetViewDelegate"
+- "String"
+- "StringLiteralType"
+- !private "UIImage"
+- "UIView"
+- "UIViewController"
+- !private "print"
+depends-member:
+- !private ["Ps9AnyObject", "GVRPanoramaImageType"]
+- ["Ps9AnyObject", "GVRWidgetDisplayMode"]
+- !private ["Ps9AnyObject", "Media"]
+- !private ["Ps9AnyObject", "UIImage"]
+- !private ["Ps9AnyObject", "VRView"]
+- !private ["Ps9AnyObject", "currentDisplayMode"]
+- !private ["Ps9AnyObject", "currentView"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "enableCardboardButton"]
+- !private ["Ps9AnyObject", "enableFullscreenButton"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isHidden"]
+- !private ["Ps9AnyObject", "load"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "view"]
+- !private ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", "widgetView"]
+- ["Ps9AnyObject", "widgetViewDidTap"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "append"]
+- !private ["Sa", "first"]
+- !private ["Sa", "removeFirst"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps23BidirectionalCollection", "first"]
+- !private ["Ps23BidirectionalCollection", "removeFirst"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "delegate"]
+- !private ["PSo15CALayerDelegate", "enableCardboardButton"]
+- !private ["PSo15CALayerDelegate", "enableFullscreenButton"]
+- !private ["PSo15CALayerDelegate", "isHidden"]
+- !private ["PSo15CALayerDelegate", "load"]
+- !private ["Ps7CVarArg", "GVRPanoramaImageType"]
+- ["Ps7CVarArg", "GVRWidgetDisplayMode"]
+- !private ["Ps7CVarArg", "Media"]
+- !private ["Ps7CVarArg", "UIImage"]
+- !private ["Ps7CVarArg", "VRView"]
+- !private ["Ps7CVarArg", "append"]
+- !private ["Ps7CVarArg", "currentDisplayMode"]
+- !private ["Ps7CVarArg", "currentView"]
+- !private ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- !private ["Ps7CVarArg", "enableCardboardButton"]
+- !private ["Ps7CVarArg", "enableFullscreenButton"]
+- !private ["Ps7CVarArg", "first"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isHidden"]
+- !private ["Ps7CVarArg", "load"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "removeFirst"]
+- !private ["Ps7CVarArg", "view"]
+- !private ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", "widgetView"]
+- ["Ps7CVarArg", "widgetViewDidTap"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "first"]
+- !private ["Ps10Collection", "removeFirst"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "GVRPanoramaImageType"]
+- ["Ps28CustomDebugStringConvertible", "GVRWidgetDisplayMode"]
+- !private ["Ps28CustomDebugStringConvertible", "Media"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImage"]
+- !private ["Ps28CustomDebugStringConvertible", "VRView"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "currentDisplayMode"]
+- !private ["Ps28CustomDebugStringConvertible", "currentView"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "enableCardboardButton"]
+- !private ["Ps28CustomDebugStringConvertible", "enableFullscreenButton"]
+- !private ["Ps28CustomDebugStringConvertible", "first"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isHidden"]
+- !private ["Ps28CustomDebugStringConvertible", "load"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "removeFirst"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- !private ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", "widgetView"]
+- ["Ps28CustomDebugStringConvertible", "widgetViewDidTap"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "first"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "removeFirst"]
+- !private ["Ps23CustomStringConvertible", "GVRPanoramaImageType"]
+- ["Ps23CustomStringConvertible", "GVRWidgetDisplayMode"]
+- !private ["Ps23CustomStringConvertible", "Media"]
+- !private ["Ps23CustomStringConvertible", "UIImage"]
+- !private ["Ps23CustomStringConvertible", "VRView"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "currentDisplayMode"]
+- !private ["Ps23CustomStringConvertible", "currentView"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "enableCardboardButton"]
+- !private ["Ps23CustomStringConvertible", "enableFullscreenButton"]
+- !private ["Ps23CustomStringConvertible", "first"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isHidden"]
+- !private ["Ps23CustomStringConvertible", "load"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "removeFirst"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- !private ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", "widgetView"]
+- ["Ps23CustomStringConvertible", "widgetViewDidTap"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "GVRPanoramaImageType"]
+- ["Ps9Equatable", "GVRWidgetDisplayMode"]
+- !private ["Ps9Equatable", "Media"]
+- !private ["Ps9Equatable", "UIImage"]
+- !private ["Ps9Equatable", "VRView"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "currentDisplayMode"]
+- !private ["Ps9Equatable", "currentView"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "didReceiveMemoryWarning"]
+- ["Ps9Equatable", "embedded"]
+- !private ["Ps9Equatable", "enableCardboardButton"]
+- !private ["Ps9Equatable", "enableFullscreenButton"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isHidden"]
+- !private ["Ps9Equatable", "load"]
+- !private ["Ps9Equatable", "mono"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "view"]
+- !private ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", "widgetView"]
+- ["Ps9Equatable", "widgetViewDidTap"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps25ExpressibleByArrayLiteral", "first"]
+- !private ["Ps25ExpressibleByArrayLiteral", "removeFirst"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["C15MazaganShowCase13GVRCOntroller", "GVRPanoramaImageType"]
+- ["C15MazaganShowCase13GVRCOntroller", "GVRPanoramaView"]
+- ["C15MazaganShowCase13GVRCOntroller", "GVRWidgetDisplayMode"]
+- ["C15MazaganShowCase13GVRCOntroller", "GVRWidgetView"]
+- ["C15MazaganShowCase13GVRCOntroller", "Media"]
+- ["C15MazaganShowCase13GVRCOntroller", "String"]
+- !private ["C15MazaganShowCase13GVRCOntroller", "UIImage"]
+- ["C15MazaganShowCase13GVRCOntroller", "UIView"]
+- ["C15MazaganShowCase13GVRCOntroller", "VRView"]
+- ["C15MazaganShowCase13GVRCOntroller", "currentDisplayMode"]
+- ["C15MazaganShowCase13GVRCOntroller", "currentView"]
+- ["C15MazaganShowCase13GVRCOntroller", "deinit"]
+- ["C15MazaganShowCase13GVRCOntroller", "didReceiveMemoryWarning"]
+- ["C15MazaganShowCase13GVRCOntroller", "init"]
+- !private ["C15MazaganShowCase13GVRCOntroller", "print"]
+- !private ["C15MazaganShowCase13GVRCOntroller", "view"]
+- ["C15MazaganShowCase13GVRCOntroller", "viewDidLoad"]
+- ["C15MazaganShowCase13GVRCOntroller", "widgetView"]
+- ["C15MazaganShowCase13GVRCOntroller", "widgetViewDidTap"]
+- !private ["OSC20GVRPanoramaImageType", "mono"]
+- !private ["CSo15GVRPanoramaView", "delegate"]
+- !private ["CSo15GVRPanoramaView", "enableCardboardButton"]
+- !private ["CSo15GVRPanoramaView", "enableFullscreenButton"]
+- !private ["CSo15GVRPanoramaView", "isHidden"]
+- !private ["CSo15GVRPanoramaView", "load"]
+- ["OSC20GVRWidgetDisplayMode", "embedded"]
+- !private ["CSo13GVRWidgetView", "delegate"]
+- !private ["CSo13GVRWidgetView", "enableCardboardButton"]
+- !private ["CSo13GVRWidgetView", "enableFullscreenButton"]
+- !private ["CSo13GVRWidgetView", "isHidden"]
+- !private ["CSo13GVRWidgetView", "load"]
+- !private ["PSo21GVRWidgetViewDelegate", "GVRPanoramaImageType"]
+- ["PSo21GVRWidgetViewDelegate", "GVRWidgetDisplayMode"]
+- !private ["PSo21GVRWidgetViewDelegate", "Media"]
+- !private ["PSo21GVRWidgetViewDelegate", "UIImage"]
+- !private ["PSo21GVRWidgetViewDelegate", "VRView"]
+- !private ["PSo21GVRWidgetViewDelegate", "currentDisplayMode"]
+- !private ["PSo21GVRWidgetViewDelegate", "currentView"]
+- !private ["PSo21GVRWidgetViewDelegate", "print"]
+- !private ["PSo21GVRWidgetViewDelegate", "view"]
+- ["PSo21GVRWidgetViewDelegate", "widgetView"]
+- ["PSo21GVRWidgetViewDelegate", "widgetViewDidTap"]
+- ["PSo21GVRWidgetViewDelegate", ""]
+- !private ["Ps8Hashable", "GVRPanoramaImageType"]
+- ["Ps8Hashable", "GVRWidgetDisplayMode"]
+- !private ["Ps8Hashable", "Media"]
+- !private ["Ps8Hashable", "UIImage"]
+- !private ["Ps8Hashable", "VRView"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "currentDisplayMode"]
+- !private ["Ps8Hashable", "currentView"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "didReceiveMemoryWarning"]
+- ["Ps8Hashable", "embedded"]
+- !private ["Ps8Hashable", "enableCardboardButton"]
+- !private ["Ps8Hashable", "enableFullscreenButton"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isHidden"]
+- !private ["Ps8Hashable", "load"]
+- !private ["Ps8Hashable", "mono"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "view"]
+- !private ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", "widgetView"]
+- ["Ps8Hashable", "widgetViewDidTap"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["OC15MazaganShowCase13GVRCOntroller5Media", "photoArray"]
+- ["OC15MazaganShowCase13GVRCOntroller5Media", "videoURL"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["Ps17MutableCollection", "first"]
+- !private ["Ps17MutableCollection", "removeFirst"]
+- !private ["PSo8NSCoding", "GVRPanoramaImageType"]
+- ["PSo8NSCoding", "GVRWidgetDisplayMode"]
+- !private ["PSo8NSCoding", "Media"]
+- !private ["PSo8NSCoding", "UIImage"]
+- !private ["PSo8NSCoding", "VRView"]
+- !private ["PSo8NSCoding", "currentDisplayMode"]
+- !private ["PSo8NSCoding", "currentView"]
+- !private ["PSo8NSCoding", "delegate"]
+- !private ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "enableCardboardButton"]
+- !private ["PSo8NSCoding", "enableFullscreenButton"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isHidden"]
+- !private ["PSo8NSCoding", "load"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "view"]
+- !private ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", "widgetView"]
+- ["PSo8NSCoding", "widgetViewDidTap"]
+- ["PSo8NSCoding", ""]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "GVRPanoramaImageType"]
+- ["PSo26NSExtensionRequestHandling", "GVRWidgetDisplayMode"]
+- !private ["PSo26NSExtensionRequestHandling", "Media"]
+- !private ["PSo26NSExtensionRequestHandling", "UIImage"]
+- !private ["PSo26NSExtensionRequestHandling", "VRView"]
+- !private ["PSo26NSExtensionRequestHandling", "currentDisplayMode"]
+- !private ["PSo26NSExtensionRequestHandling", "currentView"]
+- !private ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- !private ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", "widgetView"]
+- ["PSo26NSExtensionRequestHandling", "widgetViewDidTap"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "GVRPanoramaImageType"]
+- ["CSo8NSObject", "GVRPanoramaView"]
+- ["CSo8NSObject", "GVRWidgetDisplayMode"]
+- ["CSo8NSObject", "GVRWidgetView"]
+- !private ["CSo8NSObject", "Media"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "UIView"]
+- ["CSo8NSObject", "VRView"]
+- ["CSo8NSObject", "currentDisplayMode"]
+- ["CSo8NSObject", "currentView"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "enableCardboardButton"]
+- !private ["CSo8NSObject", "enableFullscreenButton"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isHidden"]
+- !private ["CSo8NSObject", "load"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "widgetView"]
+- ["CSo8NSObject", "widgetViewDidTap"]
+- !private ["PSo16NSObjectProtocol", "GVRPanoramaImageType"]
+- ["PSo16NSObjectProtocol", "GVRWidgetDisplayMode"]
+- !private ["PSo16NSObjectProtocol", "Media"]
+- !private ["PSo16NSObjectProtocol", "UIImage"]
+- !private ["PSo16NSObjectProtocol", "VRView"]
+- !private ["PSo16NSObjectProtocol", "currentDisplayMode"]
+- !private ["PSo16NSObjectProtocol", "currentView"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "enableCardboardButton"]
+- !private ["PSo16NSObjectProtocol", "enableFullscreenButton"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isHidden"]
+- !private ["PSo16NSObjectProtocol", "load"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- !private ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "widgetView"]
+- ["PSo16NSObjectProtocol", "widgetViewDidTap"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps22RandomAccessCollection", "first"]
+- !private ["Ps22RandomAccessCollection", "removeFirst"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "first"]
+- !private ["Ps26RangeReplaceableCollection", "removeFirst"]
+- ["Ps16RawRepresentable", "embedded"]
+- !private ["Ps16RawRepresentable", "mono"]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "first"]
+- !private ["Ps8Sequence", "removeFirst"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "delegate"]
+- !private ["PSo29UIAccessibilityIdentification", "enableCardboardButton"]
+- !private ["PSo29UIAccessibilityIdentification", "enableFullscreenButton"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "isHidden"]
+- !private ["PSo29UIAccessibilityIdentification", "load"]
+- !private ["PSo12UIAppearance", "delegate"]
+- !private ["PSo12UIAppearance", "enableCardboardButton"]
+- !private ["PSo12UIAppearance", "enableFullscreenButton"]
+- !private ["PSo12UIAppearance", "isHidden"]
+- !private ["PSo12UIAppearance", "load"]
+- !private ["PSo21UIAppearanceContainer", "GVRPanoramaImageType"]
+- ["PSo21UIAppearanceContainer", "GVRWidgetDisplayMode"]
+- !private ["PSo21UIAppearanceContainer", "Media"]
+- !private ["PSo21UIAppearanceContainer", "UIImage"]
+- !private ["PSo21UIAppearanceContainer", "VRView"]
+- !private ["PSo21UIAppearanceContainer", "currentDisplayMode"]
+- !private ["PSo21UIAppearanceContainer", "currentView"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- !private ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "enableCardboardButton"]
+- !private ["PSo21UIAppearanceContainer", "enableFullscreenButton"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "isHidden"]
+- !private ["PSo21UIAppearanceContainer", "load"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- !private ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "widgetView"]
+- ["PSo21UIAppearanceContainer", "widgetViewDidTap"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "GVRPanoramaImageType"]
+- ["PSo18UIContentContainer", "GVRWidgetDisplayMode"]
+- !private ["PSo18UIContentContainer", "Media"]
+- !private ["PSo18UIContentContainer", "UIImage"]
+- !private ["PSo18UIContentContainer", "VRView"]
+- !private ["PSo18UIContentContainer", "currentDisplayMode"]
+- !private ["PSo18UIContentContainer", "currentView"]
+- !private ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "print"]
+- !private ["PSo18UIContentContainer", "view"]
+- !private ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", "widgetView"]
+- ["PSo18UIContentContainer", "widgetViewDidTap"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "delegate"]
+- !private ["PSo17UICoordinateSpace", "enableCardboardButton"]
+- !private ["PSo17UICoordinateSpace", "enableFullscreenButton"]
+- !private ["PSo17UICoordinateSpace", "isHidden"]
+- !private ["PSo17UICoordinateSpace", "load"]
+- !private ["PSo13UIDynamicItem", "delegate"]
+- !private ["PSo13UIDynamicItem", "enableCardboardButton"]
+- !private ["PSo13UIDynamicItem", "enableFullscreenButton"]
+- !private ["PSo13UIDynamicItem", "isHidden"]
+- !private ["PSo13UIDynamicItem", "load"]
+- !private ["PSo18UIFocusEnvironment", "GVRPanoramaImageType"]
+- ["PSo18UIFocusEnvironment", "GVRWidgetDisplayMode"]
+- !private ["PSo18UIFocusEnvironment", "Media"]
+- !private ["PSo18UIFocusEnvironment", "UIImage"]
+- !private ["PSo18UIFocusEnvironment", "VRView"]
+- !private ["PSo18UIFocusEnvironment", "currentDisplayMode"]
+- !private ["PSo18UIFocusEnvironment", "currentView"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- !private ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "enableCardboardButton"]
+- !private ["PSo18UIFocusEnvironment", "enableFullscreenButton"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "isHidden"]
+- !private ["PSo18UIFocusEnvironment", "load"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- !private ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", "widgetView"]
+- ["PSo18UIFocusEnvironment", "widgetViewDidTap"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "delegate"]
+- !private ["PSo11UIFocusItem", "enableCardboardButton"]
+- !private ["PSo11UIFocusItem", "enableFullscreenButton"]
+- !private ["PSo11UIFocusItem", "isHidden"]
+- !private ["PSo11UIFocusItem", "load"]
+- !private ["CSo7UIImage", "init"]
+- !private ["CSo11UIResponder", "GVRPanoramaImageType"]
+- ["CSo11UIResponder", "GVRPanoramaView"]
+- ["CSo11UIResponder", "GVRWidgetDisplayMode"]
+- ["CSo11UIResponder", "GVRWidgetView"]
+- !private ["CSo11UIResponder", "Media"]
+- ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UIImage"]
+- ["CSo11UIResponder", "UIView"]
+- ["CSo11UIResponder", "VRView"]
+- ["CSo11UIResponder", "currentDisplayMode"]
+- ["CSo11UIResponder", "currentView"]
+- !private ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "enableCardboardButton"]
+- !private ["CSo11UIResponder", "enableFullscreenButton"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "isHidden"]
+- !private ["CSo11UIResponder", "load"]
+- !private ["CSo11UIResponder", "print"]
+- !private ["CSo11UIResponder", "view"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "widgetView"]
+- ["CSo11UIResponder", "widgetViewDidTap"]
+- !private ["PSo30UIResponderStandardEditActions", "GVRPanoramaImageType"]
+- ["PSo30UIResponderStandardEditActions", "GVRWidgetDisplayMode"]
+- !private ["PSo30UIResponderStandardEditActions", "Media"]
+- !private ["PSo30UIResponderStandardEditActions", "UIImage"]
+- !private ["PSo30UIResponderStandardEditActions", "VRView"]
+- !private ["PSo30UIResponderStandardEditActions", "currentDisplayMode"]
+- !private ["PSo30UIResponderStandardEditActions", "currentView"]
+- !private ["PSo30UIResponderStandardEditActions", "delegate"]
+- !private ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "enableCardboardButton"]
+- !private ["PSo30UIResponderStandardEditActions", "enableFullscreenButton"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "isHidden"]
+- !private ["PSo30UIResponderStandardEditActions", "load"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- !private ["PSo30UIResponderStandardEditActions", "view"]
+- !private ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", "widgetView"]
+- ["PSo30UIResponderStandardEditActions", "widgetViewDidTap"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "GVRPanoramaImageType"]
+- ["PSo16UIStateRestoring", "GVRWidgetDisplayMode"]
+- !private ["PSo16UIStateRestoring", "Media"]
+- !private ["PSo16UIStateRestoring", "UIImage"]
+- !private ["PSo16UIStateRestoring", "VRView"]
+- !private ["PSo16UIStateRestoring", "currentDisplayMode"]
+- !private ["PSo16UIStateRestoring", "currentView"]
+- !private ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "print"]
+- !private ["PSo16UIStateRestoring", "view"]
+- !private ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "widgetView"]
+- ["PSo16UIStateRestoring", "widgetViewDidTap"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "GVRPanoramaImageType"]
+- ["PSo18UITraitEnvironment", "GVRWidgetDisplayMode"]
+- !private ["PSo18UITraitEnvironment", "Media"]
+- !private ["PSo18UITraitEnvironment", "UIImage"]
+- !private ["PSo18UITraitEnvironment", "VRView"]
+- !private ["PSo18UITraitEnvironment", "currentDisplayMode"]
+- !private ["PSo18UITraitEnvironment", "currentView"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- !private ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "enableCardboardButton"]
+- !private ["PSo18UITraitEnvironment", "enableFullscreenButton"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "isHidden"]
+- !private ["PSo18UITraitEnvironment", "load"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- !private ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", "widgetView"]
+- ["PSo18UITraitEnvironment", "widgetViewDidTap"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "delegate"]
+- !private ["CSo6UIView", "enableCardboardButton"]
+- !private ["CSo6UIView", "enableFullscreenButton"]
+- !private ["CSo6UIView", "isHidden"]
+- !private ["CSo6UIView", "load"]
+- !private ["CSo16UIViewController", "GVRPanoramaImageType"]
+- ["CSo16UIViewController", "GVRPanoramaView"]
+- ["CSo16UIViewController", "GVRWidgetDisplayMode"]
+- ["CSo16UIViewController", "GVRWidgetView"]
+- !private ["CSo16UIViewController", "Media"]
+- ["CSo16UIViewController", "String"]
+- !private ["CSo16UIViewController", "UIImage"]
+- ["CSo16UIViewController", "UIView"]
+- ["CSo16UIViewController", "VRView"]
+- ["CSo16UIViewController", "currentDisplayMode"]
+- ["CSo16UIViewController", "currentView"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "print"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "widgetView"]
+- ["CSo16UIViewController", "widgetViewDidTap"]
+- ["CSo16UIViewController", ""]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps14_ArrayProtocol", "first"]
+- !private ["Ps14_ArrayProtocol", "removeFirst"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- !private ["Ps23_BidirectionalIndexable", "first"]
+- !private ["Ps23_BidirectionalIndexable", "removeFirst"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "delegate"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "enableCardboardButton"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "enableFullscreenButton"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isHidden"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "load"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "first"]
+- !private ["Ps24_DestructorSafeContainer", "removeFirst"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps26_ExpressibleByImageLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "GVRPanoramaImageType"]
+- ["Ps9_Hashable", "GVRWidgetDisplayMode"]
+- !private ["Ps9_Hashable", "Media"]
+- !private ["Ps9_Hashable", "UIImage"]
+- !private ["Ps9_Hashable", "VRView"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "currentDisplayMode"]
+- !private ["Ps9_Hashable", "currentView"]
+- !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- ["Ps9_Hashable", "embedded"]
+- !private ["Ps9_Hashable", "enableCardboardButton"]
+- !private ["Ps9_Hashable", "enableFullscreenButton"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isHidden"]
+- !private ["Ps9_Hashable", "load"]
+- !private ["Ps9_Hashable", "mono"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "view"]
+- !private ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", "widgetView"]
+- ["Ps9_Hashable", "widgetViewDidTap"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "append"]
+- !private ["Ps10_Indexable", "first"]
+- !private ["Ps10_Indexable", "removeFirst"]
+- !private ["Ps14_IndexableBase", "append"]
+- !private ["Ps14_IndexableBase", "first"]
+- !private ["Ps14_IndexableBase", "removeFirst"]
+- !private ["Ps17_MutableIndexable", "append"]
+- !private ["Ps17_MutableIndexable", "first"]
+- !private ["Ps17_MutableIndexable", "removeFirst"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "first"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "removeFirst"]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- !private ["Ps22_RandomAccessIndexable", "first"]
+- !private ["Ps22_RandomAccessIndexable", "removeFirst"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+- !private ["Ps26_RangeReplaceableIndexable", "first"]
+- !private ["Ps26_RangeReplaceableIndexable", "removeFirst"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "C15MazaganShowCase13GVRCOntroller"
+- !private "OSC20GVRPanoramaImageType"
+- !private "CSo15GVRPanoramaView"
+- "OSC20GVRWidgetDisplayMode"
+- !private "CSo13GVRWidgetView"
+- "PSo21GVRWidgetViewDelegate"
+- "Ps8Hashable"
+- "Ps25LosslessStringConvertible"
+- "OC15MazaganShowCase13GVRCOntroller5Media"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo7UIImage"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps26_ExpressibleByImageLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Modules/SJFluidSegmentedControl.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Modules/ActionButton.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Modules/SKPhotoBrowser.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Modules/Presentr.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Toast-Swift/Toast_Swift.framework/Modules/Toast_Swift.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAI.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Headers/SJFluidSegmentedControl-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Headers/ActionButton-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Headers/ITRFlipper-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Headers/Presentr-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Toast-Swift/Toast_Swift.framework/Headers/Toast-Swift-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Headers/YALSideMenu-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Headers/GGLErrorCode.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Headers/GGLCore.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/MazaganShowCase/Controllers/iCarousel.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Headers/GGLConfiguration.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Headers/GMRConfiguration.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIEcommerceProductAction.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIEcommercePromotion.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/MazaganShowCase/Controllers/MazaganShowCase-Bridging-Header.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIDictionaryBuilder.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAILogger.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAITracker.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAITrackedViewController.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Headers/ITRFlipper.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLAnalytics.framework/Headers/GGLContext+Analytics.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/Google/Google/Analytics.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLAnalytics.framework/Headers/GGLAnalytics.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIFields.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIEcommerceFields.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIEcommerceProduct.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Headers/SJFluidSegmentedControl-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Headers/ActionButton-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Headers/Presentr-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Toast-Swift/Toast_Swift.framework/Headers/Toast_Swift-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Headers/GGLContext.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GVRSDK/GVRPanoramaView.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GVRSDK/GVRVideoView.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GVRSDK/GVRWidgetView.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLAnalytics.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Toast-Swift/Toast_Swift.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Headers/module.modulemap"
+interface-hash: "42e44ae9fc7e2315b996a9b0f5775de1"

@@ -1,3 +1,4 @@
 dependencies: \
-  /Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/Controllers/iCarousel.m \
-  /Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/Controllers/iCarousel.h
+  /Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/MazaganShowCase/Controllers/iCarousel.m \
+  /Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/MazaganShowCase/Controllers/iCarousel.h \
+  /Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Headers/module.modulemap

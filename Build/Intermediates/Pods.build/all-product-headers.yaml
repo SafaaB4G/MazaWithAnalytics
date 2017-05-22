@@ -127,6 +127,33 @@
     },
     {
       'type': 'directory',
+      'name': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/PDFReader/PDFReader.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "PDFReader-Swift.h",
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/PDFReader/PDFReader.framework/Headers/PDFReader-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "PDFReader-umbrella.h",
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Target Support Files/PDFReader/PDFReader-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/PDFReader/PDFReader.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Intermediates/Pods.build/Debug-iphonesimulator/PDFReader.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
       'name': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Pods_MazaganShowCase.framework/Headers",
       'contents': [
         {

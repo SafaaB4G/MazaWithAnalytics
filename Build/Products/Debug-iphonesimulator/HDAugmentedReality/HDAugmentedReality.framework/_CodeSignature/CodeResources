@@ -6,7 +6,7 @@
 	<dict>
 		<key>DebugMapViewController.nib</key>
 		<data>
-		8vp+XKKw3mOV3ZRIjJ1zSThuHpw=
+		Dpze2jQn0bgVltBxJFGAx3wCWqc=
 		</data>
 		<key>Headers/HDAugmentedReality-Swift.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/HDAugmentedReality.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		LAUKLEKV99IHbYreb+3nsYjmEEs=
+		KhFcnGXrw/zzqO5SKyyQ4QxCljc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,11 +51,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8vp+XKKw3mOV3ZRIjJ1zSThuHpw=
+			Dpze2jQn0bgVltBxJFGAx3wCWqc=
 			</data>
 			<key>hash2</key>
 			<data>
-			7m7cdDlZPSxsU1BW6N/tcQ3zcawysJYEFk1VBYJ3ZEw=
+			r8pJ3AvG+YxapFBbOcGFknPnGdIZc29ed76JBFYDNmE=
 			</data>
 		</dict>
 		<key>Headers/HDAugmentedReality-Swift.h</key>
@@ -95,11 +95,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LAUKLEKV99IHbYreb+3nsYjmEEs=
+			KhFcnGXrw/zzqO5SKyyQ4QxCljc=
 			</data>
 			<key>hash2</key>
 			<data>
-			yEgVc7wFAn3NYjplivgBjn4wjTR6ofsq+OCieoe17dA=
+			X6JQa6Hwr+Xwz7OmAhmhXuuwz3ZMTzZ97G6VVBiSj+o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

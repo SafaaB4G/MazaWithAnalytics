@@ -36,6 +36,31 @@ class ViewControllerSegmented: UIViewController ,UITableViewDataSource, UITableV
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // this will be lauched in first time or asking about the mode of the picture (360 or normal)
+        if(GlobaleVariables.ModeToShow.mode == 0){
+        
+        let alert = UIAlertController(title: "Alert", message: "Did you waant to see pictures in VR mode or normal mode", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "Yes 🤘", style: UIAlertActionStyle.default, handler: {
+            action in
+            GlobaleVariables.ModeToShow.mode = 1
+            
+            
+        }))
+        alert.addAction(UIAlertAction(title: "No 🤘", style: UIAlertActionStyle.default, handler: {
+            action in
+            GlobaleVariables.ModeToShow.mode = -1
+        
+    
+        }))
+
+        self.present(alert, animated: true, completion: nil)
+        
+        }
+        //and of call
+        
+        
+        
         if Reachability.isInternetAvailable() {
             
             
@@ -77,17 +102,32 @@ class ViewControllerSegmented: UIViewController ,UITableViewDataSource, UITableV
         let displayHeight: CGFloat = self.view.frame.height
         
         myTableView = UITableView(frame: CGRect(x: 0, y: 0 , width: displayWidth, height: displayHeight - barHeight))
-        myTableView?.register(UITableViewCell.self, forCellReuseIdentifier: "MyCell")
+        
+        
+       // myTableView?.register(CustemUITableViewCell.self, forCellReuseIdentifier: "CustemUITableViewCell")
+        
+        myTableView?.register(UINib(nibName: "CustemUITableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
+        
         myTableView?.dataSource = self
         myTableView?.delegate = self
         self.myTableView?.separatorColor = UIColor.clear
-        
+        myTableView?.contentInset = UIEdgeInsetsMake(0, 0, 140, 0);
+       // myTableView?.alwaysBounceVertical = false
+
+
         
         myTableView1 = UITableView(frame: CGRect(x: UIScreen.main.bounds.size.width, y: 0 , width: displayWidth, height: displayHeight - barHeight))
-        myTableView1?.register(UITableViewCell.self, forCellReuseIdentifier: "MyCell")
+       // myTableView1?.alwaysBounceVertical = false
+
+        
+       // myTableView1?.register(CustemUITableViewCell.self, forCellReuseIdentifier: "CustemUITableViewCell")
+        
+        
+      myTableView1?.register(UINib(nibName: "CustemUITableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
         myTableView1?.dataSource = self
         myTableView1?.delegate = self
         myTableView1?.separatorColor = UIColor.clear
+        myTableView1?.contentInset = UIEdgeInsetsMake(0, 0, 140, 0);
         
         myView3 = UIView(frame: CGRect(x: UIScreen.main.bounds.size.width * 2, y: 0 , width: displayWidth, height: displayHeight - barHeight))
         
@@ -107,6 +147,11 @@ class ViewControllerSegmented: UIViewController ,UITableViewDataSource, UITableV
         self.scrollView.addSubview(myTableView1!)
         self.scrollView.addSubview(myView3!)
         
+//        var contentRect = CGRect.zero
+//        for view in self.scrollView.subviews {
+//            contentRect = contentRect.union(view.frame)
+//        }
+//        self.scrollView.contentSize = contentRect.size
         
         //dialog chambre/Suite
         
@@ -294,26 +339,56 @@ class ViewControllerSegmented: UIViewController ,UITableViewDataSource, UITableV
             
             switch indexPath.row {
             case 0:
+                if (GlobaleVariables.ModeToShow.mode == 1){
+                    let destination = storyboard.instantiateViewController(withIdentifier: "VRControllerID") as! GVRCOntroller
+                    navigationController?.pushViewController(destination, animated: true)
+                    
+                }
+                else{
                 destination.toPass = "http://beyond4edges.com/mazagan/MazaganWebService/public/index.php/Mazagan/GetPhoto/PoolViewRoom"
                 
                 destination.TypeHebergement="http://beyond4edges.com/mazagan/MazaganWebService/public/index.php/Mazagan/GetDescription/PoolViewRoom"
                 
                 navigationController?.pushViewController(destination, animated: true)
+                }
                 //present(destination, animated: true, completion: nil)
                 break
             case 1:
+                if (GlobaleVariables.ModeToShow.mode == 1){
+                let destination = storyboard.instantiateViewController(withIdentifier: "VRControllerID") as! GVRCOntroller
+                    navigationController?.pushViewController(destination, animated: true)
+
+                }
+                
+                if(GlobaleVariables.ModeToShow.mode == -1 ){
                 destination.toPass = "http://beyond4edges.com/mazagan/MazaganWebService/public/index.php/Mazagan/GetPhoto/PartialOceanViewRoom"
                 
                 destination.TypeHebergement="http://beyond4edges.com/mazagan/MazaganWebService/public/index.php/Mazagan/GetDescription/PartialOceanViewRoom"
-                navigationController?.pushViewController(destination, animated: true)
+                
+                    navigationController?.pushViewController(destination, animated: true)
+
+                
+                }
                 break
             case 2:
+                if (GlobaleVariables.ModeToShow.mode == 1){
+                    let destination = storyboard.instantiateViewController(withIdentifier: "VRControllerID") as! GVRCOntroller
+                    navigationController?.pushViewController(destination, animated: true)
+                    
+                }
+                
                 destination.toPass = "http://beyond4edges.com/mazagan/MazaganWebService/public/index.php/Mazagan/GetPhoto/OceanViewRoom"
                 
                 destination.TypeHebergement="http://beyond4edges.com/mazagan/MazaganWebService/public/index.php/Mazagan/GetDescription/OceanViewRoom"
                 navigationController?.pushViewController(destination, animated: true)
                 break
             case 3:
+                if (GlobaleVariables.ModeToShow.mode == 1){
+                    let destination = storyboard.instantiateViewController(withIdentifier: "VRControllerID") as! GVRCOntroller
+                    navigationController?.pushViewController(destination, animated: true)
+                    
+                }
+                
                 navigationController?.pushViewController(destination, animated: true)
                 destination.toPass = "http://beyond4edges.com/mazagan/MazaganWebService/public/index.php/Mazagan/GetPhoto/PrimeOceanViewRoom"
                 destination.TypeHebergement="http://beyond4edges.com/mazagan/MazaganWebService/public/index.php/Mazagan/GetDescription/PrimeOceanViewRoom"
@@ -336,27 +411,53 @@ class ViewControllerSegmented: UIViewController ,UITableViewDataSource, UITableV
         {
             switch indexPath.row {
             case 0:
+                if (GlobaleVariables.ModeToShow.mode == 1){
+                    let destination = storyboard.instantiateViewController(withIdentifier: "VRControllerID") as! GVRCOntroller
+                    navigationController?.pushViewController(destination, animated: true)
+                    
+                }
+                
                 destination.toPass = "http://beyond4edges.com/mazagan/MazaganWebService/public/index.php/Mazagan/GetPhoto/OceanViewMazaganSuite"
                 destination.TypeHebergement="http://beyond4edges.com/mazagan/MazaganWebService/public/index.php/Mazagan/GetDescription/OceanViewMazaganSuite"
                 navigationController?.pushViewController(destination, animated: true)
                 break
             case 1:
+                if (GlobaleVariables.ModeToShow.mode == 1){
+                    let destination = storyboard.instantiateViewController(withIdentifier: "VRControllerID") as! GVRCOntroller
+                    navigationController?.pushViewController(destination, animated: true)
+                    
+                }
                 destination.toPass = "http://beyond4edges.com/mazagan/MazaganWebService/public/index.php/Mazagan/GetPhoto/PrimeOceanMazaganSuite"
                 destination.TypeHebergement="http://beyond4edges.com/mazagan/MazaganWebService/public/index.php/Mazagan/GetDescription/PrimeOceanMazaganSuite"
                 navigationController?.pushViewController(destination, animated: true)
                 break
             case 2:
+                if (GlobaleVariables.ModeToShow.mode == 1){
+                    let destination = storyboard.instantiateViewController(withIdentifier: "VRControllerID") as! GVRCOntroller
+                    navigationController?.pushViewController(destination, animated: true)
+                    
+                }
                 destination.toPass = "http://beyond4edges.com/mazagan/MazaganWebService/public/index.php/Mazagan/GetPhoto/ExecutiveSuite"
                 destination.TypeHebergement="http://beyond4edges.com/mazagan/MazaganWebService/public/index.php/Mazagan/GetDescription/ExecutiveSuite"
                 navigationController?.pushViewController(destination, animated: true)
                 break
             case 3:
+                if (GlobaleVariables.ModeToShow.mode == 1){
+                    let destination = storyboard.instantiateViewController(withIdentifier: "VRControllerID") as! GVRCOntroller
+                    navigationController?.pushViewController(destination, animated: true)
+                    
+                }
                 destination.toPass = "http://beyond4edges.com/mazagan/MazaganWebService/public/index.php/Mazagan/GetPhoto/AmbassadorSuite"
                 destination.TypeHebergement="http://beyond4edges.com/mazagan/MazaganWebService/public/index.php/Mazagan/GetDescription/AmbassadorSuite"
                 navigationController?.pushViewController(destination, animated: true)
                 break
                 
             case 4:
+                if (GlobaleVariables.ModeToShow.mode == 1){
+                    let destination = storyboard.instantiateViewController(withIdentifier: "VRControllerID") as! GVRCOntroller
+                    navigationController?.pushViewController(destination, animated: true)
+                    
+                }
                 destination.toPass = "http://beyond4edges.com/mazagan/MazaganWebService/public/index.php/Mazagan/GetPhoto/RoyalSuite"
                 destination.TypeHebergement="http://beyond4edges.com/mazagan/MazaganWebService/public/index.php/Mazagan/GetDescription/RoyalSuite"
                 navigationController?.pushViewController(destination, animated: true)
@@ -400,71 +501,91 @@ class ViewControllerSegmented: UIViewController ,UITableViewDataSource, UITableV
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        print("j'ai passer par cellForRowAt")
+        let cell : CustemUITableViewCell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath as IndexPath) as! CustemUITableViewCell
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "MyCell", for: indexPath as IndexPath)
-        cell.textLabel?.font = UIFont.boldSystemFont(ofSize: 20)
-        cell.textLabel?.textColor = UIColor.blue
+        
+        let colorLabel : UIColor = UIColor(red: 0 / 255.0, green: 0 / 255.0, blue: 0 / 255.0, alpha: 0.25)
+        
+        let rectImage : CGRect = CGRect(x : 0 , y : 0 , width : UIScreen.main.bounds.width , height : 300)
+
+
+
+        
+        
+        cell.imageCell?.frame = rectImage
+        //cell.label?.frame = rectlabel
+        cell.label?.backgroundColor = colorLabel
+
+        
+        print("here here")
+        cell.label?.center = CGPoint(x: 300, y: 400)
+        cell.label?.textAlignment = .center
+        cell.label?.font = UIFont.boldSystemFont(ofSize: 20)
+        cell.label?.textColor = UIColor.red
         
         if (segmentedControl.currentSegment == 0){
             
             
             switch indexPath.row {
             case 0:
-                cell.textLabel?.text = "Pool View Room"
-                cell.imageView?.image = image1.image
-                image1.frame = rect
-            case 1:
-                cell.textLabel?.text = "Partial Ocean View Room"
-                image2.frame = rect
                 
-                cell.imageView?.image = image2.image
+                cell.imageCell?.image = image1.image
+                cell.label?.text = "Pool View Room"
+
+                print("height is : \(cell.label.frame.height)")
+                //image1.frame = rect
+                
+            case 1:
+                
+                cell.label?.text = "Partial Ocean View Room"
+                //image2.frame = rect
+                
+               cell.imageCell?.image = image2.image
                 
                 
             case 2:
-                cell.textLabel?.text = "Ocean View Room"
-                image3.frame = rect
-                
-                cell.imageView?.image = image3.image
-                
+                cell.label?.text = "Ocean View Room"
+                cell.imageCell?.image = image1.image
+
                 
             case 3:
-                cell.textLabel?.text = "Prime Ocean View Room"
-                image4.frame = rect
+                cell.label?.text = "Prime Ocean View Room"
                 
-                cell.imageView?.image = image4.image
+                cell.imageCell?.image = image4.image
                 
                 
             default:
-                cell.textLabel?.text = "No Rows"
+                cell.label?.text = "No Rows"
                 
             }
             
         }
         if (segmentedControl.currentSegment == 1){
-            imageView.frame = rect
-            cell.imageView?.image = imageView.image
+            //imageView.frame = rect
+            cell.imageCell?.image = imageView.image
             switch indexPath.row {
             case 0:
-                cell.textLabel?.text = "Ocean View Mazagan Suite"
+                cell.label?.text = "Ocean View Mazagan Suite"
             case 1:
-                cell.textLabel?.text = "Prime Ocean Mazagan Suite"
+                cell.label?.text = "Prime Ocean Mazagan Suite"
             case 2:
-                cell.textLabel?.text = "Executive  Suite"
+                cell.label?.text = "Executive  Suite"
             case 3:
-                cell.textLabel?.text = "Ambassadeur Suite"
+                cell.label?.text = "Ambassadeur Suite"
             case 4:
-                cell.textLabel?.text = "Royal Suite"
+                cell.label?.text = "Royal Suite"
             default:
-                cell.textLabel?.text = "No Rows"
+                cell.label?.text = "No Rows"
                 
             }
         }
         
-        
+        print("the cell is : \(cell)")
         return cell
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 200
+        return 300
     }
     
     

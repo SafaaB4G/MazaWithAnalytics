@@ -17,20 +17,27 @@ provides-dynamic-lookup:
 - "numberOfItems"
 - "preferredStatusBarStyle"
 - "viewDidLoad"
+- "viewWillAppear"
 depends-top-level:
 - !private "*"
 - !private "/"
 - !private "=="
 - "ActionButton"
 - !private "ActionButtonItem"
+- !private "AnyObject"
 - !private "Array"
 - "AssignmentPrecedence"
+- "Bool"
 - !private "BooleanLiteralType"
 - "CGFloat"
 - !private "CGRect"
+- "CastingPrecedence"
+- !private "GAI"
+- !private "GAIDictionaryBuilder"
 - "HomePageController"
 - "Int"
 - "NSMutableArray"
+- !private "NSObject"
 - !private "StringLiteralType"
 - !private "UIColor"
 - !private "UIControlState"
@@ -46,6 +53,7 @@ depends-top-level:
 - "iCarouselDataSource"
 - "iCarouselDelegate"
 - "iCarouselOption"
+- !private "kGAIScreenName"
 - !private "print"
 depends-member:
 - !private ["C12ActionButton12ActionButton", "action"]
@@ -58,6 +66,8 @@ depends-member:
 - !private ["Ps9AnyObject", "ActionButton"]
 - !private ["Ps9AnyObject", "ActionButtonItem"]
 - !private ["Ps9AnyObject", "CGRect"]
+- !private ["Ps9AnyObject", "GAI"]
+- !private ["Ps9AnyObject", "GAIDictionaryBuilder"]
 - ["Ps9AnyObject", "NSMutableArray"]
 - !private ["Ps9AnyObject", "UIColor"]
 - !private ["Ps9AnyObject", "UIControlState"]
@@ -71,6 +81,7 @@ depends-member:
 - !private ["Ps9AnyObject", "awakeFromNib"]
 - !private ["Ps9AnyObject", "backgroundColor"]
 - !private ["Ps9AnyObject", "bounds"]
+- !private ["Ps9AnyObject", "build"]
 - ["Ps9AnyObject", "carousel"]
 - ["Ps9AnyObject", "carouselCurrentItemIndexDidChange"]
 - ["Ps9AnyObject", "carouselDidEndDecelerating"]
@@ -81,14 +92,17 @@ depends-member:
 - ["Ps9AnyObject", "carouselWillBeginDecelerating"]
 - ["Ps9AnyObject", "carouselWillBeginDragging"]
 - ["Ps9AnyObject", "carouselWillBeginScrollingAnimation"]
+- !private ["Ps9AnyObject", "clear"]
 - !private ["Ps9AnyObject", "contentMode"]
 - !private ["Ps9AnyObject", "count"]
+- !private ["Ps9AnyObject", "createScreenView"]
 - !private ["Ps9AnyObject", "dataSource"]
+- !private ["Ps9AnyObject", "defaultTracker"]
 - !private ["Ps9AnyObject", "didReceiveMemoryWarning"]
 - !private ["Ps9AnyObject", "frame"]
-- !private ["Ps9AnyObject", "gray"]
 - !private ["Ps9AnyObject", "image"]
 - ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "kGAIScreenName"]
 - !private ["Ps9AnyObject", "main"]
 - !private ["Ps9AnyObject", "myImages"]
 - !private ["Ps9AnyObject", "myViewCarousel"]
@@ -100,10 +114,12 @@ depends-member:
 - !private ["Ps9AnyObject", "print"]
 - !private ["Ps9AnyObject", "scrollToItem"]
 - !private ["Ps9AnyObject", "setTitle"]
+- !private ["Ps9AnyObject", "sharedInstance"]
 - !private ["Ps9AnyObject", "toggleMenu"]
 - !private ["Ps9AnyObject", "type"]
 - !private ["Ps9AnyObject", "view"]
 - !private ["Ps9AnyObject", "viewDidLoad"]
+- !private ["Ps9AnyObject", "viewWillAppear"]
 - ["Ps9AnyObject", ""]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["PSo15CALayerDelegate", "autoresizingMask"]
@@ -124,6 +140,8 @@ depends-member:
 - !private ["Ps7CVarArg", "ActionButton"]
 - !private ["Ps7CVarArg", "ActionButtonItem"]
 - !private ["Ps7CVarArg", "CGRect"]
+- !private ["Ps7CVarArg", "GAI"]
+- !private ["Ps7CVarArg", "GAIDictionaryBuilder"]
 - ["Ps7CVarArg", "NSMutableArray"]
 - !private ["Ps7CVarArg", "UIColor"]
 - !private ["Ps7CVarArg", "UIControlState"]
@@ -137,6 +155,7 @@ depends-member:
 - !private ["Ps7CVarArg", "awakeFromNib"]
 - !private ["Ps7CVarArg", "backgroundColor"]
 - !private ["Ps7CVarArg", "bounds"]
+- !private ["Ps7CVarArg", "build"]
 - ["Ps7CVarArg", "carousel"]
 - ["Ps7CVarArg", "carouselCurrentItemIndexDidChange"]
 - ["Ps7CVarArg", "carouselDidEndDecelerating"]
@@ -147,14 +166,17 @@ depends-member:
 - ["Ps7CVarArg", "carouselWillBeginDecelerating"]
 - ["Ps7CVarArg", "carouselWillBeginDragging"]
 - ["Ps7CVarArg", "carouselWillBeginScrollingAnimation"]
+- !private ["Ps7CVarArg", "clear"]
 - !private ["Ps7CVarArg", "contentMode"]
 - !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "createScreenView"]
 - !private ["Ps7CVarArg", "dataSource"]
+- !private ["Ps7CVarArg", "defaultTracker"]
 - !private ["Ps7CVarArg", "didReceiveMemoryWarning"]
 - !private ["Ps7CVarArg", "frame"]
-- !private ["Ps7CVarArg", "gray"]
 - !private ["Ps7CVarArg", "image"]
 - ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "kGAIScreenName"]
 - !private ["Ps7CVarArg", "main"]
 - !private ["Ps7CVarArg", "myImages"]
 - !private ["Ps7CVarArg", "myViewCarousel"]
@@ -166,15 +188,19 @@ depends-member:
 - !private ["Ps7CVarArg", "print"]
 - !private ["Ps7CVarArg", "scrollToItem"]
 - !private ["Ps7CVarArg", "setTitle"]
+- !private ["Ps7CVarArg", "sharedInstance"]
 - !private ["Ps7CVarArg", "toggleMenu"]
 - !private ["Ps7CVarArg", "type"]
 - !private ["Ps7CVarArg", "view"]
 - !private ["Ps7CVarArg", "viewDidLoad"]
+- !private ["Ps7CVarArg", "viewWillAppear"]
 - ["Ps7CVarArg", ""]
 - !private ["Ps10Comparable", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "ActionButton"]
 - !private ["Ps28CustomDebugStringConvertible", "ActionButtonItem"]
 - !private ["Ps28CustomDebugStringConvertible", "CGRect"]
+- !private ["Ps28CustomDebugStringConvertible", "GAI"]
+- !private ["Ps28CustomDebugStringConvertible", "GAIDictionaryBuilder"]
 - ["Ps28CustomDebugStringConvertible", "NSMutableArray"]
 - !private ["Ps28CustomDebugStringConvertible", "UIColor"]
 - !private ["Ps28CustomDebugStringConvertible", "UIControlState"]
@@ -188,6 +214,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
 - !private ["Ps28CustomDebugStringConvertible", "backgroundColor"]
 - !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- !private ["Ps28CustomDebugStringConvertible", "build"]
 - ["Ps28CustomDebugStringConvertible", "carousel"]
 - ["Ps28CustomDebugStringConvertible", "carouselCurrentItemIndexDidChange"]
 - ["Ps28CustomDebugStringConvertible", "carouselDidEndDecelerating"]
@@ -198,15 +225,18 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "carouselWillBeginDecelerating"]
 - ["Ps28CustomDebugStringConvertible", "carouselWillBeginDragging"]
 - ["Ps28CustomDebugStringConvertible", "carouselWillBeginScrollingAnimation"]
+- !private ["Ps28CustomDebugStringConvertible", "clear"]
 - !private ["Ps28CustomDebugStringConvertible", "contentMode"]
 - !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "createScreenView"]
 - !private ["Ps28CustomDebugStringConvertible", "dataSource"]
+- !private ["Ps28CustomDebugStringConvertible", "defaultTracker"]
 - !private ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
 - !private ["Ps28CustomDebugStringConvertible", "frame"]
-- !private ["Ps28CustomDebugStringConvertible", "gray"]
 - !private ["Ps28CustomDebugStringConvertible", "height"]
 - !private ["Ps28CustomDebugStringConvertible", "image"]
 - ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "kGAIScreenName"]
 - !private ["Ps28CustomDebugStringConvertible", "main"]
 - !private ["Ps28CustomDebugStringConvertible", "myImages"]
 - !private ["Ps28CustomDebugStringConvertible", "myViewCarousel"]
@@ -218,11 +248,13 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "print"]
 - !private ["Ps28CustomDebugStringConvertible", "scrollToItem"]
 - !private ["Ps28CustomDebugStringConvertible", "setTitle"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedInstance"]
 - !private ["Ps28CustomDebugStringConvertible", "size"]
 - !private ["Ps28CustomDebugStringConvertible", "toggleMenu"]
 - !private ["Ps28CustomDebugStringConvertible", "type"]
 - !private ["Ps28CustomDebugStringConvertible", "view"]
 - !private ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- !private ["Ps28CustomDebugStringConvertible", "viewWillAppear"]
 - !private ["Ps28CustomDebugStringConvertible", "width"]
 - ["Ps28CustomDebugStringConvertible", ""]
 - !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
@@ -240,6 +272,8 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "ActionButton"]
 - !private ["Ps23CustomStringConvertible", "ActionButtonItem"]
 - !private ["Ps23CustomStringConvertible", "CGRect"]
+- !private ["Ps23CustomStringConvertible", "GAI"]
+- !private ["Ps23CustomStringConvertible", "GAIDictionaryBuilder"]
 - ["Ps23CustomStringConvertible", "NSMutableArray"]
 - !private ["Ps23CustomStringConvertible", "UIColor"]
 - !private ["Ps23CustomStringConvertible", "UIControlState"]
@@ -254,6 +288,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "awakeFromNib"]
 - !private ["Ps23CustomStringConvertible", "backgroundColor"]
 - !private ["Ps23CustomStringConvertible", "bounds"]
+- !private ["Ps23CustomStringConvertible", "build"]
 - ["Ps23CustomStringConvertible", "carousel"]
 - ["Ps23CustomStringConvertible", "carouselCurrentItemIndexDidChange"]
 - ["Ps23CustomStringConvertible", "carouselDidEndDecelerating"]
@@ -264,14 +299,17 @@ depends-member:
 - ["Ps23CustomStringConvertible", "carouselWillBeginDecelerating"]
 - ["Ps23CustomStringConvertible", "carouselWillBeginDragging"]
 - ["Ps23CustomStringConvertible", "carouselWillBeginScrollingAnimation"]
+- !private ["Ps23CustomStringConvertible", "clear"]
 - !private ["Ps23CustomStringConvertible", "contentMode"]
 - !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "createScreenView"]
 - !private ["Ps23CustomStringConvertible", "dataSource"]
+- !private ["Ps23CustomStringConvertible", "defaultTracker"]
 - !private ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
 - !private ["Ps23CustomStringConvertible", "frame"]
-- !private ["Ps23CustomStringConvertible", "gray"]
 - !private ["Ps23CustomStringConvertible", "image"]
 - ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "kGAIScreenName"]
 - !private ["Ps23CustomStringConvertible", "main"]
 - !private ["Ps23CustomStringConvertible", "myImages"]
 - !private ["Ps23CustomStringConvertible", "myViewCarousel"]
@@ -283,14 +321,18 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "print"]
 - !private ["Ps23CustomStringConvertible", "scrollToItem"]
 - !private ["Ps23CustomStringConvertible", "setTitle"]
+- !private ["Ps23CustomStringConvertible", "sharedInstance"]
 - !private ["Ps23CustomStringConvertible", "toggleMenu"]
 - !private ["Ps23CustomStringConvertible", "type"]
 - !private ["Ps23CustomStringConvertible", "view"]
 - !private ["Ps23CustomStringConvertible", "viewDidLoad"]
+- !private ["Ps23CustomStringConvertible", "viewWillAppear"]
 - ["Ps23CustomStringConvertible", ""]
 - !private ["Ps9Equatable", "ActionButton"]
 - !private ["Ps9Equatable", "ActionButtonItem"]
 - !private ["Ps9Equatable", "CGRect"]
+- !private ["Ps9Equatable", "GAI"]
+- !private ["Ps9Equatable", "GAIDictionaryBuilder"]
 - ["Ps9Equatable", "NSMutableArray"]
 - !private ["Ps9Equatable", "UIColor"]
 - !private ["Ps9Equatable", "UIControlState"]
@@ -305,6 +347,7 @@ depends-member:
 - !private ["Ps9Equatable", "awakeFromNib"]
 - !private ["Ps9Equatable", "backgroundColor"]
 - !private ["Ps9Equatable", "bounds"]
+- !private ["Ps9Equatable", "build"]
 - ["Ps9Equatable", "carousel"]
 - ["Ps9Equatable", "carouselCurrentItemIndexDidChange"]
 - ["Ps9Equatable", "carouselDidEndDecelerating"]
@@ -316,10 +359,13 @@ depends-member:
 - ["Ps9Equatable", "carouselWillBeginDragging"]
 - ["Ps9Equatable", "carouselWillBeginScrollingAnimation"]
 - !private ["Ps9Equatable", "center"]
+- !private ["Ps9Equatable", "clear"]
 - !private ["Ps9Equatable", "contentMode"]
 - !private ["Ps9Equatable", "count"]
 - !private ["Ps9Equatable", "coverFlow2"]
+- !private ["Ps9Equatable", "createScreenView"]
 - !private ["Ps9Equatable", "dataSource"]
+- !private ["Ps9Equatable", "defaultTracker"]
 - !private ["Ps9Equatable", "didReceiveMemoryWarning"]
 - !private ["Ps9Equatable", "flexibleHeight"]
 - !private ["Ps9Equatable", "flexibleLeftMargin"]
@@ -327,10 +373,10 @@ depends-member:
 - !private ["Ps9Equatable", "flexibleTopMargin"]
 - !private ["Ps9Equatable", "flexibleWidth"]
 - !private ["Ps9Equatable", "frame"]
-- !private ["Ps9Equatable", "gray"]
 - !private ["Ps9Equatable", "height"]
 - !private ["Ps9Equatable", "image"]
 - ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "kGAIScreenName"]
 - !private ["Ps9Equatable", "lightContent"]
 - !private ["Ps9Equatable", "main"]
 - !private ["Ps9Equatable", "myImages"]
@@ -344,12 +390,14 @@ depends-member:
 - !private ["Ps9Equatable", "scaleAspectFit"]
 - !private ["Ps9Equatable", "scrollToItem"]
 - !private ["Ps9Equatable", "setTitle"]
+- !private ["Ps9Equatable", "sharedInstance"]
 - !private ["Ps9Equatable", "size"]
 - !private ["Ps9Equatable", "spacing"]
 - !private ["Ps9Equatable", "toggleMenu"]
 - !private ["Ps9Equatable", "type"]
 - !private ["Ps9Equatable", "view"]
 - !private ["Ps9Equatable", "viewDidLoad"]
+- !private ["Ps9Equatable", "viewWillAppear"]
 - !private ["Ps9Equatable", "width"]
 - ["Ps9Equatable", ""]
 - !private ["Ps25ExpressibleByArrayLiteral", "count"]
@@ -364,9 +412,17 @@ depends-member:
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["CSo3GAI", "defaultTracker"]
+- !private ["CSo3GAI", "sharedInstance"]
+- !private ["CSo20GAIDictionaryBuilder", "build"]
+- !private ["CSo20GAIDictionaryBuilder", "createScreenView"]
+- !private ["PSo10GAITracker", "send"]
+- !private ["PSo10GAITracker", "set"]
 - !private ["Ps8Hashable", "ActionButton"]
 - !private ["Ps8Hashable", "ActionButtonItem"]
 - !private ["Ps8Hashable", "CGRect"]
+- !private ["Ps8Hashable", "GAI"]
+- !private ["Ps8Hashable", "GAIDictionaryBuilder"]
 - ["Ps8Hashable", "NSMutableArray"]
 - !private ["Ps8Hashable", "UIColor"]
 - !private ["Ps8Hashable", "UIControlState"]
@@ -381,6 +437,7 @@ depends-member:
 - !private ["Ps8Hashable", "awakeFromNib"]
 - !private ["Ps8Hashable", "backgroundColor"]
 - !private ["Ps8Hashable", "bounds"]
+- !private ["Ps8Hashable", "build"]
 - ["Ps8Hashable", "carousel"]
 - ["Ps8Hashable", "carouselCurrentItemIndexDidChange"]
 - ["Ps8Hashable", "carouselDidEndDecelerating"]
@@ -392,15 +449,18 @@ depends-member:
 - ["Ps8Hashable", "carouselWillBeginDragging"]
 - ["Ps8Hashable", "carouselWillBeginScrollingAnimation"]
 - !private ["Ps8Hashable", "center"]
+- !private ["Ps8Hashable", "clear"]
 - !private ["Ps8Hashable", "contentMode"]
 - !private ["Ps8Hashable", "count"]
 - !private ["Ps8Hashable", "coverFlow2"]
+- !private ["Ps8Hashable", "createScreenView"]
 - !private ["Ps8Hashable", "dataSource"]
+- !private ["Ps8Hashable", "defaultTracker"]
 - !private ["Ps8Hashable", "didReceiveMemoryWarning"]
 - !private ["Ps8Hashable", "frame"]
-- !private ["Ps8Hashable", "gray"]
 - !private ["Ps8Hashable", "image"]
 - ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "kGAIScreenName"]
 - !private ["Ps8Hashable", "lightContent"]
 - !private ["Ps8Hashable", "main"]
 - !private ["Ps8Hashable", "myImages"]
@@ -414,18 +474,25 @@ depends-member:
 - !private ["Ps8Hashable", "scaleAspectFit"]
 - !private ["Ps8Hashable", "scrollToItem"]
 - !private ["Ps8Hashable", "setTitle"]
+- !private ["Ps8Hashable", "sharedInstance"]
 - !private ["Ps8Hashable", "spacing"]
 - !private ["Ps8Hashable", "toggleMenu"]
 - !private ["Ps8Hashable", "type"]
 - !private ["Ps8Hashable", "view"]
 - !private ["Ps8Hashable", "viewDidLoad"]
+- !private ["Ps8Hashable", "viewWillAppear"]
 - ["Ps8Hashable", ""]
 - ["C15MazaganShowCase18HomePageController", "ActionButton"]
 - !private ["C15MazaganShowCase18HomePageController", "ActionButtonItem"]
+- !private ["C15MazaganShowCase18HomePageController", "AnyObject"]
+- ["C15MazaganShowCase18HomePageController", "Bool"]
 - ["C15MazaganShowCase18HomePageController", "CGFloat"]
 - !private ["C15MazaganShowCase18HomePageController", "CGRect"]
+- !private ["C15MazaganShowCase18HomePageController", "GAI"]
+- !private ["C15MazaganShowCase18HomePageController", "GAIDictionaryBuilder"]
 - ["C15MazaganShowCase18HomePageController", "Int"]
 - ["C15MazaganShowCase18HomePageController", "NSMutableArray"]
+- !private ["C15MazaganShowCase18HomePageController", "NSObject"]
 - !private ["C15MazaganShowCase18HomePageController", "UIColor"]
 - !private ["C15MazaganShowCase18HomePageController", "UIControlState"]
 - !private ["C15MazaganShowCase18HomePageController", "UIImage"]
@@ -451,6 +518,7 @@ depends-member:
 - ["C15MazaganShowCase18HomePageController", "iCarousel"]
 - ["C15MazaganShowCase18HomePageController", "iCarouselOption"]
 - ["C15MazaganShowCase18HomePageController", "init"]
+- !private ["C15MazaganShowCase18HomePageController", "kGAIScreenName"]
 - ["C15MazaganShowCase18HomePageController", "myImages"]
 - ["C15MazaganShowCase18HomePageController", "myViewCarousel"]
 - ["C15MazaganShowCase18HomePageController", "numberOfItems"]
@@ -462,6 +530,7 @@ depends-member:
 - ["C15MazaganShowCase18HomePageController", "selectedIndex"]
 - !private ["C15MazaganShowCase18HomePageController", "view"]
 - ["C15MazaganShowCase18HomePageController", "viewDidLoad"]
+- ["C15MazaganShowCase18HomePageController", "viewWillAppear"]
 - !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps25LosslessStringConvertible", "init"]
 - !private ["Ps10MirrorPath", "init"]
@@ -471,6 +540,8 @@ depends-member:
 - !private ["PSo8NSCoding", "ActionButton"]
 - !private ["PSo8NSCoding", "ActionButtonItem"]
 - !private ["PSo8NSCoding", "CGRect"]
+- !private ["PSo8NSCoding", "GAI"]
+- !private ["PSo8NSCoding", "GAIDictionaryBuilder"]
 - ["PSo8NSCoding", "NSMutableArray"]
 - !private ["PSo8NSCoding", "UIColor"]
 - !private ["PSo8NSCoding", "UIControlState"]
@@ -492,14 +563,15 @@ depends-member:
 - ["PSo8NSCoding", "carouselWillBeginDecelerating"]
 - ["PSo8NSCoding", "carouselWillBeginDragging"]
 - ["PSo8NSCoding", "carouselWillBeginScrollingAnimation"]
+- !private ["PSo8NSCoding", "clear"]
 - !private ["PSo8NSCoding", "contentMode"]
 - !private ["PSo8NSCoding", "count"]
 - !private ["PSo8NSCoding", "dataSource"]
 - !private ["PSo8NSCoding", "didReceiveMemoryWarning"]
 - !private ["PSo8NSCoding", "frame"]
-- !private ["PSo8NSCoding", "gray"]
 - !private ["PSo8NSCoding", "image"]
 - ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "kGAIScreenName"]
 - !private ["PSo8NSCoding", "myImages"]
 - !private ["PSo8NSCoding", "myViewCarousel"]
 - ["PSo8NSCoding", "numberOfItems"]
@@ -512,14 +584,17 @@ depends-member:
 - !private ["PSo8NSCoding", "type"]
 - !private ["PSo8NSCoding", "view"]
 - !private ["PSo8NSCoding", "viewDidLoad"]
+- !private ["PSo8NSCoding", "viewWillAppear"]
 - ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "clear"]
 - !private ["PSo9NSCopying", "count"]
-- !private ["PSo9NSCopying", "gray"]
 - ["PSo9NSCopying", "init"]
 - !private ["PSo9NSCopying", "object"]
 - !private ["PSo26NSExtensionRequestHandling", "ActionButton"]
 - !private ["PSo26NSExtensionRequestHandling", "ActionButtonItem"]
 - !private ["PSo26NSExtensionRequestHandling", "CGRect"]
+- !private ["PSo26NSExtensionRequestHandling", "GAI"]
+- !private ["PSo26NSExtensionRequestHandling", "GAIDictionaryBuilder"]
 - ["PSo26NSExtensionRequestHandling", "NSMutableArray"]
 - !private ["PSo26NSExtensionRequestHandling", "UIColor"]
 - !private ["PSo26NSExtensionRequestHandling", "UIControlState"]
@@ -541,6 +616,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "carouselWillBeginScrollingAnimation"]
 - !private ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
 - !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "kGAIScreenName"]
 - !private ["PSo26NSExtensionRequestHandling", "myImages"]
 - !private ["PSo26NSExtensionRequestHandling", "myViewCarousel"]
 - ["PSo26NSExtensionRequestHandling", "numberOfItems"]
@@ -550,6 +626,7 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "print"]
 - !private ["PSo26NSExtensionRequestHandling", "view"]
 - !private ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- !private ["PSo26NSExtensionRequestHandling", "viewWillAppear"]
 - ["PSo26NSExtensionRequestHandling", ""]
 - !private ["PSo17NSFastEnumeration", "count"]
 - ["PSo17NSFastEnumeration", "init"]
@@ -562,10 +639,15 @@ depends-member:
 - !private ["PSo16NSMutableCopying", "object"]
 - ["CSo8NSObject", "ActionButton"]
 - !private ["CSo8NSObject", "ActionButtonItem"]
+- !private ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
 - ["CSo8NSObject", "CGFloat"]
 - !private ["CSo8NSObject", "CGRect"]
+- !private ["CSo8NSObject", "GAI"]
+- !private ["CSo8NSObject", "GAIDictionaryBuilder"]
 - ["CSo8NSObject", "Int"]
 - ["CSo8NSObject", "NSMutableArray"]
+- !private ["CSo8NSObject", "NSObject"]
 - !private ["CSo8NSObject", "UIColor"]
 - !private ["CSo8NSObject", "UIControlState"]
 - !private ["CSo8NSObject", "UIImage"]
@@ -580,6 +662,7 @@ depends-member:
 - ["CSo8NSObject", "awakeFromNib"]
 - !private ["CSo8NSObject", "backgroundColor"]
 - !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "build"]
 - ["CSo8NSObject", "carousel"]
 - ["CSo8NSObject", "carouselCurrentItemIndexDidChange"]
 - ["CSo8NSObject", "carouselDidEndDecelerating"]
@@ -590,16 +673,19 @@ depends-member:
 - ["CSo8NSObject", "carouselWillBeginDecelerating"]
 - ["CSo8NSObject", "carouselWillBeginDragging"]
 - ["CSo8NSObject", "carouselWillBeginScrollingAnimation"]
+- !private ["CSo8NSObject", "clear"]
 - !private ["CSo8NSObject", "contentMode"]
 - !private ["CSo8NSObject", "count"]
+- !private ["CSo8NSObject", "createScreenView"]
 - !private ["CSo8NSObject", "dataSource"]
+- !private ["CSo8NSObject", "defaultTracker"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
 - !private ["CSo8NSObject", "frame"]
-- !private ["CSo8NSObject", "gray"]
 - ["CSo8NSObject", "iCarousel"]
 - ["CSo8NSObject", "iCarouselOption"]
 - !private ["CSo8NSObject", "image"]
 - ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "kGAIScreenName"]
 - !private ["CSo8NSObject", "main"]
 - ["CSo8NSObject", "myImages"]
 - ["CSo8NSObject", "myViewCarousel"]
@@ -613,13 +699,17 @@ depends-member:
 - !private ["CSo8NSObject", "scrollToItem"]
 - ["CSo8NSObject", "selectedIndex"]
 - !private ["CSo8NSObject", "setTitle"]
+- !private ["CSo8NSObject", "sharedInstance"]
 - !private ["CSo8NSObject", "toggleMenu"]
 - !private ["CSo8NSObject", "type"]
 - !private ["CSo8NSObject", "view"]
 - ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "viewWillAppear"]
 - !private ["PSo16NSObjectProtocol", "ActionButton"]
 - !private ["PSo16NSObjectProtocol", "ActionButtonItem"]
 - !private ["PSo16NSObjectProtocol", "CGRect"]
+- !private ["PSo16NSObjectProtocol", "GAI"]
+- !private ["PSo16NSObjectProtocol", "GAIDictionaryBuilder"]
 - ["PSo16NSObjectProtocol", "NSMutableArray"]
 - !private ["PSo16NSObjectProtocol", "UIColor"]
 - !private ["PSo16NSObjectProtocol", "UIControlState"]
@@ -633,6 +723,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "awakeFromNib"]
 - !private ["PSo16NSObjectProtocol", "backgroundColor"]
 - !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "build"]
 - ["PSo16NSObjectProtocol", "carousel"]
 - ["PSo16NSObjectProtocol", "carouselCurrentItemIndexDidChange"]
 - ["PSo16NSObjectProtocol", "carouselDidEndDecelerating"]
@@ -643,14 +734,17 @@ depends-member:
 - ["PSo16NSObjectProtocol", "carouselWillBeginDecelerating"]
 - ["PSo16NSObjectProtocol", "carouselWillBeginDragging"]
 - ["PSo16NSObjectProtocol", "carouselWillBeginScrollingAnimation"]
+- !private ["PSo16NSObjectProtocol", "clear"]
 - !private ["PSo16NSObjectProtocol", "contentMode"]
 - !private ["PSo16NSObjectProtocol", "count"]
+- !private ["PSo16NSObjectProtocol", "createScreenView"]
 - !private ["PSo16NSObjectProtocol", "dataSource"]
+- !private ["PSo16NSObjectProtocol", "defaultTracker"]
 - !private ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
 - !private ["PSo16NSObjectProtocol", "frame"]
-- !private ["PSo16NSObjectProtocol", "gray"]
 - !private ["PSo16NSObjectProtocol", "image"]
 - ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "kGAIScreenName"]
 - !private ["PSo16NSObjectProtocol", "main"]
 - !private ["PSo16NSObjectProtocol", "myImages"]
 - !private ["PSo16NSObjectProtocol", "myViewCarousel"]
@@ -661,14 +755,18 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "object"]
 - !private ["PSo16NSObjectProtocol", "print"]
 - !private ["PSo16NSObjectProtocol", "scrollToItem"]
+- !private ["PSo16NSObjectProtocol", "send"]
+- !private ["PSo16NSObjectProtocol", "set"]
 - !private ["PSo16NSObjectProtocol", "setTitle"]
+- !private ["PSo16NSObjectProtocol", "sharedInstance"]
 - !private ["PSo16NSObjectProtocol", "toggleMenu"]
 - !private ["PSo16NSObjectProtocol", "type"]
 - !private ["PSo16NSObjectProtocol", "view"]
 - !private ["PSo16NSObjectProtocol", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "viewWillAppear"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "clear"]
 - !private ["PSo14NSSecureCoding", "count"]
-- !private ["PSo14NSSecureCoding", "gray"]
 - ["PSo14NSSecureCoding", "init"]
 - !private ["PSo14NSSecureCoding", "object"]
 - !private ["CSo8NSString", "init"]
@@ -722,6 +820,8 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "ActionButton"]
 - !private ["PSo21UIAppearanceContainer", "ActionButtonItem"]
 - !private ["PSo21UIAppearanceContainer", "CGRect"]
+- !private ["PSo21UIAppearanceContainer", "GAI"]
+- !private ["PSo21UIAppearanceContainer", "GAIDictionaryBuilder"]
 - ["PSo21UIAppearanceContainer", "NSMutableArray"]
 - !private ["PSo21UIAppearanceContainer", "UIColor"]
 - !private ["PSo21UIAppearanceContainer", "UIControlState"]
@@ -749,6 +849,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "frame"]
 - !private ["PSo21UIAppearanceContainer", "image"]
 - !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "kGAIScreenName"]
 - !private ["PSo21UIAppearanceContainer", "myImages"]
 - !private ["PSo21UIAppearanceContainer", "myViewCarousel"]
 - ["PSo21UIAppearanceContainer", "numberOfItems"]
@@ -760,12 +861,15 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "type"]
 - !private ["PSo21UIAppearanceContainer", "view"]
 - !private ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- !private ["PSo21UIAppearanceContainer", "viewWillAppear"]
 - ["PSo21UIAppearanceContainer", ""]
-- !private ["CSo7UIColor", "gray"]
+- !private ["CSo7UIColor", "clear"]
 - !private ["CSo7UIColor", "init"]
 - !private ["PSo18UIContentContainer", "ActionButton"]
 - !private ["PSo18UIContentContainer", "ActionButtonItem"]
 - !private ["PSo18UIContentContainer", "CGRect"]
+- !private ["PSo18UIContentContainer", "GAI"]
+- !private ["PSo18UIContentContainer", "GAIDictionaryBuilder"]
 - ["PSo18UIContentContainer", "NSMutableArray"]
 - !private ["PSo18UIContentContainer", "UIColor"]
 - !private ["PSo18UIContentContainer", "UIControlState"]
@@ -787,6 +891,7 @@ depends-member:
 - ["PSo18UIContentContainer", "carouselWillBeginScrollingAnimation"]
 - !private ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
 - !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "kGAIScreenName"]
 - !private ["PSo18UIContentContainer", "myImages"]
 - !private ["PSo18UIContentContainer", "myViewCarousel"]
 - ["PSo18UIContentContainer", "numberOfItems"]
@@ -796,6 +901,7 @@ depends-member:
 - !private ["PSo18UIContentContainer", "print"]
 - !private ["PSo18UIContentContainer", "view"]
 - !private ["PSo18UIContentContainer", "viewDidLoad"]
+- !private ["PSo18UIContentContainer", "viewWillAppear"]
 - ["PSo18UIContentContainer", ""]
 - !private ["VSC14UIControlState", "init"]
 - !private ["PSo17UICoordinateSpace", "autoresizingMask"]
@@ -819,6 +925,8 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "ActionButton"]
 - !private ["PSo18UIFocusEnvironment", "ActionButtonItem"]
 - !private ["PSo18UIFocusEnvironment", "CGRect"]
+- !private ["PSo18UIFocusEnvironment", "GAI"]
+- !private ["PSo18UIFocusEnvironment", "GAIDictionaryBuilder"]
 - ["PSo18UIFocusEnvironment", "NSMutableArray"]
 - !private ["PSo18UIFocusEnvironment", "UIColor"]
 - !private ["PSo18UIFocusEnvironment", "UIControlState"]
@@ -846,6 +954,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "frame"]
 - !private ["PSo18UIFocusEnvironment", "image"]
 - !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "kGAIScreenName"]
 - !private ["PSo18UIFocusEnvironment", "myImages"]
 - !private ["PSo18UIFocusEnvironment", "myViewCarousel"]
 - ["PSo18UIFocusEnvironment", "numberOfItems"]
@@ -857,6 +966,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "type"]
 - !private ["PSo18UIFocusEnvironment", "view"]
 - !private ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- !private ["PSo18UIFocusEnvironment", "viewWillAppear"]
 - ["PSo18UIFocusEnvironment", ""]
 - !private ["PSo11UIFocusItem", "autoresizingMask"]
 - !private ["PSo11UIFocusItem", "backgroundColor"]
@@ -874,10 +984,15 @@ depends-member:
 - !private ["CSo11UIImageView", "init"]
 - ["CSo11UIResponder", "ActionButton"]
 - !private ["CSo11UIResponder", "ActionButtonItem"]
+- !private ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Bool"]
 - ["CSo11UIResponder", "CGFloat"]
 - !private ["CSo11UIResponder", "CGRect"]
+- !private ["CSo11UIResponder", "GAI"]
+- !private ["CSo11UIResponder", "GAIDictionaryBuilder"]
 - ["CSo11UIResponder", "Int"]
 - ["CSo11UIResponder", "NSMutableArray"]
+- !private ["CSo11UIResponder", "NSObject"]
 - !private ["CSo11UIResponder", "UIColor"]
 - !private ["CSo11UIResponder", "UIControlState"]
 - !private ["CSo11UIResponder", "UIImage"]
@@ -908,6 +1023,7 @@ depends-member:
 - ["CSo11UIResponder", "iCarouselOption"]
 - !private ["CSo11UIResponder", "image"]
 - ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "kGAIScreenName"]
 - ["CSo11UIResponder", "myImages"]
 - ["CSo11UIResponder", "myViewCarousel"]
 - ["CSo11UIResponder", "numberOfItems"]
@@ -921,9 +1037,12 @@ depends-member:
 - !private ["CSo11UIResponder", "type"]
 - !private ["CSo11UIResponder", "view"]
 - ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "viewWillAppear"]
 - !private ["PSo30UIResponderStandardEditActions", "ActionButton"]
 - !private ["PSo30UIResponderStandardEditActions", "ActionButtonItem"]
 - !private ["PSo30UIResponderStandardEditActions", "CGRect"]
+- !private ["PSo30UIResponderStandardEditActions", "GAI"]
+- !private ["PSo30UIResponderStandardEditActions", "GAIDictionaryBuilder"]
 - ["PSo30UIResponderStandardEditActions", "NSMutableArray"]
 - !private ["PSo30UIResponderStandardEditActions", "UIColor"]
 - !private ["PSo30UIResponderStandardEditActions", "UIControlState"]
@@ -951,6 +1070,7 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "frame"]
 - !private ["PSo30UIResponderStandardEditActions", "image"]
 - !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "kGAIScreenName"]
 - !private ["PSo30UIResponderStandardEditActions", "myImages"]
 - !private ["PSo30UIResponderStandardEditActions", "myViewCarousel"]
 - ["PSo30UIResponderStandardEditActions", "numberOfItems"]
@@ -962,12 +1082,15 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "type"]
 - !private ["PSo30UIResponderStandardEditActions", "view"]
 - !private ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "viewWillAppear"]
 - ["PSo30UIResponderStandardEditActions", ""]
 - !private ["CSo8UIScreen", "bounds"]
 - !private ["CSo8UIScreen", "main"]
 - !private ["PSo16UIStateRestoring", "ActionButton"]
 - !private ["PSo16UIStateRestoring", "ActionButtonItem"]
 - !private ["PSo16UIStateRestoring", "CGRect"]
+- !private ["PSo16UIStateRestoring", "GAI"]
+- !private ["PSo16UIStateRestoring", "GAIDictionaryBuilder"]
 - ["PSo16UIStateRestoring", "NSMutableArray"]
 - !private ["PSo16UIStateRestoring", "UIColor"]
 - !private ["PSo16UIStateRestoring", "UIControlState"]
@@ -989,6 +1112,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "carouselWillBeginScrollingAnimation"]
 - !private ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
 - !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "kGAIScreenName"]
 - !private ["PSo16UIStateRestoring", "myImages"]
 - !private ["PSo16UIStateRestoring", "myViewCarousel"]
 - ["PSo16UIStateRestoring", "numberOfItems"]
@@ -998,11 +1122,14 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "print"]
 - !private ["PSo16UIStateRestoring", "view"]
 - !private ["PSo16UIStateRestoring", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "viewWillAppear"]
 - ["PSo16UIStateRestoring", ""]
 - !private ["OSC16UIStatusBarStyle", "lightContent"]
 - !private ["PSo18UITraitEnvironment", "ActionButton"]
 - !private ["PSo18UITraitEnvironment", "ActionButtonItem"]
 - !private ["PSo18UITraitEnvironment", "CGRect"]
+- !private ["PSo18UITraitEnvironment", "GAI"]
+- !private ["PSo18UITraitEnvironment", "GAIDictionaryBuilder"]
 - ["PSo18UITraitEnvironment", "NSMutableArray"]
 - !private ["PSo18UITraitEnvironment", "UIColor"]
 - !private ["PSo18UITraitEnvironment", "UIControlState"]
@@ -1031,6 +1158,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "frame"]
 - !private ["PSo18UITraitEnvironment", "image"]
 - !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "kGAIScreenName"]
 - !private ["PSo18UITraitEnvironment", "main"]
 - !private ["PSo18UITraitEnvironment", "myImages"]
 - !private ["PSo18UITraitEnvironment", "myViewCarousel"]
@@ -1043,6 +1171,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "type"]
 - !private ["PSo18UITraitEnvironment", "view"]
 - !private ["PSo18UITraitEnvironment", "viewDidLoad"]
+- !private ["PSo18UITraitEnvironment", "viewWillAppear"]
 - ["PSo18UITraitEnvironment", ""]
 - !private ["CSo6UIView", "autoresizingMask"]
 - !private ["CSo6UIView", "backgroundColor"]
@@ -1062,10 +1191,15 @@ depends-member:
 - !private ["OSC17UIViewContentMode", "scaleAspectFit"]
 - ["CSo16UIViewController", "ActionButton"]
 - !private ["CSo16UIViewController", "ActionButtonItem"]
+- !private ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "Bool"]
 - ["CSo16UIViewController", "CGFloat"]
 - !private ["CSo16UIViewController", "CGRect"]
+- !private ["CSo16UIViewController", "GAI"]
+- !private ["CSo16UIViewController", "GAIDictionaryBuilder"]
 - ["CSo16UIViewController", "Int"]
 - ["CSo16UIViewController", "NSMutableArray"]
+- !private ["CSo16UIViewController", "NSObject"]
 - !private ["CSo16UIViewController", "UIColor"]
 - !private ["CSo16UIViewController", "UIControlState"]
 - !private ["CSo16UIViewController", "UIImage"]
@@ -1090,6 +1224,7 @@ depends-member:
 - ["CSo16UIViewController", "iCarousel"]
 - ["CSo16UIViewController", "iCarouselOption"]
 - ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "kGAIScreenName"]
 - ["CSo16UIViewController", "myImages"]
 - ["CSo16UIViewController", "myViewCarousel"]
 - ["CSo16UIViewController", "numberOfItems"]
@@ -1101,6 +1236,7 @@ depends-member:
 - ["CSo16UIViewController", "selectedIndex"]
 - !private ["CSo16UIViewController", "view"]
 - ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "viewWillAppear"]
 - ["CSo16UIViewController", ""]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "autoresizingMask"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "backgroundColor"]
@@ -1116,7 +1252,7 @@ depends-member:
 - !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
 - !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
 - !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
-- !private ["Ps26_ExpressibleByColorLiteral", "gray"]
+- !private ["Ps26_ExpressibleByColorLiteral", "clear"]
 - !private ["Ps26_ExpressibleByColorLiteral", "init"]
 - !private ["Ps26_ExpressibleByImageLiteral", "init"]
 - !private ["Ps33_ExpressibleByStringInterpolation", "init"]
@@ -1124,6 +1260,8 @@ depends-member:
 - !private ["Ps9_Hashable", "ActionButton"]
 - !private ["Ps9_Hashable", "ActionButtonItem"]
 - !private ["Ps9_Hashable", "CGRect"]
+- !private ["Ps9_Hashable", "GAI"]
+- !private ["Ps9_Hashable", "GAIDictionaryBuilder"]
 - ["Ps9_Hashable", "NSMutableArray"]
 - !private ["Ps9_Hashable", "UIColor"]
 - !private ["Ps9_Hashable", "UIControlState"]
@@ -1138,6 +1276,7 @@ depends-member:
 - !private ["Ps9_Hashable", "awakeFromNib"]
 - !private ["Ps9_Hashable", "backgroundColor"]
 - !private ["Ps9_Hashable", "bounds"]
+- !private ["Ps9_Hashable", "build"]
 - ["Ps9_Hashable", "carousel"]
 - ["Ps9_Hashable", "carouselCurrentItemIndexDidChange"]
 - ["Ps9_Hashable", "carouselDidEndDecelerating"]
@@ -1149,15 +1288,18 @@ depends-member:
 - ["Ps9_Hashable", "carouselWillBeginDragging"]
 - ["Ps9_Hashable", "carouselWillBeginScrollingAnimation"]
 - !private ["Ps9_Hashable", "center"]
+- !private ["Ps9_Hashable", "clear"]
 - !private ["Ps9_Hashable", "contentMode"]
 - !private ["Ps9_Hashable", "count"]
 - !private ["Ps9_Hashable", "coverFlow2"]
+- !private ["Ps9_Hashable", "createScreenView"]
 - !private ["Ps9_Hashable", "dataSource"]
+- !private ["Ps9_Hashable", "defaultTracker"]
 - !private ["Ps9_Hashable", "didReceiveMemoryWarning"]
 - !private ["Ps9_Hashable", "frame"]
-- !private ["Ps9_Hashable", "gray"]
 - !private ["Ps9_Hashable", "image"]
 - ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "kGAIScreenName"]
 - !private ["Ps9_Hashable", "lightContent"]
 - !private ["Ps9_Hashable", "main"]
 - !private ["Ps9_Hashable", "myImages"]
@@ -1171,11 +1313,13 @@ depends-member:
 - !private ["Ps9_Hashable", "scaleAspectFit"]
 - !private ["Ps9_Hashable", "scrollToItem"]
 - !private ["Ps9_Hashable", "setTitle"]
+- !private ["Ps9_Hashable", "sharedInstance"]
 - !private ["Ps9_Hashable", "spacing"]
 - !private ["Ps9_Hashable", "toggleMenu"]
 - !private ["Ps9_Hashable", "type"]
 - !private ["Ps9_Hashable", "view"]
 - !private ["Ps9_Hashable", "viewDidLoad"]
+- !private ["Ps9_Hashable", "viewWillAppear"]
 - ["Ps9_Hashable", ""]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["Ps21_ObjectiveCBridgeable", "height"]
@@ -1190,6 +1334,8 @@ depends-member:
 - !private ["PSo19iCarouselDataSource", "ActionButton"]
 - !private ["PSo19iCarouselDataSource", "ActionButtonItem"]
 - !private ["PSo19iCarouselDataSource", "CGRect"]
+- !private ["PSo19iCarouselDataSource", "GAI"]
+- !private ["PSo19iCarouselDataSource", "GAIDictionaryBuilder"]
 - ["PSo19iCarouselDataSource", "NSMutableArray"]
 - !private ["PSo19iCarouselDataSource", "UIColor"]
 - !private ["PSo19iCarouselDataSource", "UIControlState"]
@@ -1208,6 +1354,7 @@ depends-member:
 - ["PSo19iCarouselDataSource", "carouselWillBeginDecelerating"]
 - ["PSo19iCarouselDataSource", "carouselWillBeginDragging"]
 - ["PSo19iCarouselDataSource", "carouselWillBeginScrollingAnimation"]
+- !private ["PSo19iCarouselDataSource", "kGAIScreenName"]
 - !private ["PSo19iCarouselDataSource", "myImages"]
 - !private ["PSo19iCarouselDataSource", "myViewCarousel"]
 - ["PSo19iCarouselDataSource", "numberOfItems"]
@@ -1220,6 +1367,8 @@ depends-member:
 - !private ["PSo17iCarouselDelegate", "ActionButton"]
 - !private ["PSo17iCarouselDelegate", "ActionButtonItem"]
 - !private ["PSo17iCarouselDelegate", "CGRect"]
+- !private ["PSo17iCarouselDelegate", "GAI"]
+- !private ["PSo17iCarouselDelegate", "GAIDictionaryBuilder"]
 - ["PSo17iCarouselDelegate", "NSMutableArray"]
 - !private ["PSo17iCarouselDelegate", "UIColor"]
 - !private ["PSo17iCarouselDelegate", "UIControlState"]
@@ -1238,6 +1387,7 @@ depends-member:
 - ["PSo17iCarouselDelegate", "carouselWillBeginDecelerating"]
 - ["PSo17iCarouselDelegate", "carouselWillBeginDragging"]
 - ["PSo17iCarouselDelegate", "carouselWillBeginScrollingAnimation"]
+- !private ["PSo17iCarouselDelegate", "kGAIScreenName"]
 - !private ["PSo17iCarouselDelegate", "myImages"]
 - !private ["PSo17iCarouselDelegate", "myViewCarousel"]
 - ["PSo17iCarouselDelegate", "numberOfItems"]
@@ -1269,6 +1419,9 @@ depends-nominal:
 - !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - !private "Ps26ExpressibleByStringLiteral"
 - !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "CSo3GAI"
+- !private "CSo20GAIDictionaryBuilder"
+- !private "PSo10GAITracker"
 - "Ps8Hashable"
 - "C15MazaganShowCase18HomePageController"
 - !private "Ps25LosslessStringConvertible"
@@ -1338,11 +1491,12 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Modules/SJFluidSegmentedControl.swiftmodule/x86_64.swiftmodule"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Modules/ActionButton.swiftmodule/x86_64.swiftmodule"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Modules/SKPhotoBrowser.swiftmodule/x86_64.swiftmodule"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Modules/Presentr.swiftmodule/x86_64.swiftmodule"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Modules/SJFluidSegmentedControl.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Modules/ActionButton.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Modules/SKPhotoBrowser.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Modules/Presentr.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Toast-Swift/Toast_Swift.framework/Modules/Toast_Swift.swiftmodule/x86_64.swiftmodule"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
@@ -1353,25 +1507,52 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Headers/SJFluidSegmentedControl-umbrella.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Headers/ActionButton-umbrella.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Headers/ITRFlipper-umbrella.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser-umbrella.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Headers/Presentr-umbrella.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Headers/YALSideMenu-umbrella.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/Controllers/iCarousel.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/Controllers/MazaganShowCase-Bridging-Header.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Headers/ITRFlipper.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Headers/SJFluidSegmentedControl-Swift.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Headers/ActionButton-Swift.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser-Swift.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Headers/Presentr-Swift.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Modules/module.modulemap"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Modules/module.modulemap"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Modules/module.modulemap"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Modules/module.modulemap"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Modules/module.modulemap"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Modules/module.modulemap"
-interface-hash: "375d2e4b5f4f8e530f78037d9c418659"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAI.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Headers/SJFluidSegmentedControl-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Headers/ActionButton-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Headers/ITRFlipper-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Headers/Presentr-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Toast-Swift/Toast_Swift.framework/Headers/Toast-Swift-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Headers/YALSideMenu-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Headers/GGLErrorCode.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Headers/GGLCore.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/MazaganShowCase/Controllers/iCarousel.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Headers/GGLConfiguration.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Headers/GMRConfiguration.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIEcommerceProductAction.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIEcommercePromotion.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/MazaganShowCase/Controllers/MazaganShowCase-Bridging-Header.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIDictionaryBuilder.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAILogger.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAITracker.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAITrackedViewController.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Headers/ITRFlipper.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLAnalytics.framework/Headers/GGLContext+Analytics.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/Google/Google/Analytics.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLAnalytics.framework/Headers/GGLAnalytics.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIFields.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIEcommerceFields.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GoogleAnalytics/GAIEcommerceProduct.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Headers/SJFluidSegmentedControl-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Headers/ActionButton-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Headers/Presentr-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Toast-Swift/Toast_Swift.framework/Headers/Toast_Swift-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Headers/GGLContext.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GVRSDK/GVRPanoramaView.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GVRSDK/GVRVideoView.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Headers/Public/GVRSDK/GVRWidgetView.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLCore.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Frameworks/GGLAnalytics.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Toast-Swift/Toast_Swift.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Modules/module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Google/Headers/module.modulemap"
+interface-hash: "5d3435423c3e2e00caaa3c1f732a5607"

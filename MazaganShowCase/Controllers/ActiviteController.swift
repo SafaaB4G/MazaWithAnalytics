@@ -3,6 +3,7 @@ import UIKit
 import SJFluidSegmentedControl
 import ActionButton
 import Presentr
+
     class ActiviteController: UIViewController ,UITableViewDataSource, UITableViewDelegate , UIWebViewDelegate{
         
         // MARK: - Outlets
@@ -75,30 +76,72 @@ import Presentr
             
             //setting the web view
             
-            let myView:UIWebView = UIWebView(frame: CGRect(x: 0, y: 0 , width: displayWidth, height: displayHeight - barHeight))
+            let myView:UIView = UIView()
+            //Frame payante
+            let imageFrameP :CGRect = CGRect(x:40, y: 0 , width:400 , height:400)
+            //FRAME GRATUIT
+            let imageFrameG :CGRect = CGRect(x: 40, y:420 , width: 400, height:400)
+            
+            //FRAME LIST
+            let imageFrameL :CGRect = CGRect(x: displayWidth/2, y: 10, width: 600, height:700 )
+            
+            
+            // creation des images
+            
+            let imageGratuite : UIImageView = UIImageView(image: UIImage(named: "ActivGratuite")!)
+            let imagePayante : UIImageView = UIImageView(image: UIImage(named: "ActivPayante")!)
+            let imageList : UIImageView = UIImageView(image: UIImage(named: "list")!)
+            // affectation des frames
+            imageGratuite.frame = imageFrameG
+            imagePayante.frame = imageFrameP
+            imageList.frame = imageFrameL
+            
+            let viewsTable:CGRect = CGRect(x: 0, y: 0 , width: displayWidth, height: displayHeight - barHeight)
+            //myView.frame = viewResct
+            myView.addSubview(imageGratuite)
+            myView.addSubview(imagePayante)
+            myView.addSubview(imageList)
+            let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
+            
+            let tapGestureRecognizerPayante = UITapGestureRecognizer(target: self, action: #selector(imageTappedPayante(tapGestureRecognizer:)))
+            
+            imageGratuite.isUserInteractionEnabled = true
+            imageGratuite.addGestureRecognizer(tapGestureRecognizer)
+            //pour le listner de payante
+            imagePayante.isUserInteractionEnabled = true
+            imagePayante.addGestureRecognizer(tapGestureRecognizerPayante)
+            
+            
           //  let localfilePath = Bundle.main.url(forResource: "sport", withExtension: "html");
             
-            let htmlString:String! = "<h2>Activités terrestres :</h2><br><Mazagan dispose d un large choix d activités <br>en plein air<ul>" +
-            "<li>Tennis</li><li>Karting</li><li>Footing</li><li>Tir à l arc</li><li>Paintball</li><li>VTT</li>" +
-            "<li>Marche nordique</li>" + "<li>Tennis de table</li><li>Le Cavalier</li></ul></li><h2>Activités nautiques</h2>" +
-            "<br><ul><li>Beach volley</li><li>Jet-ski </li>" +
-            "<li>Surf / Body-board</li><li>Quad / Buggy</li></ul><br>"
-            myView.loadHTMLString(htmlString, baseURL: nil)
-            myView.delegate = self
+           
         
             //setting the table view
-            
-            myTableView1 = UITableView(frame: CGRect(x: UIScreen.main.bounds.size.width, y: 0 , width: displayWidth, height: displayHeight - barHeight))
-            myTableView1?.register(UITableViewCell.self, forCellReuseIdentifier: "MyCell2")
+            myTableView1 = UITableView()
+            let rectSport : CGRect = CGRect(x: UIScreen.main.bounds.size.width, y: 0 , width: displayWidth, height: displayHeight - barHeight)
+            myTableView1?.register(UINib(nibName: "CustemUITableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
             myTableView1?.dataSource = self
             myTableView1?.delegate = self
             self.myTableView1?.separatorColor = UIColor.clear
+            myTableView1?.contentInset = UIEdgeInsetsMake(0, 0, 160, 0);
 
             
             myTableView1?.backgroundColor = UIColor.orange
             //setting the label 
             
-             myView2 = UIView(frame: CGRect(x: UIScreen.main.bounds.size.width * 2, y: 0 , width: displayWidth, height: displayHeight - barHeight))
+            myView2 = UIView(frame: CGRect(x: UIScreen.main.bounds.size.width * 2, y: 0 , width: displayWidth, height: displayHeight - barHeight))
+            
+            
+            
+            myView.frame = rectSport // true
+            
+            myTableView1?.frame = viewsTable
+            
+            
+            
+            
+            
+            
             
             let scrollRect2:CGRect = CGRect(x: 0, y: segmentedControl.frame.origin.y + segmentedControl.frame.size.height - 200, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height - (segmentedControl.frame.origin.y + segmentedControl.frame.size.height))
             scrollView.frame = scrollRect
@@ -264,7 +307,43 @@ import Presentr
             
         }
         
-       
+        
+        
+        func imageTappedPayante(tapGestureRecognizer: UITapGestureRecognizer)
+        {
+            _ = tapGestureRecognizer.view as! UIImageView
+            
+            print("myAction22222")
+            
+            if Reachability.isInternetAvailable() {
+            UIApplication.shared.openURL(URL(string: "https://drive.google.com/file/d/0B3z9iesl3xe8NnNiNHRzcFFOUE0")!)
+            }
+            else{
+                
+                self.view.makeToast("No internet connection !")
+                descriptinShopping = "No internet connection !"
+            }
+           
+        }
+
+        func imageTapped(tapGestureRecognizer: UITapGestureRecognizer)
+        {
+            _ = tapGestureRecognizer.view as! UIImageView
+            
+            print("myAction")
+            if Reachability.isInternetAvailable() {
+            UIApplication.shared.openURL(URL(string: "https://drive.google.com/file/d/0B3z9iesl3xe8NnNiNHRzcFFOUE0")!)
+
+            }
+            else{
+                
+                self.view.makeToast("No internet connection !")
+                descriptinShopping = "No internet connection !"
+            }
+        }
+        
+        
+        
         
         func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebViewNavigationType) -> Bool {
             return true
@@ -273,7 +352,7 @@ import Presentr
         // to be conformed to the protocol
         
         func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-            return 200
+            return 300
         }
         
         func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -341,38 +420,52 @@ import Presentr
         }
         
         func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "MyCell2", for: indexPath as IndexPath)
-            imageView.frame = rect
-            cell.imageView?.image = imageView.image
+            let cell : CustemUITableViewCell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath as IndexPath) as! CustemUITableViewCell
+            
+            let colorLabel : UIColor = UIColor(red: 0 / 255.0, green: 0 / 255.0, blue: 0 / 255.0, alpha: 0.25)
+            
+            let rectImage : CGRect = CGRect(x : 0 , y : 0 , width : UIScreen.main.bounds.width , height : 300)
+            
+            
+            cell.imageCell?.frame = rectImage
+            //cell.label?.frame = rectlabel
+            cell.label?.backgroundColor = colorLabel
+            
+            
+            cell.label?.center = CGPoint(x: 300, y: 400)
+            cell.label?.textAlignment = .center
+            cell.label?.font = UIFont.boldSystemFont(ofSize: 20)
+            cell.label?.textColor = UIColor.red
 
+            
             switch indexPath.row {
             case 0:
-                cell.textLabel?.text = "El Jadida"
-                cell.imageView?.image = logoImage[0]
+                cell.label?.text = "El Jadida"
+                cell.imageCell?.image = logoImage[0]
 
             case 1:
-                cell.textLabel?.text = "Azemmour"
-                cell.imageView?.image = logoImage[1]
+                cell.label?.text = "Azemmour"
+                cell.imageCell?.image = logoImage[1]
 
             case 2:
-                cell.textLabel?.text = "Oualidia"
-                cell.imageView?.image = logoImage[2]
+                cell.label?.text = "Oualidia"
+                cell.imageCell?.image = logoImage[2]
 
             case 3:
-                cell.textLabel?.text = "Casablanca"
-                cell.imageView?.image = logoImage[3]
+                cell.label?.text = "Casablanca"
+                cell.imageCell?.image = logoImage[3]
 
             case 4:
-                cell.textLabel?.text = "Marrakech"
-                cell.imageView?.image = logoImage[4]
+                cell.label?.text = "Marrakech"
+                cell.imageCell?.image = logoImage[4]
 
             case 5:
-                cell.textLabel?.text = "Rabat"
-                cell.imageView?.image = logoImage[5]
+                cell.label?.text = "Rabat"
+                cell.imageCell?.image = logoImage[5]
 
             default:
-                cell.textLabel?.text = "Marrakech"
-                cell.imageView?.image = logoImage[5]
+                cell.label?.text = "Marrakech"
+                cell.imageCell?.image = logoImage[5]
 
                 
             }
@@ -405,10 +498,10 @@ import Presentr
                               titleForSegmentAtIndex index: Int) -> String? {
             
             if index == 0 {
-                return "Sport & loisirs".uppercased()
+                return "excursions".uppercased()
                 
             } else if index == 1 {
-                return "excursions".uppercased()
+                return "Sport & loisirs".uppercased()
             }
             return "shopping".uppercased()
         }

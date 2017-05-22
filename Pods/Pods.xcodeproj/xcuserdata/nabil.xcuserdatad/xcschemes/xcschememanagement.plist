@@ -9,12 +9,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>GoogleToolboxForMac.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>HDAugmentedReality.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>ITRFlipper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PDFReader.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -39,6 +49,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Toast-Swift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>YALSideMenu.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -47,12 +62,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>00103D6C821BE85971C563025527BA5D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2E7AC13188717D988B179688E7D377C9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>382C7D67433438B0C53590FA15DA83C6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>605F72A9CD2B98E8CBA8D4C65CD301DA</key>
+		<key>3C24ED92578BA71F5F6CA224F502E60F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>57D64830E3E75462C16524206FF661D1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -67,22 +97,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BC21DF071D4DB568112099E0BAA2206E</key>
+		<key>8E6C6340BEE3B44422A03D4742829004</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E010F5DACF6C2678A8C11473776D9855</key>
+		<key>B2AB0E9B6E91652028FBE136698BCCF6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E6B5F4B45CC1868245E8B1F98C8A192B</key>
+		<key>C09E8C48BCC26D5B3B2DE2CC0CB7B30C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FAF8FFD346C5D831C4AA4CFD61E645D6</key>
+		<key>F710BBECB76266FF75359E63DE720D2D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

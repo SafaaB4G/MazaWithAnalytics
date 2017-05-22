@@ -79,6 +79,20 @@ EOM
       ;;
   esac
 }
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "GVRSDK/Base/Resources/CardboardSDK.bundle"
+  install_resource "GVRSDK/Base/Resources/GoogleKitCore.bundle"
+  install_resource "GVRSDK/Base/Resources/GoogleKitDialogs.bundle"
+  install_resource "GVRSDK/Base/Resources/GoogleKitHUD.bundle"
+  install_resource "GVRSDK/Base/Resources/MaterialRobotoFontLoader.bundle"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "GVRSDK/Base/Resources/CardboardSDK.bundle"
+  install_resource "GVRSDK/Base/Resources/GoogleKitCore.bundle"
+  install_resource "GVRSDK/Base/Resources/GoogleKitDialogs.bundle"
+  install_resource "GVRSDK/Base/Resources/GoogleKitHUD.bundle"
+  install_resource "GVRSDK/Base/Resources/MaterialRobotoFontLoader.bundle"
+fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

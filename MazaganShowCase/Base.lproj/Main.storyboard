@@ -425,6 +425,27 @@
             </objects>
             <point key="canvasLocation" x="2309.375" y="1481.8359375"/>
         </scene>
+        <!--Ontroller-->
+        <scene sceneID="eO5-8b-6oQ">
+            <objects>
+                <viewController storyboardIdentifier="VRControllerID" id="Wit-aA-brj" customClass="GVRCOntroller" customModule="MazaganShowCase" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2XA-SV-tYQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="els-b2-IWh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gqk-hC-85J" customClass="GVRPanoramaView">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="VRView" destination="gqk-hC-85J" id="f3V-gX-IrI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bHU-p8-JQb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3270" y="1470"/>
+        </scene>
         <!--Data Source-->
         <scene sceneID="NMr-35-3sf">
             <objects>

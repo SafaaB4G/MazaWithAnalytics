@@ -143,7 +143,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import ITRFlipper;
 #endif
 
-#import "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/MazaganShowCase/Controllers/MazaganShowCase-Bridging-Header.h"
+#import "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/MazaganShowCase/Controllers/MazaganShowCase-Bridging-Header.h"
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
@@ -154,6 +154,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class ActionButton;
 @class UIImageView;
 @class UIImage;
+@class UITapGestureRecognizer;
 @class UIWebView;
 @class UITableViewCell;
 @class NSBundle;
@@ -167,12 +168,15 @@ SWIFT_CLASS("_TtC15MazaganShowCase18ActiviteController")
 @property (nonatomic, strong) UIView * _Nullable myView2;
 @property (nonatomic, strong) ActionButton * _Null_unspecified actionButton;
 @property (nonatomic, readonly, strong) UIImageView * _Nonnull jadida;
+@property (nonatomic, copy) NSString * _Nullable descriptinSport;
+@property (nonatomic, copy) NSString * _Nullable descriptinExcursion;
 @property (nonatomic, copy) NSArray<UIImage *> * _Nonnull logoImage;
 @property (nonatomic, readonly, strong) UIImageView * _Nonnull imageView;
 @property (nonatomic, readonly) CGRect rect;
 @property (nonatomic, copy) NSString * _Nullable descriptinShopping;
 - (void)viewDidLoad;
-- (void)showModal;
+- (void)imageTappedPayanteWithTapGestureRecognizer:(UITapGestureRecognizer * _Nonnull)tapGestureRecognizer;
+- (void)imageTappedWithTapGestureRecognizer:(UITapGestureRecognizer * _Nonnull)tapGestureRecognizer;
 - (BOOL)webView:(UIWebView * _Nonnull)webView shouldStartLoadWithRequest:(NSURLRequest * _Nonnull)request navigationType:(UIWebViewNavigationType)navigationType SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
@@ -246,6 +250,17 @@ SWIFT_CLASS("_TtC15MazaganShowCase21ContentViewController")
 
 @class UILabel;
 
+SWIFT_CLASS("_TtC15MazaganShowCase21CustemUITableViewCell")
+@interface CustemUITableViewCell : UITableViewCell
+@property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified imageCell;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified label;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC15MazaganShowCase16EnfantController")
 @interface EnfantController : UIViewController
 @property (nonatomic, weak) IBOutlet SJFluidSegmentedControl * _Null_unspecified segmentedControl;
@@ -254,9 +269,11 @@ SWIFT_CLASS("_TtC15MazaganShowCase16EnfantController")
 @property (nonatomic, copy) NSString * _Nullable descriptionKids;
 @property (nonatomic, copy) NSString * _Nullable descriptionRush;
 @property (nonatomic, strong) ActionButton * _Null_unspecified actionButton;
+@property (nonatomic, copy) NSString * _Nullable descriptionEnfant;
 @property (nonatomic, readonly, strong) UIImageView * _Nonnull imageView;
 @property (nonatomic, readonly) CGRect rect;
 - (void)viewDidLoad;
+- (NSString * _Nonnull)getDescription SWIFT_WARN_UNUSED_RESULT;
 - (void)viewDidAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -284,6 +301,28 @@ SWIFT_CLASS("_TtC15MazaganShowCase25ExampleCollectionViewCell")
 - (void)prepareForReuse;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class GVRPanoramaView;
+
+SWIFT_CLASS("_TtC15MazaganShowCase13GVRCOntroller")
+@interface GVRCOntroller : UIViewController
+@property (nonatomic, strong) IBOutlet GVRPanoramaView * _Null_unspecified VRView;
+@property (nonatomic, strong) UIView * _Nullable currentView;
+@property (nonatomic) GVRWidgetDisplayMode currentDisplayMode;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class GVRWidgetView;
+
+@interface GVRCOntroller (SWIFT_EXTENSION(MazaganShowCase)) <GVRWidgetViewDelegate>
+- (void)widgetView:(GVRWidgetView * _Null_unspecified)widgetView didLoadContent:(id _Null_unspecified)content;
+- (void)widgetView:(GVRWidgetView * _Null_unspecified)widgetView didFailToLoadContent:(id _Null_unspecified)content withErrorMessage:(NSString * _Null_unspecified)errorMessage;
+- (void)widgetView:(GVRWidgetView * _Null_unspecified)widgetView didChangeDisplayMode:(GVRWidgetDisplayMode)displayMode;
+- (void)widgetViewDidTap:(GVRWidgetView * _Null_unspecified)widgetView;
 @end
 
 @class UIButton;
@@ -349,7 +388,6 @@ SWIFT_CLASS("_TtC15MazaganShowCase14GolfController")
 @property (nonatomic, copy) NSString * _Nullable descriptionGray;
 @property (nonatomic, copy) NSString * _Nullable descriptionAcademic;
 @property (nonatomic, copy) NSString * _Nullable descriptionProshop;
-@property (nonatomic, strong) ActionButton * _Null_unspecified actionButton;
 @property (nonatomic, readonly, strong) UIImageView * _Nonnull imageView;
 @property (nonatomic, readonly) CGRect rect;
 - (void)viewDidLoad;
@@ -382,6 +420,7 @@ SWIFT_CLASS("_TtC15MazaganShowCase18HomePageController")
 @property (nonatomic, strong) NSMutableArray * _Nonnull myImages;
 - (void)awakeFromNib;
 - (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
 - (void)didReceiveMemoryWarning;
 - (NSInteger)numberOfItemsInCarousel:(iCarousel * _Nonnull)carousel SWIFT_WARN_UNUSED_RESULT;
 - (UIView * _Nonnull)carousel:(iCarousel * _Nonnull)carousel viewForItemAtIndex:(NSInteger)index reusingView:(UIView * _Nullable)view SWIFT_WARN_UNUSED_RESULT;
@@ -420,7 +459,6 @@ SWIFT_CLASS("_TtC15MazaganShowCase18MenuViewController")
 @end
 
 @class ITRFlipper;
-@class UITapGestureRecognizer;
 
 SWIFT_CLASS("_TtC15MazaganShowCase16RestaurationView")
 @interface RestaurationView : UIViewController <ITRFlipperDataSource>
@@ -443,6 +481,7 @@ SWIFT_CLASS("_TtC15MazaganShowCase16RestaurationView")
 @property (nonatomic, copy) NSString * _Nullable descriptionFifteen;
 @property (nonatomic, copy) NSString * _Nullable descriptionSexteen;
 @property (nonatomic, copy) NSString * _Null_unspecified typeMenu;
+@property (nonatomic, copy) NSString * _Nullable descriptionResaturation;
 - (void)viewDidLoad;
 - (NSString * _Nonnull)getDescription SWIFT_WARN_UNUSED_RESULT;
 - (void)viewDidAppear:(BOOL)animated;
@@ -464,7 +503,9 @@ SWIFT_CLASS("_TtC15MazaganShowCase13SpaController")
 @property (nonatomic, copy) NSString * _Nullable descriptionfitness;
 @property (nonatomic, copy) NSString * _Nullable descriptionyoga;
 @property (nonatomic, strong) ActionButton * _Null_unspecified actionButton;
+@property (nonatomic, copy) NSString * _Nullable descriptionSpa;
 - (void)viewDidLoad;
+- (NSString * _Nonnull)getDescription SWIFT_WARN_UNUSED_RESULT;
 - (void)viewDidAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -518,6 +559,8 @@ SWIFT_CLASS("_TtC15MazaganShowCase23ViewControllerSegmented")
 @property (nonatomic, weak) IBOutlet UIScrollView * _Null_unspecified scrollView;
 @property (nonatomic, copy) NSString * _Nullable descriptinvilla;
 @property (nonatomic, strong) ActionButton * _Null_unspecified actionButton;
+@property (nonatomic, copy) NSString * _Nullable descChambre;
+@property (nonatomic, copy) NSString * _Nullable descSuite;
 @property (nonatomic, readonly, strong) UIImageView * _Nonnull imageView;
 @property (nonatomic, readonly, strong) UIImageView * _Nonnull image1;
 @property (nonatomic, readonly, strong) UIImageView * _Nonnull image2;

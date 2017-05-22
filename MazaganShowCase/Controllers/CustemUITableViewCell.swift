@@ -10,6 +10,15 @@ import UIKit
 
 class CustemUITableViewCell: UITableViewCell {
 
+    
+    @IBOutlet var imageCell: UIImageView!
+   
+    @IBOutlet var label: UILabel!
+//    let frameLabel : CGSize = CGSize(width : 100,height : 100)
+//    
+//    let frameimage : CGSize = CGSize(width: 100, height: 100)
+
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -17,8 +26,8 @@ class CustemUITableViewCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+print("selected item in custem")
+    
     }
     
 }
