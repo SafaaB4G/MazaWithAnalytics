@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>GoogleToolboxForMac.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>HDAugmentedReality.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -52,12 +57,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>354EC7407AB6DA6ADA2A66737D6C8C75</key>
+		<key>00103D6C821BE85971C563025527BA5D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3656F4A227AB84D9317BD5C567AC417B</key>
+		<key>14A18ABF6F2D1E205350F3C8FC274738</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>27FC6295C45DA702FDCE70E4C11339C1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -67,7 +77,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>414D67D99A70700E6160E5E5172B861D</key>
+		<key>5A019F7B93E3F5500B648FDA75889D0E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>604B66A340EE34A2A79DA7D38396E360</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,17 +97,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6E967734366E0C474BD610556F287F06</key>
+		<key>69F0A6056062DDCB4E32941FDEC958C7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B4D825CAFC0641887AF8CF1296DEB5AC</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F9F7948B365930351C08D3F85781066E</key>
+		<key>81A70DB9BEAE99E5DB02EEB840112D55</key>
 		<dict>
 			<key>primary</key>
 			<true/>

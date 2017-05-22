@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "ad3b12cab4204ac6c95b859c1a694824"
+build_time: [548269867, 132179000]
+inputs:
+  "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Toast-Swift/Toast/Toast.swift": [548242214, 0]

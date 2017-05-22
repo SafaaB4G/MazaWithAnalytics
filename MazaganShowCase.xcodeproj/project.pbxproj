@@ -33,6 +33,7 @@
 		C859D5511E4F44A6000F351D /* CircularRevealAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C859D5501E4F44A6000F351D /* CircularRevealAnimator.swift */; };
 		C859D5531E4F44CB000F351D /* AnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C859D5521E4F44CB000F351D /* AnimationDelegate.swift */; };
 		D080A1C21ECAFE6100FD1B9F /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = D080A1C11ECAFE6100FD1B9F /* Reachability.swift */; };
+		D080A1C61ECB5DE200FD1B9F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D080A1C51ECB5DE200FD1B9F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		C859D5521E4F44CB000F351D /* AnimationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationDelegate.swift; sourceTree = "<group>"; };
 		D03E09D7460E366852A52122 /* Pods-MazaganShowCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MazaganShowCase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MazaganShowCase/Pods-MazaganShowCase.debug.xcconfig"; sourceTree = "<group>"; };
 		D080A1C11ECAFE6100FD1B9F /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		D080A1C51ECB5DE200FD1B9F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		C859D51E1E4F1F99000F351D = {
 			isa = PBXGroup;
 			children = (
+				D080A1C51ECB5DE200FD1B9F /* GoogleService-Info.plist */,
 				C859D5291E4F1F99000F351D /* MazaganShowCase */,
 				C859D5281E4F1F99000F351D /* Products */,
 				AC22BED995C3A212CEFBCCE0 /* Pods */,
@@ -244,6 +247,7 @@
 				C859D5351E4F1F99000F351D /* LaunchScreen.storyboard in Resources */,
 				C859D5321E4F1F99000F351D /* Assets.xcassets in Resources */,
 				BD652E571EBB5F9C006735D9 /* restauration.xib in Resources */,
+				D080A1C61ECB5DE200FD1B9F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

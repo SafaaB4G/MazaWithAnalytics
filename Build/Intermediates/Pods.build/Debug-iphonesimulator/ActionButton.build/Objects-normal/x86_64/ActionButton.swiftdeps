@@ -1493,6 +1493,6 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Target Support Files/ActionButton/ActionButton-umbrella.h"
-- "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Intermediates/Pods.build/Debug-iphonesimulator/ActionButton.build/unextended-module.modulemap"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Target Support Files/ActionButton/ActionButton-umbrella.h"
+- "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Intermediates/Pods.build/Debug-iphonesimulator/ActionButton.build/unextended-module.modulemap"
 interface-hash: "6236601f913e498c1149e00023712c72"

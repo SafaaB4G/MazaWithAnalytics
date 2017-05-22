@@ -9,6 +9,7 @@
 import UIKit
 import ActionButton
 
+
 class HomePageController: UIViewController,iCarouselDataSource, iCarouselDelegate {
     
     
@@ -53,9 +54,26 @@ class HomePageController: UIViewController,iCarouselDataSource, iCarouselDelegat
         
         
     }
+//    func viewWillAppear(){
+//        guard let tracker = GAI.sharedInstance().defaultTracker else { return }
+//        tracker.set(kGAIScreenName, value: name)
+//        
+//        guard let builder = GAIDictionaryBuilder.createScreenView() else { return }
+//        tracker.send(builder.build() as [NSObject : AnyObject])
+//
+//    }
     
-    
-    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        guard let tracker = GAI.sharedInstance().defaultTracker else { return }
+        tracker.set(kGAIScreenName, value: "New Users")
+        
+        guard let builder = GAIDictionaryBuilder.createScreenView() else { return }
+        tracker.send(builder.build() as [NSObject : AnyObject])
+
+    }
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

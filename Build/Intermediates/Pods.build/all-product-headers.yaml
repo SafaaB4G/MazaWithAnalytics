@@ -4,227 +4,291 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Headers",
+      'name': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "ActionButton-Swift.h",
-          'external-contents': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Headers/ActionButton-Swift.h"
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Headers/ActionButton-Swift.h"
         },
         {
           'type': 'file',
           'name': "ActionButton-umbrella.h",
-          'external-contents': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Target Support Files/ActionButton/ActionButton-umbrella.h"
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Target Support Files/ActionButton/ActionButton-umbrella.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Modules",
+      'name': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ActionButton/ActionButton.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Intermediates/Pods.build/Debug-iphonesimulator/ActionButton.build/module.modulemap"
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Intermediates/Pods.build/Debug-iphonesimulator/ActionButton.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/HDAugmentedReality/HDAugmentedReality.framework/Headers",
+      'name': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "GTMDefines.h",
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/GoogleToolboxForMac/GTMDefines.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMNSData+zlib.h",
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/GoogleToolboxForMac/Foundation/GTMNSData+zlib.h"
+        },
+        {
+          'type': 'file',
+          'name': "GoogleToolboxForMac-Swift.h",
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers/GoogleToolboxForMac-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "GoogleToolboxForMac-umbrella.h",
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Intermediates/Pods.build/Debug-iphonesimulator/GoogleToolboxForMac.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/HDAugmentedReality/HDAugmentedReality.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "HDAugmentedReality-Swift.h",
-          'external-contents': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/HDAugmentedReality/HDAugmentedReality.framework/Headers/HDAugmentedReality-Swift.h"
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/HDAugmentedReality/HDAugmentedReality.framework/Headers/HDAugmentedReality-Swift.h"
         },
         {
           'type': 'file',
           'name': "HDAugmentedReality-umbrella.h",
-          'external-contents': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Target Support Files/HDAugmentedReality/HDAugmentedReality-umbrella.h"
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Target Support Files/HDAugmentedReality/HDAugmentedReality-umbrella.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/HDAugmentedReality/HDAugmentedReality.framework/Modules",
+      'name': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/HDAugmentedReality/HDAugmentedReality.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Intermediates/Pods.build/Debug-iphonesimulator/HDAugmentedReality.build/module.modulemap"
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Intermediates/Pods.build/Debug-iphonesimulator/HDAugmentedReality.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Headers",
+      'name': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "ITRFlipper-Swift.h",
-          'external-contents': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Headers/ITRFlipper-Swift.h"
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Headers/ITRFlipper-Swift.h"
         },
         {
           'type': 'file',
           'name': "ITRFlipper-umbrella.h",
-          'external-contents': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Target Support Files/ITRFlipper/ITRFlipper-umbrella.h"
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Target Support Files/ITRFlipper/ITRFlipper-umbrella.h"
         },
         {
           'type': 'file',
           'name': "ITRFlipper.h",
-          'external-contents': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/ITRFlipper/Classes/ITRFlipper.h"
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/ITRFlipper/Classes/ITRFlipper.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Modules",
+      'name': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/ITRFlipper/ITRFlipper.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Intermediates/Pods.build/Debug-iphonesimulator/ITRFlipper.build/module.modulemap"
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Intermediates/Pods.build/Debug-iphonesimulator/ITRFlipper.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/Pods_MazaganShowCase.framework/Headers",
+      'name': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Pods_MazaganShowCase.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Pods-MazaganShowCase-umbrella.h",
-          'external-contents': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Target Support Files/Pods-MazaganShowCase/Pods-MazaganShowCase-umbrella.h"
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Target Support Files/Pods-MazaganShowCase/Pods-MazaganShowCase-umbrella.h"
         },
         {
           'type': 'file',
           'name': "Pods_MazaganShowCase-Swift.h",
-          'external-contents': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/Pods_MazaganShowCase.framework/Headers/Pods_MazaganShowCase-Swift.h"
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Pods_MazaganShowCase.framework/Headers/Pods_MazaganShowCase-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/Pods_MazaganShowCase.framework/Modules",
+      'name': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Pods_MazaganShowCase.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MazaganShowCase.build/module.modulemap"
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MazaganShowCase.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Headers",
+      'name': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Presentr-Swift.h",
-          'external-contents': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Headers/Presentr-Swift.h"
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Headers/Presentr-Swift.h"
         },
         {
           'type': 'file',
           'name': "Presentr-umbrella.h",
-          'external-contents': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Target Support Files/Presentr/Presentr-umbrella.h"
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Target Support Files/Presentr/Presentr-umbrella.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Modules",
+      'name': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Presentr/Presentr.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Intermediates/Pods.build/Debug-iphonesimulator/Presentr.build/module.modulemap"
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Intermediates/Pods.build/Debug-iphonesimulator/Presentr.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Headers",
+      'name': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "SJFluidSegmentedControl-Swift.h",
-          'external-contents': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Headers/SJFluidSegmentedControl-Swift.h"
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Headers/SJFluidSegmentedControl-Swift.h"
         },
         {
           'type': 'file',
           'name': "SJFluidSegmentedControl-umbrella.h",
-          'external-contents': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Target Support Files/SJFluidSegmentedControl/SJFluidSegmentedControl-umbrella.h"
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Target Support Files/SJFluidSegmentedControl/SJFluidSegmentedControl-umbrella.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Modules",
+      'name': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SJFluidSegmentedControl/SJFluidSegmentedControl.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Intermediates/Pods.build/Debug-iphonesimulator/SJFluidSegmentedControl.build/module.modulemap"
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Intermediates/Pods.build/Debug-iphonesimulator/SJFluidSegmentedControl.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers",
+      'name': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "SKPhotoBrowser-Swift.h",
-          'external-contents': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser-Swift.h"
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Headers/SKPhotoBrowser-Swift.h"
         },
         {
           'type': 'file',
           'name': "SKPhotoBrowser-umbrella.h",
-          'external-contents': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Target Support Files/SKPhotoBrowser/SKPhotoBrowser-umbrella.h"
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Target Support Files/SKPhotoBrowser/SKPhotoBrowser-umbrella.h"
         },
         {
           'type': 'file',
           'name': "SKPhotoBrowser.h",
-          'external-contents': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/SKPhotoBrowser/SKPhotoBrowser/SKPhotoBrowser.h"
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/SKPhotoBrowser/SKPhotoBrowser/SKPhotoBrowser.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Modules",
+      'name': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/SKPhotoBrowser/SKPhotoBrowser.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Intermediates/Pods.build/Debug-iphonesimulator/SKPhotoBrowser.build/module.modulemap"
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Intermediates/Pods.build/Debug-iphonesimulator/SKPhotoBrowser.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Headers",
+      'name': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Toast-Swift/Toast_Swift.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Toast-Swift-umbrella.h",
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Target Support Files/Toast-Swift/Toast-Swift-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Toast_Swift-Swift.h",
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Toast-Swift/Toast_Swift.framework/Headers/Toast_Swift-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/Toast-Swift/Toast_Swift.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Intermediates/Pods.build/Debug-iphonesimulator/Toast-Swift.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "SideMenu-Swift.h",
-          'external-contents': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
         },
         {
           'type': 'file',
           'name': "YALSideMenu-umbrella.h",
-          'external-contents': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Pods/Target Support Files/YALSideMenu/YALSideMenu-umbrella.h"
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Pods/Target Support Files/YALSideMenu/YALSideMenu-umbrella.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Modules",
+      'name': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Intermediates/Pods.build/Debug-iphonesimulator/YALSideMenu.build/module.modulemap"
+          'external-contents': "/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Intermediates/Pods.build/Debug-iphonesimulator/YALSideMenu.build/module.modulemap"
         }
       ]
     }

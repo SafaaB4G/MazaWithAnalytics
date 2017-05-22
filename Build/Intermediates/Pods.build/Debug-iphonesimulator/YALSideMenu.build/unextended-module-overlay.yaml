@@ -3,11 +3,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': '/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Modules'
+    'name': '/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Products/Debug-iphonesimulator/YALSideMenu/SideMenu.framework/Modules'
     'contents': [{
       'type': 'file',
       'name': 'module.modulemap',
-      'external-contents': '/Users/nabil/Desktop/Vinci/PFE/MazaB4E/Build/Intermediates/Pods.build/Debug-iphonesimulator/YALSideMenu.build/unextended-module.modulemap',
+      'external-contents': '/Users/nabil/Downloads/MazaB4E-SwiftMazWithoutTestConx/Build/Intermediates/Pods.build/Debug-iphonesimulator/YALSideMenu.build/unextended-module.modulemap',
     }]
   }]
 }

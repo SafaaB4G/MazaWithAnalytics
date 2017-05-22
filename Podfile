@@ -15,6 +15,8 @@ target 'MazaganShowCase' do
     pod 'SKPhotoBrowser'
     pod 'HDAugmentedReality', '~> 2.0'
     pod 'Toast-Swift'
+    pod 'Google/Analytics'
+
     
 
 end
